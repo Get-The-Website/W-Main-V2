@@ -24,580 +24,248 @@
 
 <body>
 
-    <div class="site-wrapper">
-        <!-- ======== 1.1. Header section ======== -->
-        <header>
-            <nav class="navbar navbar-expand-lg container py-3" data-aos="fade-down">
-                <div class="container-fluid">
-                    <!-- site logo -->
-                    <a class="nav-logo p-0" href="index.html">
-                        <figure><img src="assets/images/logo.png" alt="logo"></figure>
-                    </a>
-                    <!-- navigation button  -->
-                    <button class="open-aside" onclick="open_aside()" type="button">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <!-- navigation bar manu  -->
-                    <div class="collapse navbar-collapse justify-content-end gap-xl-4 gap-lg-3" id="navbarSupportedContent">
-                        <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="About.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Projects.html">Project</a>
-                            </li>
-                            <li class="dropdown">
-                                <a class="nav-link d-flex align-item-center gap-1 active" href="#">Pages<i class="fa-sharp fa-solid fa-sort-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item " href="Services.html">Services</a></li>
-                                    <li>
-                                        <a class="dropdown-item active" href="ServicesDetail.html">Services Details</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
-                                    <li><a class="dropdown-item" href="Team.html">Team</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="Testimonial.html">Testimonials</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="404.html">404</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="ComingSoon.html">Coming Soon</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="ContactUs.html">Contact</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <a href="#" class="hover1 down-btn" id="getStartedAnchor">Get Started</a>
-                        </div>
-                        <div class="Search_Icon">
-                            <input class="Search_checkbox" type="radio" name="Search_checkbox">
-                            <div class="Search_box">
-                                <div class="iconContainer">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </div>
-                                <input class="search_input" placeholder="search" type="text" name="search_input">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <hr>
-            <!--===== aside navigation slidebar =====-->
-            <aside>
-                <div id="mySidenav" class="right-sidbar">
-                    <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
-                        <figure class="navbar-brand">
-                            <a href="index.html">
-                                <img src="assets/images/logo.png" alt="Logo" class="">
-                            </a>
-                        </figure>
-                        <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
-                    </div>
-                    <ul class="pt-4">
-                        <li class="nav-item ">
-                            <a aria-current="page" href="index.html">Home</a>
+<div class="site-wrapper">
+    <!-- ======== 1.1. Header section ======== -->
+    <header>
+        <nav class="navbar navbar-expand-lg container py-3" data-aos="fade-down">
+            <div class="container-fluid">
+                <!-- site logo -->
+                <a class="nav-logo p-0" href="index.html">
+                    <figure><img src="assets/images/logo.png" alt="logo"></figure>
+                </a>
+                <!-- navigation button  -->
+                <button class="open-aside" onclick="open_aside()" type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- navigation bar manu  -->
+                <div class="collapse navbar-collapse justify-content-end gap-xl-4 gap-lg-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="About.html">About</a>
+                            <a class="nav-link" href="About.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="ContactUs.html">Contact</a>
+                            <a class="nav-link" href="Projects.html">Project</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="Projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="d-flex align-items-center justify-content-between" id="slid-btn">
-                                <button class="a-slid page-btn active">Pages</button>
-                                <i class="fa-solid fa-caret-down pe-2"></i>
-                            </div>
-                            <ul id="slid-drop">
-                                <li><a href="Services.html">Services</a></li>
-                                <li class="active"><a href="ServicesDetail.html">Servics Detail</a></li>
-                                <li><a href="FAQ.html">FAQ</a></li>
-                                <li><a href="Team.html">Team</a></li>
-                                <li><a href="Blog.html">Blog</a></li>
-                                <li><a href="Testimonial.html">Testimonial</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="ComingSoon.html">Coming Soon</a></li>
+                        <li class="dropdown">
+                            <a class="nav-link d-flex align-item-center gap-1 active" href="#">Pages<i
+                                    class="fa-sharp fa-solid fa-sort-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="Services.html">Services</a></li>
+                                <li>
+                                    <a class="dropdown-item active" href="ServicesDetail.html">Services Details</a>
+                                </li>
+                                <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="Team.html">Team</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="Testimonial.html">Testimonials</a>
+                                </li>
+                                <li><a class="dropdown-item" href="404.html">404</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="ComingSoon.html">Coming Soon</a>
+                                </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactUs.html">Contact</a>
+                        </li>
                     </ul>
-                </div>
-            </aside>
-        </header>
-        <!-- ======== End of 1.1. Header section ========  -->
-        <!-- ======== 4.1. SubPage_Hero section ========  -->
-        <section class="SubPage_Hero">
-            <div class="container">
-                <div class="text-center" data-aos="zoom-in-up">
-                    <h1>Service Detail</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-        </section>
-        <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-        <!-- ======== 1.10. Agency section ========  -->
-        <section class="Agency ServicesDetail_Agency">
-            <div class="container">
-                <div class="row position-relative m-0">
                     <div>
-                        <img class="position-absolute" src="assets/images/icons/Product_Flower.svg" alt="Agency_Flower">
+                        <a href="#" class="hover1 down-btn" id="getStartedAnchor">Get Started</a>
                     </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="d-flex justify-content-end w-100 h-100 mt-md-0 mt-5">
-                            <figure class="h-100 d-flex w-100" data-aos="fade-up">
-                                <img class="w-100 object-fit-cover" src="assets/images/ServicesDetail/Services_Detail.webp" alt="ServicesDetail">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6">
-                        <div class="d-flex justify-content-between flex-column" data-aos="fade-up">
-                            <div>
-                                <h4 class="pe-lg-5">We Are Professional SEO Agency</h4>
-                                <p class="py-lg-4 py-3">
-                                    Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
-                                    velit consectetur massa mauris molestie hac. Hac arcu amet
-                                    nullam pellentesque. Urna eu suspendisse felis sodales sit
-                                    non.
-                                </p>
+                    <div class="Search_Icon">
+                        <input class="Search_checkbox" type="radio" name="Search_checkbox">
+                        <div class="Search_box">
+                            <div class="iconContainer">
+                                <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
-                            <div class="d-flex flex-column gap-lg-4 gap-4">
-                                <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <h6 class="d-flex justify-content-center align-items-center">
-                                        01
-                                    </h6>
-                                    <p>Urna eu suspendisse felis sodales.</p>
-                                </div>
-                                <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <h6 class="d-flex justify-content-center align-items-center">
-                                        02
-                                    </h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                </div>
-                                <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <h6 class="d-flex justify-content-center align-items-center">
-                                        03
-                                    </h6>
-                                    <p>In nulla nunc arcu velit consectetur.</p>
-                                </div>
-                            </div>
+                            <input class="search_input" placeholder="search" type="text" name="search_input">
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 1.10. Agency section ========  -->
-        <!-- ======== 1.4. Goal section ========  -->
-        <section class="Goal ServicesDetail_Goal">
-            <div class="container">
-                <div class="row flex-md-row flex-column justify-content-between">
-                    <div class="col-lg-6">
-                        <div class="d-flex flex-column gap-sm-4 gap-3 justify-content-between mt-lg-3" data-aos="fade-up">
-                            <h4>Description</h4>
-                            <p>Lorem, ipsum dolor natoque parturient nostra pharetra himenaeos et litora.
-                                Himenaeos
-                                nascetur vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede
-                                montes sociosqu vulputate ornare mattis posuere. Sit nunc purus netus urna letius.
+        </nav>
+        <hr>
+        <!--===== aside navigation slidebar =====-->
+        <aside>
+            <div id="mySidenav" class="right-sidbar">
+                <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                    <figure class="navbar-brand">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Logo" class="">
+                        </a>
+                    </figure>
+                    <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
+                </div>
+                <ul class="pt-4">
+                    <li class="nav-item ">
+                        <a aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContactUs.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="d-flex align-items-center justify-content-between" id="slid-btn">
+                            <button class="a-slid page-btn active">Pages</button>
+                            <i class="fa-solid fa-caret-down pe-2"></i>
+                        </div>
+                        <ul id="slid-drop">
+                            <li><a href="Services.html">Services</a></li>
+                            <li class="active"><a href="ServicesDetail.html">Servics Detail</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="Team.html">Team</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Testimonial.html">Testimonial</a></li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="ComingSoon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+    <!-- ======== End of 1.1. Header section ========  -->
+    <!-- ======== 4.1. SubPage_Hero section ========  -->
+    <section class="SubPage_Hero">
+        <div class="container">
+            <div class="text-center" data-aos="zoom-in-up">
+                <h1>Service Detail</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 4.1. SubPage_Hero section ========  -->
+    <!-- ======== 1.10. Agency section ========  -->
+    <section class="Agency ServicesDetail_Agency">
+        <div class="container">
+            <div class="row position-relative m-0">
+                <div>
+                    <img class="position-absolute" src="assets/images/icons/Product_Flower.svg" alt="Agency_Flower">
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="d-flex justify-content-end w-100 h-100 mt-md-0 mt-5">
+                        <figure class="h-100 d-flex w-100" data-aos="fade-up">
+                            <img class="w-100 object-fit-cover" src="assets/images/ServicesDetail/Services_Detail.webp"
+                                 alt="ServicesDetail">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between flex-column" data-aos="fade-up">
+                        <div>
+                            <h4 class="pe-lg-5">We Are Professional SEO Agency</h4>
+                            <p class="py-lg-4 py-3">
+                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
+                                velit consectetur massa mauris molestie hac. Hac arcu amet
+                                nullam pellentesque. Urna eu suspendisse felis sodales sit
+                                non.
                             </p>
-                            <p>
-                                Lorem, ipsum dolor natoque parturient nostra pharetra himenaeos et litora.
-                                Himenaeos
-                                nascetur vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede
-                                montes sociosqu vulputate ornare mattis posuere. Sit nunc purus netus urna letius.</p>
-                            <div class="d-flex gap-lg-3 gap-3 flex-wrap py-lg-3 py-2">
-                                <h6>The Briefing</h6>
-                                <h6>Analysing</h6>
-                                <h6>Design and Adaptive</h6>
-                                <h6>Development</h6>
-                                <h6>Search Engine Optimization</h6>
-                            </div>
-                            <div class="d-flex gap-lg-5 gap-4 align-items-center py-lg-3 py-2">
-                                <div>
-                                    <a class="hover3" href="#">
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                        Get Started
-                                    </a>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="position-relative d-flex justify-content-end h-100">
-                            <figure class="w-100 h-100" data-aos="flip-left">
-                                <img class="w-100 h-100 m-0" src="assets/images/ServicesDetail/Desctiption_Img.webp" alt="Desctiption_Img">
-                            </figure>
-                            <figure class="position-absolute">
-                                <img class="z-0 position-relative" src="assets/images/icons/goal_doddle.svg" alt="doddle">
-                            </figure>
+                        <div class="d-flex flex-column gap-lg-4 gap-4">
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    01
+                                </h6>
+                                <p>Urna eu suspendisse felis sodales.</p>
+                            </div>
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    02
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    03
+                                </h6>
+                                <p>In nulla nunc arcu velit consectetur.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 1.4. Goal section ========  -->
-        <!-- ======== 6.1. Quote section ========  -->
-        <section class="Quote">
-            <div class="container">
-                <div class="row gy-md-0 gy-4 flex-md-row flex-column-reverse">
-                    <div class="col-lg-7 col-md-7">
-                        <div class="d-flex flex-column" data-aos="fade-up">
-                            <h4>Free Quote </h4>
-                            <form class="d-flex flex-column gap-md-4 gap-3">
-                                <input name="QuoteName" type="text" placeholder="Your Name" required="">
-                                <div class="d-flex gap-md-4 gap-3 justify-content-between flex-lg-row flex-column">
-                                    <input name="QuoteEmail" class="w-50" type="email" placeholder="Email" required="">
-                                    <input name="QuoteNumber" class="w-50" type="tel" placeholder="Phone" required="">
-                                </div>
-                                <textarea name="QuoteComment" placeholder="Project Detail" rows="4" required=""></textarea>
-                                <button type="submit">Submit</button>
-                            </form>
-                            <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
-                                        <div>
-                                            <h4>Response Submitted</h4>
-                                            <h6>Your details have been successfully submitted. Thanks</h6>
-                                        </div>
-                                        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.10. Agency section ========  -->
+    <!-- ======== 1.4. Goal section ========  -->
+    <section class="Goal ServicesDetail_Goal">
+        <div class="container">
+            <div class="row flex-md-row flex-column justify-content-between">
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column gap-sm-4 gap-3 justify-content-between mt-lg-3" data-aos="fade-up">
+                        <h4>Description</h4>
+                        <p>Lorem, ipsum dolor natoque parturient nostra pharetra himenaeos et litora.
+                            Himenaeos
+                            nascetur vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede
+                            montes sociosqu vulputate ornare mattis posuere. Sit nunc purus netus urna letius.
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor natoque parturient nostra pharetra himenaeos et litora.
+                            Himenaeos
+                            nascetur vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede
+                            montes sociosqu vulputate ornare mattis posuere. Sit nunc purus netus urna letius.</p>
+                        <div class="d-flex gap-lg-3 gap-3 flex-wrap py-lg-3 py-2">
+                            <h6>The Briefing</h6>
+                            <h6>Analysing</h6>
+                            <h6>Design and Adaptive</h6>
+                            <h6>Development</h6>
+                            <h6>Search Engine Optimization</h6>
+                        </div>
+                        <div class="d-flex gap-lg-5 gap-4 align-items-center py-lg-3 py-2">
+                            <div>
+                                <a class="hover3" href="#">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    Get Started
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5">
-                        <div class="d-flex flex-column gap-md-4 gap-3 h-100 justify-content-center align-items-center" data-aos="fade-up">
-                            <p>Id blandit facilisis dolor natoque parturient nostra pharetra himenaeos et litora.
-                                Himenaeos
-                                nascetur
-                                vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede montes
-                                sociosqu vulputate
-                                ornare mattis posuere. Sit nunc purus netus urna letius.</p>
-                            <p>Id blandit facilisis dolor natoque parturient nostra pharetra himenaeos et litora.
-                                Himenaeos
-                                nascetur
-                                vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede montes
-                                sociosqu vulputate
-                                ornare mattis posuere. Sit nunc purus netus urna letius.</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- ======== End of 6.1. Quote section ========  -->
-        <!-- ======== 1.13. Partners section ========  -->
-        <section class="Partners py-0">
-            <div class="container">
-                <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
-                    <h4>Companies We Love</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu velit
-                        consectetur massa mauris molestie hac.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4" data-aos="zoom-in-up">
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                <div class="col-lg-5">
+                    <div class="position-relative d-flex justify-content-end h-100">
+                        <figure class="w-100 h-100" data-aos="flip-left">
+                            <img class="w-100 h-100 m-0" src="assets/images/ServicesDetail/Desctiption_Img.webp"
+                                 alt="Desctiption_Img">
                         </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                        </figure>
-                    </div>
-                    <div class="Partners_Slider2 d-flex gap-lg-4" dir="rtl" data-aos="zoom-in-up">
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                        </figure>
-                        <figure>
-                            <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                        <figure class="position-absolute">
+                            <img class="z-0 position-relative" src="assets/images/icons/goal_doddle.svg" alt="doddle">
                         </figure>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 1.13. Partners section ========  -->
-        <!-- ======== 1.11. Testimonial section ========  -->
-        <section class="Testimonial pb-0">
-            <div class="container">
-                <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
-                    <h3>What Our Client says</h3>
-                    <p class="w-75">
-                        Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu velit
-                        consectetur massa mauris molestie hac.
-                    </p>
-                </div>
-            </div>
-            <div class="Testimonial_Slider1 d-flex px-lg-4 gap-lg-4 mt-lg-5 mt-4 align-items-center justify-content-center">
-                <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
-                    <figure class="w-100">
-                        <img src="assets/images/slider/Testimonial_Img1.webp" alt="">
-                    </figure>
-                    <div class="d-flex flex-column">
-                        <figure class="d-flex gap-2">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </figure>
-                        <p class="py-3">
-                            Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
-                            vehicula enim aenean aliquam. Ac quam enim feugiat nam.
-                            Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
-                            Nunc faucibus id lorem.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <h6>Sophia</h6>
-                            <p>Graphic Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
-                    <figure class="w-100">
-                        <img src="assets/images/slider/Testimonial_Img2.webp" alt="">
-                    </figure>
-                    <div class="d-flex flex-column">
-                        <figure class="d-flex gap-2">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </figure>
-                        <p class="py-3">
-                            Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
-                            vehicula enim aenean aliquam. Ac quam enim feugiat nam.
-                            Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
-                            Nunc faucibus id lorem.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <h6>Jophep</h6>
-                            <p>Data Analyst</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
-                    <figure class="w-100">
-                        <img src="assets/images/slider/Testimonial_Img3.webp" alt="">
-                    </figure>
-                    <div class="d-flex flex-column">
-                        <figure class="d-flex gap-2">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </figure>
-                        <p class="py-3">
-                            Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
-                            vehicula enim aenean aliquam. Ac quam enim feugiat nam.
-                            Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
-                            Nunc faucibus id lorem.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <h6>Watson</h6>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="Testimonial_Slider2 d-flex px-lg-4 gap-lg-4 mt-lg-4 mt-3 align-items-center justify-content-center" dir="rtl">
-                <div class="d-flex gap-lg-5 mx-lg-3 mx-2" dir="ltr">
-                    <figure class="w-100">
-                        <img src="assets/images/slider/Testimonial_Img4.webp" alt="">
-                    </figure>
-                    <div class="d-flex flex-column">
-                        <figure class="d-flex gap-2">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </figure>
-                        <p class="py-3">
-                            Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
-                            vehicula enim aenean aliquam. Ac quam enim feugiat nam.
-                            Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
-                            Nunc faucibus id lorem.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <h6>Emma</h6>
-                            <p>DevOps Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-lg-5 mx-lg-3 mx-2" dir="ltr">
-                    <figure class="w-100">
-                        <img src="assets/images/slider/Testimonial_Img5.webp" alt="">
-                    </figure>
-                    <div class="d-flex flex-column">
-                        <figure class="d-flex gap-2">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </figure>
-                        <p class="py-3">
-                            Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
-                            vehicula enim aenean aliquam. Ac quam enim feugiat nam.
-                            Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
-                            Nunc faucibus id lorem.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <h6>Olivia</h6>
-                            <p>Product Manager</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-lg-5 mx-lg-3 mx-2" dir="ltr">
-                    <figure class="w-100">
-                        <img src="assets/images/slider/Testimonial_Img6.webp" alt="">
-                    </figure>
-                    <div class="d-flex flex-column">
-                        <figure class="d-flex gap-2">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </figure>
-                        <p class="py-3">
-                            Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
-                            vehicula enim aenean aliquam. Ac quam enim feugiat nam.
-                            Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
-                            Nunc faucibus id lorem.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <h6>Liam</h6>
-                            <p>Cybersecurity Specialist</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======== End of 1.11. Testimonial section ========  -->
-        <!-- ======== 1.15. Footer section ========  -->
-        <footer>
-            <div class="container">
-                <div class="d-flex flex-md-column flex-row-reverse w-100">
-                    <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-home"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Company Name</h6>
-                                    <p>Plaza XYZ Street, XYZ City. XYZ</p>
-                                </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.4. Goal section ========  -->
+    <!-- ======== 6.1. Quote section ========  -->
+    <section class="Quote">
+        <div class="container">
+            <div class="row gy-md-0 gy-4 flex-md-row flex-column-reverse">
+                <div class="col-lg-7 col-md-7">
+                    <div class="d-flex flex-column" data-aos="fade-up">
+                        <h4>Free Quote </h4>
+                        <form class="d-flex flex-column gap-md-4 gap-3">
+                            <input name="QuoteName" type="text" placeholder="Your Name" required="">
+                            <div class="d-flex gap-md-4 gap-3 justify-content-between flex-lg-row flex-column">
+                                <input name="QuoteEmail" class="w-50" type="email" placeholder="Email" required="">
+                                <input name="QuoteNumber" class="w-50" type="tel" placeholder="Phone" required="">
                             </div>
-                        </a>
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Email Address</h6>
-                                    <p><span class="__cf_email__" data-cfemail="d9a0b6acabb7b8b4bc99bcb4b8b0b5f7bab6b4">[email&#160;protected]</span></p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-phone"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Phone Number</h6>
-                                    <p>123-4567-890</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
-                        <figure>
-                            <a href="index.html">
-                                <img src="assets/images/footer_Icon.svg" alt="Footer_logo">
-                            </a>
-                        </figure>
-                        <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
-                            <input name="FooterEmail" type="email" placeholder="Subscribe Our newsletter" required="">
-                            <button type="submit" class="hover2">Get Started</button>
+                            <textarea name="QuoteComment" placeholder="Project Detail" rows="4" required=""></textarea>
+                            <button type="submit">Submit</button>
                         </form>
-                        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                             aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
@@ -609,61 +277,435 @@
                                 </div>
                             </div>
                         </div>
-                        <figure class="d-flex align-items-center gap-lg-4 gap-3">
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                        </figure>
                     </div>
                 </div>
-                <hr>
-                <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
-                    <p>
-                        Copyright &copy; <span id="year"></span> Optimistx By
-                        Evonicmedia. All Rights Reserved.
-                    </p>
-                    <p>Powered by Evonicsoft</p>
+                <div class="col-lg-5 col-md-5">
+                    <div class="d-flex flex-column gap-md-4 gap-3 h-100 justify-content-center align-items-center"
+                         data-aos="fade-up">
+                        <p>Id blandit facilisis dolor natoque parturient nostra pharetra himenaeos et litora.
+                            Himenaeos
+                            nascetur
+                            vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede montes
+                            sociosqu vulputate
+                            ornare mattis posuere. Sit nunc purus netus urna letius.</p>
+                        <p>Id blandit facilisis dolor natoque parturient nostra pharetra himenaeos et litora.
+                            Himenaeos
+                            nascetur
+                            vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede montes
+                            sociosqu vulputate
+                            ornare mattis posuere. Sit nunc purus netus urna letius.</p>
+                    </div>
                 </div>
             </div>
-            <!-- scroll to top  -->
-            <button class="scrollToTopButton">
-                <svg class="progress-ring" width="69" height="69">
-                    <circle stroke="#5c569a" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
-                    <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5">
-                    </circle>
-                </svg>
-                <span class="icon"></span>
-            </button>
-        </footer>
-        <!-- ======== End of 1.15. Footer section ========  -->
-    </div>
+        </div>
+    </section>
+    <!-- ======== End of 6.1. Quote section ========  -->
+    <!-- ======== 1.13. Partners section ========  -->
+    <section class="Partners py-0">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center"
+                 data-aos="fade-up">
+                <h4>Companies We Love</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu velit
+                    consectetur massa mauris molestie hac.
+                </p>
+            </div>
+            <div class="row">
+                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4" data-aos="zoom-in-up">
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                    </figure>
+                </div>
+                <div class="Partners_Slider2 d-flex gap-lg-4" dir="rtl" data-aos="zoom-in-up">
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.13. Partners section ========  -->
+    <!-- ======== 1.11. Testimonial section ========  -->
+    <section class="Testimonial pb-0">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
+                 data-aos="fade-up">
+                <h3>What Our Client says</h3>
+                <p class="w-75">
+                    Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu velit
+                    consectetur massa mauris molestie hac.
+                </p>
+            </div>
+        </div>
+        <div class="Testimonial_Slider1 d-flex px-lg-4 gap-lg-4 mt-lg-5 mt-4 align-items-center justify-content-center">
+            <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
+                <figure class="w-100">
+                    <img src="assets/images/slider/Testimonial_Img1.webp" alt="">
+                </figure>
+                <div class="d-flex flex-column">
+                    <figure class="d-flex gap-2">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </figure>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
+                        vehicula enim aenean aliquam. Ac quam enim feugiat nam.
+                        Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
+                        Nunc faucibus id lorem.
+                    </p>
+                    <div class="d-flex flex-column gap-1">
+                        <h6>Sophia</h6>
+                        <p>Graphic Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
+                <figure class="w-100">
+                    <img src="assets/images/slider/Testimonial_Img2.webp" alt="">
+                </figure>
+                <div class="d-flex flex-column">
+                    <figure class="d-flex gap-2">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </figure>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
+                        vehicula enim aenean aliquam. Ac quam enim feugiat nam.
+                        Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
+                        Nunc faucibus id lorem.
+                    </p>
+                    <div class="d-flex flex-column gap-1">
+                        <h6>Jophep</h6>
+                        <p>Data Analyst</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
+                <figure class="w-100">
+                    <img src="assets/images/slider/Testimonial_Img3.webp" alt="">
+                </figure>
+                <div class="d-flex flex-column">
+                    <figure class="d-flex gap-2">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </figure>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
+                        vehicula enim aenean aliquam. Ac quam enim feugiat nam.
+                        Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
+                        Nunc faucibus id lorem.
+                    </p>
+                    <div class="d-flex flex-column gap-1">
+                        <h6>Watson</h6>
+                        <p>UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Testimonial_Slider2 d-flex px-lg-4 gap-lg-4 mt-lg-4 mt-3 align-items-center justify-content-center"
+             dir="rtl">
+            <div class="d-flex gap-lg-5 mx-lg-3 mx-2" dir="ltr">
+                <figure class="w-100">
+                    <img src="assets/images/slider/Testimonial_Img4.webp" alt="">
+                </figure>
+                <div class="d-flex flex-column">
+                    <figure class="d-flex gap-2">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </figure>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
+                        vehicula enim aenean aliquam. Ac quam enim feugiat nam.
+                        Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
+                        Nunc faucibus id lorem.
+                    </p>
+                    <div class="d-flex flex-column gap-1">
+                        <h6>Emma</h6>
+                        <p>DevOps Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-lg-5 mx-lg-3 mx-2" dir="ltr">
+                <figure class="w-100">
+                    <img src="assets/images/slider/Testimonial_Img5.webp" alt="">
+                </figure>
+                <div class="d-flex flex-column">
+                    <figure class="d-flex gap-2">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </figure>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
+                        vehicula enim aenean aliquam. Ac quam enim feugiat nam.
+                        Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
+                        Nunc faucibus id lorem.
+                    </p>
+                    <div class="d-flex flex-column gap-1">
+                        <h6>Olivia</h6>
+                        <p>Product Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-lg-5 mx-lg-3 mx-2" dir="ltr">
+                <figure class="w-100">
+                    <img src="assets/images/slider/Testimonial_Img6.webp" alt="">
+                </figure>
+                <div class="d-flex flex-column">
+                    <figure class="d-flex gap-2">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </figure>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur. Nunc risus pellentesque
+                        vehicula enim aenean aliquam. Ac quam enim feugiat nam.
+                        Adipiscing vel sed aliquam enim et pretium aliquam mattis nulla.
+                        Nunc faucibus id lorem.
+                    </p>
+                    <div class="d-flex flex-column gap-1">
+                        <h6>Liam</h6>
+                        <p>Cybersecurity Specialist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.11. Testimonial section ========  -->
+    <!-- ======== 1.15. Footer section ========  -->
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-md-column flex-row-reverse w-100">
+                <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-home"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Company Name</h6>
+                                <p>Plaza XYZ Street, XYZ City. XYZ</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-envelope"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Email Address</h6>
+                                <p><span class="__cf_email__" data-cfemail="d9a0b6acabb7b8b4bc99bcb4b8b0b5f7bab6b4">[email&#160;protected]</span>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-phone"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Phone Number</h6>
+                                <p>123-4567-890</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
+                    <figure>
+                        <a href="index.html">
+                            <img src="assets/images/footer_Icon.svg" alt="Footer_logo">
+                        </a>
+                    </figure>
+                    <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
+                        <input name="FooterEmail" type="email" placeholder="Subscribe Our newsletter" required="">
+                        <button type="submit" class="hover2">Get Started</button>
+                    </form>
+                    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                         aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
+                                <div>
+                                    <h4>Response Submitted</h4>
+                                    <h6>Your details have been successfully submitted. Thanks</h6>
+                                </div>
+                                <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="d-flex align-items-center gap-lg-4 gap-3">
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
+                <p>
+                    Copyright &copy; <span id="year"></span> Optimistx By
+                    Evonicmedia. All Rights Reserved.
+                </p>
+                <p>Powered by Evonicsoft</p>
+            </div>
+        </div>
+        <!-- scroll to top  -->
+        <button class="scrollToTopButton">
+            <svg class="progress-ring" width="69" height="69">
+                <circle stroke="#5c569a" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
+                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5"
+                        cx="34.5" cy="34.5">
+                </circle>
+            </svg>
+            <span class="icon"></span>
+        </button>
+    </footer>
+    <!-- ======== End of 1.15. Footer section ========  -->
+</div>
 
-    <!-- bootstrap min javascript -->
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/javascript-lib/bootstrap.min.js"></script>
-    <!-- j Query -->
-    <script src="assets/js/jquery.js"></script>
-    <!-- slick slider js -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- main javascript -->
-    <script src="assets/js/custom.js"></script>
-    <!-- animation from javascript -->
-    <script src="assets/js/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            duration: 1500,
-        });
-    </script>
+<!-- bootstrap min javascript -->
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+<!-- j Query -->
+<script src="assets/js/jquery.js"></script>
+<!-- slick slider js -->
+<script src="assets/js/slick.min.js"></script>
+<!-- main javascript -->
+<script src="assets/js/custom.js"></script>
+<!-- animation from javascript -->
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 1500,
+    });
+</script>
 
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e3e0af7cddd7709',t:'MTczMTgyODkxNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function () {
+    function c() {
+        var b = a.contentDocument || a.contentWindow.document;
+        if (b) {
+            var d = b.createElement('script');
+            d.innerHTML = "window.__CF$cv$params={r:'8e3e0af7cddd7709',t:'MTczMTgyODkxNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName('head')[0].appendChild(d)
+        }
+    }
+
+    if (document.body) {
+        var a = document.createElement('iframe');
+        a.height = 1;
+        a.width = 1;
+        a.style.position = 'absolute';
+        a.style.top = 0;
+        a.style.left = 0;
+        a.style.border = 'none';
+        a.style.visibility = 'hidden';
+        document.body.appendChild(a);
+        if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else {
+            var e = document.onreadystatechange || function () {
+            };
+            document.onreadystatechange = function (b) {
+                e(b);
+                'loading' !== document.readyState && (document.onreadystatechange = e, c())
+            }
+        }
+    }
+})();</script>
+</body>
 
 </html>

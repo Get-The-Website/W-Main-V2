@@ -24,541 +24,576 @@
 
 <body>
 
-    <div class="site-wrapper">
-        <!-- ======== 1.1. Header section ======== -->
-        <header>
-            <nav class="navbar navbar-expand-lg container py-3" data-aos="fade-down">
-                <div class="container-fluid">
-                    <!-- site logo -->
-                    <a class="nav-logo p-0" href="index.html">
-                        <figure><img src="assets/images/logo.png" alt="logo"></figure>
-                    </a>
-                    <!-- navigation button  -->
-                    <button class="open-aside" onclick="open_aside()" type="button">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <!-- navigation bar manu  -->
-                    <div class="collapse navbar-collapse justify-content-end gap-xl-4 gap-lg-3" id="navbarSupportedContent">
-                        <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="About.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Projects.html">Project</a>
-                            </li>
-                            <li class="dropdown">
-                                <a class="nav-link d-flex align-item-center gap-1 active" href="#">Pages<i class="fa-sharp fa-solid fa-sort-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item " href="Services.html">Services</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="ServicesDetail.html">Services Details</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
-                                    <li><a class="dropdown-item active" href="Team.html">Team</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="Testimonial.html">Testimonials</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="404.html">404</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="ComingSoon.html">Coming Soon</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="ContactUs.html">Contact</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <a href="#" class="hover1 down-btn" id="getStartedAnchor">Get Started</a>
-                        </div>
-                        <div class="Search_Icon">
-                            <input class="Search_checkbox" type="radio" name="Search_checkbox">
-                            <div class="Search_box">
-                                <div class="iconContainer">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </div>
-                                <input class="search_input" placeholder="search" type="text" name="search_input">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <hr>
-            <!--===== aside navigation slidebar =====-->
-            <aside>
-                <div id="mySidenav" class="right-sidbar">
-                    <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
-                        <figure class="navbar-brand">
-                            <a href="index.html">
-                                <img src="assets/images/logo.png" alt="Logo" class="">
-                            </a>
-                        </figure>
-                        <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
-                    </div>
-                    <ul class="pt-4">
-                        <li class="nav-item ">
-                            <a aria-current="page" href="index.html">Home</a>
+<div class="site-wrapper">
+    <!-- ======== 1.1. Header section ======== -->
+    <header>
+        <nav class="navbar navbar-expand-lg container py-3" data-aos="fade-down">
+            <div class="container-fluid">
+                <!-- site logo -->
+                <a class="nav-logo p-0" href="index.html">
+                    <figure><img src="assets/images/logo.png" alt="logo"></figure>
+                </a>
+                <!-- navigation button  -->
+                <button class="open-aside" onclick="open_aside()" type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- navigation bar manu  -->
+                <div class="collapse navbar-collapse justify-content-end gap-xl-4 gap-lg-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="About.html">About</a>
+                            <a class="nav-link" href="About.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="ContactUs.html">Contact</a>
+                            <a class="nav-link" href="Projects.html">Project</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="Projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="d-flex align-items-center justify-content-between" id="slid-btn">
-                                <button class="a-slid page-btn active">Pages</button>
-                                <i class="fa-solid fa-caret-down pe-2"></i>
-                            </div>
-                            <ul id="slid-drop">
-                                <li><a href="Services.html">Services</a></li>
-                                <li><a href="ServicesDetail.html">Servics Detail</a></li>
-                                <li><a href="FAQ.html">FAQ</a></li>
-                                <li class="active"><a href="Team.html">Team</a></li>
-                                <li><a href="Blog.html">Blog</a></li>
-                                <li><a href="Testimonial.html">Testimonial</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="ComingSoon.html">Coming Soon</a></li>
+                        <li class="dropdown">
+                            <a class="nav-link d-flex align-item-center gap-1 active" href="#">Pages<i
+                                    class="fa-sharp fa-solid fa-sort-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="Services.html">Services</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="ServicesDetail.html">Services Details</a>
+                                </li>
+                                <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
+                                <li><a class="dropdown-item active" href="Team.html">Team</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="Testimonial.html">Testimonials</a>
+                                </li>
+                                <li><a class="dropdown-item" href="404.html">404</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="ComingSoon.html">Coming Soon</a>
+                                </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactUs.html">Contact</a>
+                        </li>
                     </ul>
+                    <div>
+                        <a href="#" class="hover1 down-btn" id="getStartedAnchor">Get Started</a>
+                    </div>
+                    <div class="Search_Icon">
+                        <input class="Search_checkbox" type="radio" name="Search_checkbox">
+                        <div class="Search_box">
+                            <div class="iconContainer">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <input class="search_input" placeholder="search" type="text" name="search_input">
+                        </div>
+                    </div>
                 </div>
-            </aside>
-        </header>
-        <!-- ======== End of 1.1. Header section ========  -->
-        <!-- ======== 4.1. SubPage_Hero section ========  -->
-        <section class="SubPage_Hero">
-            <div class="container">
-                <div class="text-center" data-aos="zoom-in-up">
-                    <h1>Our Team</h1>
+            </div>
+        </nav>
+        <hr>
+        <!--===== aside navigation slidebar =====-->
+        <aside>
+            <div id="mySidenav" class="right-sidbar">
+                <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                    <figure class="navbar-brand">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Logo" class="">
+                        </a>
+                    </figure>
+                    <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
+                </div>
+                <ul class="pt-4">
+                    <li class="nav-item ">
+                        <a aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContactUs.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="d-flex align-items-center justify-content-between" id="slid-btn">
+                            <button class="a-slid page-btn active">Pages</button>
+                            <i class="fa-solid fa-caret-down pe-2"></i>
+                        </div>
+                        <ul id="slid-drop">
+                            <li><a href="Services.html">Services</a></li>
+                            <li><a href="ServicesDetail.html">Servics Detail</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li class="active"><a href="Team.html">Team</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Testimonial.html">Testimonial</a></li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="ComingSoon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+    <!-- ======== End of 1.1. Header section ========  -->
+    <!-- ======== 4.1. SubPage_Hero section ========  -->
+    <section class="SubPage_Hero">
+        <div class="container">
+            <div class="text-center" data-aos="zoom-in-up">
+                <h1>Our Team</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 4.1. SubPage_Hero section ========  -->
+    <!-- ======== 2.2. Team section ========  -->
+    <section class="Team">
+        <div class="container position-relative">
+            <div class="row gy-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/index/Team_Member1.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Noah Maxwell</h6>
+                            <p>Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/index/Team_Member2.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Emma Watson</h6>
+                            <p>DevOps Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/index/Team_Member3.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Ethan</h6>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/index/Team_Member4.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Isabella</h6>
+                            <p>Data Analyst</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/Team/Team_Member5.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Emily</h6>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/Team/Team_Member6.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>David</h6>
+                            <p>AI Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/Team/Team_Member7.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Margret</h6>
+                            <p>SEO Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
+                        <figure class="w-100">
+                            <img class="w-100" src="assets/images/Team/Team_Member8.webp" alt="Team_Member1">
+                            <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                <div class="Team_social_icons mt-lg-5 mt-4">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="mt-lg-4 mt-3">
+                                    <a href="#" class="hover5">View Detail
+                                        <i class="fa fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text-center d-flex flex-column gap-2 w-100">
+                            <h6>Jhon</h6>
+                            <p>Cloud Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute">
+                <img src="assets/images/icons/goal_doddle.svg" alt="doddle">
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 2.2. Team section ========  -->
+    <!-- ======== 1.6. Video section ========  -->
+    <section class="Video Team_Video">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center gap-sm-4 gap-3 flex-column text-center"
+                 data-aos="zoom-in-up">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h2>Join Optimistx Today</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.</p>
                 </div>
-            </div>
-        </section>
-        <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-        <!-- ======== 2.2. Team section ========  -->
-        <section class="Team">
-            <div class="container position-relative">
-                <div class="row gy-4">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/index/Team_Member1.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Noah Maxwell</h6>
-                                <p>Product Manager</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/index/Team_Member2.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Emma Watson</h6>
-                                <p>DevOps Engineer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/index/Team_Member3.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Ethan</h6>
-                                <p>UI/UX Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/index/Team_Member4.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Isabella</h6>
-                                <p>Data Analyst</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/Team/Team_Member5.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Emily</h6>
-                                <p>Software Engineer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/Team/Team_Member6.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>David</h6>
-                                <p>AI Expert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/Team/Team_Member7.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Margret</h6>
-                                <p>SEO Expert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="d-flex flex-column align-items-center h-100" data-aos="flip-left">
-                            <figure class="w-100">
-                                <img class="w-100" src="assets/images/Team/Team_Member8.webp" alt="Team_Member1">
-                                <div class="Team_overlay d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
-                                    <div class="Team_social_icons mt-lg-5 mt-4">
-                                        <a href="#">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp"></i>
-
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="mt-lg-4 mt-3">
-                                        <a href="#" class="hover5">View Detail
-                                            <i class="fa fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figure>
-                            <div class="text-center d-flex flex-column gap-2 w-100">
-                                <h6>Jhon</h6>
-                                <p>Cloud Engineer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="position-absolute">
-                    <img src="assets/images/icons/goal_doddle.svg" alt="doddle">
+                <div class="mt-2">
+                    <a href="#" class="hover2">Join Us Today</a>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 2.2. Team section ========  -->
-        <!-- ======== 1.6. Video section ========  -->
-        <section class="Video Team_Video">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center gap-sm-4 gap-3 flex-column text-center" data-aos="zoom-in-up">
-                    <div class="d-flex flex-column justify-content-center align-items-center">
-                        <h2>Join Optimistx Today</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="mt-2">
-                        <a href="#" class="hover2">Join Us Today</a>
+        </div>
+    </section>
+    <!-- ======== End of 1.6. Video section ========  -->
+    <!-- ======== 1.14. ContactUs section ========  -->
+    <section class="ContactUs">
+        <div class="container px-md-5">
+            <div data-aos="fade-up">
+                <h1>Let’s Talk</h1>
+                <p class="w-50">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
+                <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
+                    <input name="ContactName" type="text" placeholder="Your Name" required="">
+                    <input name="ContactEmail" type="email" placeholder="Email" required="">
+                </div>
+                <input name="ContactNumber" type="tel" placeholder="Phone Number" required="">
+                <textarea name="ContactComment" placeholder="Write here message" rows="10" required=""></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
+                        <div>
+                            <h4>Response Submitted</h4>
+                            <h6>Your details have been successfully submitted. Thanks</h6>
+                        </div>
+                        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 1.6. Video section ========  -->
-        <!-- ======== 1.14. ContactUs section ========  -->
-        <section class="ContactUs">
-            <div class="container px-md-5">
-                <div data-aos="fade-up">
-                    <h1>Let’s Talk</h1>
-                    <p class="w-50">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
-                    <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
-                        <input name="ContactName" type="text" placeholder="Your Name" required="">
-                        <input name="ContactEmail" type="email" placeholder="Email" required="">
-                    </div>
-                    <input name="ContactNumber" type="tel" placeholder="Phone Number" required="">
-                    <textarea name="ContactComment" placeholder="Write here message" rows="10" required=""></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-                <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
-                            <div>
-                                <h4>Response Submitted</h4>
-                                <h6>Your details have been successfully submitted. Thanks</h6>
-                            </div>
-                            <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======== End of 1.14. ContactUs section ========  -->
-        <!-- ======== 1.15. Footer section ========  -->
-        <footer>
-            <div class="container">
-                <div class="d-flex flex-md-column flex-row-reverse w-100">
-                    <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-home"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Company Name</h6>
-                                    <p>Plaza XYZ Street, XYZ City. XYZ</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Email Address</h6>
-                                    <p><span class="__cf_email__" data-cfemail="4e37213b3c202f232b0e2b232f2722602d2123">[email&#160;protected]</span></p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-phone"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Phone Number</h6>
-                                    <p>123-4567-890</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
-                        <figure>
-                            <a href="index.html">
-                                <img src="assets/images/footer_Icon.svg" alt="Footer_logo">
-                            </a>
-                        </figure>
-                        <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
-                            <input name="FooterEmail" type="email" placeholder="Subscribe Our newsletter" required="">
-                            <button type="submit" class="hover2">Get Started</button>
-                        </form>
-                        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
-                                    <div>
-                                        <h4>Response Submitted</h4>
-                                        <h6>Your details have been successfully submitted. Thanks</h6>
-                                    </div>
-                                    <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
-                                </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.14. ContactUs section ========  -->
+    <!-- ======== 1.15. Footer section ========  -->
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-md-column flex-row-reverse w-100">
+                <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-home"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Company Name</h6>
+                                <p>Plaza XYZ Street, XYZ City. XYZ</p>
                             </div>
                         </div>
-                        <figure class="d-flex align-items-center gap-lg-4 gap-3">
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </figure>
-                    </div>
+                    </a>
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-envelope"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Email Address</h6>
+                                <p><span class="__cf_email__" data-cfemail="4e37213b3c202f232b0e2b232f2722602d2123">[email&#160;protected]</span>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-phone"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Phone Number</h6>
+                                <p>123-4567-890</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <hr>
-                <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
-                    <p>
-                        Copyright &copy; <span id="year"></span> Optimistx By
-                        Evonicmedia. All Rights Reserved.
-                    </p>
-                    <p>Powered by Evonicsoft</p>
+                <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
+                    <figure>
+                        <a href="index.html">
+                            <img src="assets/images/footer_Icon.svg" alt="Footer_logo">
+                        </a>
+                    </figure>
+                    <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
+                        <input name="FooterEmail" type="email" placeholder="Subscribe Our newsletter" required="">
+                        <button type="submit" class="hover2">Get Started</button>
+                    </form>
+                    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
+                                <div>
+                                    <h4>Response Submitted</h4>
+                                    <h6>Your details have been successfully submitted. Thanks</h6>
+                                </div>
+                                <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="d-flex align-items-center gap-lg-4 gap-3">
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </figure>
                 </div>
             </div>
-            <!-- scroll to top  -->
-            <button class="scrollToTopButton">
-                <svg class="progress-ring" width="69" height="69">
-                    <circle stroke="#5c569a" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
-                    <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5">
-                    </circle>
-                </svg>
-                <span class="icon"></span>
-            </button>
-        </footer>
-        <!-- ======== End of 1.15. Footer section ========  -->
-    </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
+                <p>
+                    Copyright &copy; <span id="year"></span> Optimistx By
+                    Evonicmedia. All Rights Reserved.
+                </p>
+                <p>Powered by Evonicsoft</p>
+            </div>
+        </div>
+        <!-- scroll to top  -->
+        <button class="scrollToTopButton">
+            <svg class="progress-ring" width="69" height="69">
+                <circle stroke="#5c569a" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
+                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5"
+                        cx="34.5" cy="34.5">
+                </circle>
+            </svg>
+            <span class="icon"></span>
+        </button>
+    </footer>
+    <!-- ======== End of 1.15. Footer section ========  -->
+</div>
 
-    <!-- bootstrap min javascript -->
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/javascript-lib/bootstrap.min.js"></script>
-    <!-- j Query -->
-    <script src="assets/js/jquery.js"></script>
-    <!-- slick slider js -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- main javascript -->
-    <script src="assets/js/custom.js"></script>
-    <!-- animation from javascript -->
-    <script src="assets/js/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            duration: 1500,
-        });
-    </script>
+<!-- bootstrap min javascript -->
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+<!-- j Query -->
+<script src="assets/js/jquery.js"></script>
+<!-- slick slider js -->
+<script src="assets/js/slick.min.js"></script>
+<!-- main javascript -->
+<script src="assets/js/custom.js"></script>
+<!-- animation from javascript -->
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 1500,
+    });
+</script>
 
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e3e0b0f2cb87709',t:'MTczMTgyODkxOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function () {
+    function c() {
+        var b = a.contentDocument || a.contentWindow.document;
+        if (b) {
+            var d = b.createElement('script');
+            d.innerHTML = "window.__CF$cv$params={r:'8e3e0b0f2cb87709',t:'MTczMTgyODkxOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName('head')[0].appendChild(d)
+        }
+    }
+
+    if (document.body) {
+        var a = document.createElement('iframe');
+        a.height = 1;
+        a.width = 1;
+        a.style.position = 'absolute';
+        a.style.top = 0;
+        a.style.left = 0;
+        a.style.border = 'none';
+        a.style.visibility = 'hidden';
+        document.body.appendChild(a);
+        if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else {
+            var e = document.onreadystatechange || function () {
+            };
+            document.onreadystatechange = function (b) {
+                e(b);
+                'loading' !== document.readyState && (document.onreadystatechange = e, c())
+            }
+        }
+    }
+})();</script>
+</body>
 
 </html>

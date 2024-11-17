@@ -24,541 +24,580 @@
 
 <body>
 
-    <div class="site-wrapper">
-        <!-- ======== 1.1. Header section ======== -->
-        <header>
-            <nav class="navbar navbar-expand-lg container py-3" data-aos="fade-down">
-                <div class="container-fluid">
-                    <!-- site logo -->
-                    <a class="nav-logo p-0" href="index.html">
-                        <figure><img src="assets/images/logo.png" alt="logo"></figure>
-                    </a>
-                    <!-- navigation button  -->
-                    <button class="open-aside" onclick="open_aside()" type="button">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <!-- navigation bar manu  -->
-                    <div class="collapse navbar-collapse justify-content-end gap-xl-4 gap-lg-3" id="navbarSupportedContent">
-                        <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="About.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Projects.html">Project</a>
-                            </li>
-                            <li class="dropdown">
-                                <a class="nav-link d-flex align-item-center gap-1 active" href="#">Pages<i class="fa-sharp fa-solid fa-sort-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item active" href="Services.html">Services</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="ServicesDetail.html">Services Details</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
-                                    <li><a class="dropdown-item" href="Team.html">Team</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="Testimonial.html">Testimonials</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="404.html">404</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="ComingSoon.html">Coming Soon</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="ContactUs.html">Contact</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <a href="#" class="hover1 down-btn" id="getStartedAnchor">Get Started</a>
-                        </div>
-                        <div class="Search_Icon">
-                            <input class="Search_checkbox" type="radio" name="Search_checkbox">
-                            <div class="Search_box">
-                                <div class="iconContainer">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </div>
-                                <input class="search_input" placeholder="search" type="text" name="search_input">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <hr>
-            <!--===== aside navigation slidebar =====-->
-            <aside>
-                <div id="mySidenav" class="right-sidbar">
-                    <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
-                        <figure class="navbar-brand">
-                            <a href="index.html">
-                                <img src="assets/images/logo.png" alt="Logo" class="">
-                            </a>
-                        </figure>
-                        <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
-                    </div>
-                    <ul class="pt-4">
-                        <li class="nav-item ">
-                            <a aria-current="page" href="index.html">Home</a>
+<div class="site-wrapper">
+    <!-- ======== 1.1. Header section ======== -->
+    <header>
+        <nav class="navbar navbar-expand-lg container py-3" data-aos="fade-down">
+            <div class="container-fluid">
+                <!-- site logo -->
+                <a class="nav-logo p-0" href="index.html">
+                    <figure><img src="assets/images/logo.png" alt="logo"></figure>
+                </a>
+                <!-- navigation button  -->
+                <button class="open-aside" onclick="open_aside()" type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- navigation bar manu  -->
+                <div class="collapse navbar-collapse justify-content-end gap-xl-4 gap-lg-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="About.html">About</a>
+                            <a class="nav-link" href="About.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="ContactUs.html">Contact</a>
+                            <a class="nav-link" href="Projects.html">Project</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="Projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="d-flex align-items-center justify-content-between" id="slid-btn">
-                                <button class="a-slid page-btn active">Pages</button>
-                                <i class="fa-solid fa-caret-down pe-2"></i>
-                            </div>
-                            <ul id="slid-drop">
-                                <li class="active"><a href="Services.html">Services</a></li>
-                                <li><a href="ServicesDetail.html">Servics Detail</a></li>
-                                <li><a href="FAQ.html">FAQ</a></li>
-                                <li><a href="Team.html">Team</a></li>
-                                <li><a href="Blog.html">Blog</a></li>
-                                <li><a href="Testimonial.html">Testimonial</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="ComingSoon.html">Coming Soon</a></li>
+                        <li class="dropdown">
+                            <a class="nav-link d-flex align-item-center gap-1 active" href="#">Pages<i
+                                    class="fa-sharp fa-solid fa-sort-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item active" href="Services.html">Services</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="ServicesDetail.html">Services Details</a>
+                                </li>
+                                <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="Team.html">Team</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="Testimonial.html">Testimonials</a>
+                                </li>
+                                <li><a class="dropdown-item" href="404.html">404</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="ComingSoon.html">Coming Soon</a>
+                                </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactUs.html">Contact</a>
+                        </li>
                     </ul>
-                </div>
-            </aside>
-        </header>
-        <!-- ======== End of 1.1. Header section ========  -->
-        <!-- ======== 4.1. SubPage_Hero section ========  -->
-        <section class="SubPage_Hero">
-            <div class="container">
-                <div class="text-center" data-aos="zoom-in-up">
-                    <h1>Digital Services</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+                    <div>
+                        <a href="#" class="hover1 down-btn" id="getStartedAnchor">Get Started</a>
+                    </div>
+                    <div class="Search_Icon">
+                        <input class="Search_checkbox" type="radio" name="Search_checkbox">
+                        <div class="Search_box">
+                            <div class="iconContainer">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <input class="search_input" placeholder="search" type="text" name="search_input">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-        <!-- ======== 1.5. Services section ========  -->
-        <section class="Services ServicesPage_Services">
-            <div class="container position-relative">
-                <div>
-                    <figure class="position-absolute w-25">
-                        <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
+        </nav>
+        <hr>
+        <!--===== aside navigation slidebar =====-->
+        <aside>
+            <div id="mySidenav" class="right-sidbar">
+                <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                    <figure class="navbar-brand">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Logo" class="">
+                        </a>
                     </figure>
+                    <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
                 </div>
-                <div class="row gy-4">
-                    <div class="col-lg-4 col-md-6 flex-wrap">
-                        <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                            <figure>
-                                <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
-                            </figure>
-                            <h6>Social Media Marketing</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                                mauris gravida. Egestas ullamcorper dictum auctor
-                                hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                                blandit. Diam lectus volutpat eu id purus odio.
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <a class="hover5" href="#">View Detail
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
+                <ul class="pt-4">
+                    <li class="nav-item ">
+                        <a aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContactUs.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="d-flex align-items-center justify-content-between" id="slid-btn">
+                            <button class="a-slid page-btn active">Pages</button>
+                            <i class="fa-solid fa-caret-down pe-2"></i>
+                        </div>
+                        <ul id="slid-drop">
+                            <li class="active"><a href="Services.html">Services</a></li>
+                            <li><a href="ServicesDetail.html">Servics Detail</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="Team.html">Team</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Testimonial.html">Testimonial</a></li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="ComingSoon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+    <!-- ======== End of 1.1. Header section ========  -->
+    <!-- ======== 4.1. SubPage_Hero section ========  -->
+    <section class="SubPage_Hero">
+        <div class="container">
+            <div class="text-center" data-aos="zoom-in-up">
+                <h1>Digital Services</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 4.1. SubPage_Hero section ========  -->
+    <!-- ======== 1.5. Services section ========  -->
+    <section class="Services ServicesPage_Services">
+        <div class="container position-relative">
+            <div>
+                <figure class="position-absolute w-25">
+                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
+                </figure>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
+                        </figure>
+                        <h6>Social Media Marketing</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 flex-wrap">
-                        <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                            <figure>
-                                <img src="assets/images/icons/Solution.svg" alt="Solution">
-                            </figure>
-                            <h6>Creative Solutions</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                                mauris gravida. Egestas ullamcorper dictum auctor
-                                hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                                blandit. Diam lectus volutpat eu id purus odio.
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <a class="hover5" href="#">View Detail
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Solution.svg" alt="Solution">
+                        </figure>
+                        <h6>Creative Solutions</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 flex-wrap">
-                        <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                            <figure>
-                                <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
-                            </figure>
-                            <h6>Business Strategy</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                                mauris gravida. Egestas ullamcorper dictum auctor
-                                hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                                blandit. Diam lectus volutpat eu id purus odio.
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <a class="hover5" href="#">View Detail
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
+                        </figure>
+                        <h6>Business Strategy</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 flex-wrap">
-                        <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                            <figure>
-                                <img src="assets/images/icons/SEO.svg" alt="Trophy">
-                            </figure>
-                            <h6>SEO Optimization</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                                mauris gravida. Egestas ullamcorper dictum auctor
-                                hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                                blandit. Diam lectus volutpat eu id purus odio.
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <a class="hover5" href="#">View Detail
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/SEO.svg" alt="Trophy">
+                        </figure>
+                        <h6>SEO Optimization</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 flex-wrap">
-                        <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                            <figure>
-                                <img src="assets/images/icons/Trophy.svg" alt="Trophy">
-                            </figure>
-                            <h6>Brand Identity</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                                mauris gravida. Egestas ullamcorper dictum auctor
-                                hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                                blandit. Diam lectus volutpat eu id purus odio.
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <a class="hover5" href="#">View Detail
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Trophy.svg" alt="Trophy">
+                        </figure>
+                        <h6>Brand Identity</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 flex-wrap">
-                        <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
+                        </figure>
+                        <h6>Content Writing</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.5. Services section ========  -->
+    <!-- ======== 1.10. Agency section ========  -->
+    <section class="Agency">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="d-flex justify-content-between w-100 position-relative h-100">
+                        <figure class="h-100 w-100" data-aos="fade-down">
+                            <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
+                        </figure>
+                        <div>
+                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp"
+                                 alt="Circle">
+                            <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
+                        </div>
+                        <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
                             <figure>
-                                <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
+                                <img src="assets/images/index/Agency_Img2.webp" alt="Agency_Img2">
                             </figure>
-                            <h6>Content Writing</h6>
+                            <figure>
+                                <img src="assets/images/index/Agency_Img3.webp" alt="Agency_Img3">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
+                        <div class="w-75">
+                            <h4>We Are Professional SEO Agency</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                                mauris gravida. Egestas ullamcorper dictum auctor
-                                hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                                blandit. Diam lectus volutpat eu id purus odio.
+                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
+                                velit consectetur massa mauris molestie hac. Hac arcu amet
+                                nullam pellentesque. Urna eu suspendisse felis sodales sit
+                                non.
                             </p>
-                            <div class="d-flex align-items-center">
-                                <a class="hover5" href="#">View Detail
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+                        </div>
+                        <div class="d-flex flex-column gap-lg-4 gap-4">
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    01
+                                </h6>
+                                <p>Urna eu suspendisse felis sodales.</p>
+                            </div>
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    02
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    03
+                                </h6>
+                                <p>In nulla nunc arcu velit consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
+                            <div><a href="Services.html" class="hover2">Learn More</a></div>
+                            <div>
+                                <a href="Services.html" class="hover3"><i class="fa fa-arrow-right-long"
+                                                                          aria-hidden="true"></i>
+                                    Get Started</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ======== End of 1.5. Services section ========  -->
-        <!-- ======== 1.10. Agency section ========  -->
-        <section class="Agency">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="d-flex justify-content-between w-100 position-relative h-100">
-                            <figure class="h-100 w-100" data-aos="fade-down">
-                                <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
-                            </figure>
-                            <div>
-                                <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp" alt="Circle">
-                                <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
+        </div>
+    </section>
+    <!-- ======== End of 1.10. Agency section ========  -->
+    <!-- ======== End of 5.1. Solutions section ========  -->
+    <section class="Solutions">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
+                 data-aos="fade-up">
+                <h4>Enterprise Business Solutions</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
+                    auctor
+                    hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex flex-column gap-md-4 gap-4">
+                        <div class="d-flex gap-2" data-aos="flip-left">
+                            <div class="d-flex flex-column gap-md-3 gap-3">
+                                <h4 class="pe-lg-2">Boost Traffic & Sales</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida.</p>
+                                <div>
+                                    <a href="#" class="hover4">
+                                        <i class="fa fa-arrow-right-long"></i> Get Started
+                                    </a>
+                                </div>
                             </div>
-                            <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
-                                <figure>
-                                    <img src="assets/images/index/Agency_Img2.webp" alt="Agency_Img2">
+                            <figure class="d-flex align-items-end">
+                                <img src="assets/images/Services/Chart_Banner.webp" alt="Banner">
+                            </figure>
+                        </div>
+                        <div class="d-flex gap-2 overflow-hidden" data-aos="flip-left">
+                            <div class="d-flex flex-column gap-md-2 ">
+                                <div class="rounded-circle d-flex justify-content-center align-items-center flex-column ">
+                                    <h6>Get</h6>
+                                    <h5><span class="number" data-final-value="50"></span>%</h5>
+                                    <h6>OFF</h6>
+                                </div>
+                                <figure class="position-relative">
+                                    <img class="position-absolute" src="assets/images/Services/Bussiness_Bag.webp"
+                                         alt="Bag">
                                 </figure>
-                                <figure>
-                                    <img src="assets/images/index/Agency_Img3.webp" alt="Agency_Img3">
-                                </figure>
+                            </div>
+                            <div class="d-flex flex-column gap-lg-3 gap-3">
+                                <h4 class="pe-lg-2">Elevate your Business</h4>
+                                <p>with Our Cutting-Edge Digital Marketing</p>
+                                <div>
+                                    <a href="#" class="hover4">
+                                        <i class="fa fa-arrow-right-long"></i> Get Started
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
-                            <div class="w-75">
-                                <h4>We Are Professional SEO Agency</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
-                                    velit consectetur massa mauris molestie hac. Hac arcu amet
-                                    nullam pellentesque. Urna eu suspendisse felis sodales sit
-                                    non.
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="position-relative h-100" data-aos="flip-left">
+                        <figure class="h-100">
+                            <img class="w-100 " src="assets/images/Services/Solution_Img.webp" alt="Solution_Img">
+                        </figure>
+                        <div class="d-flex flex-column position-absolute gap-md-4 gap-3">
+                            <h1>Holistic Digital services</h1>
+                            <h4>All In One Place</h4>
+                            <div class="pt-lg-5 pt-4">
+                                <a href="#">Contact Us Today</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 5.1. Solutions section ========  -->
+    <!-- ======== 1.14. ContactUs section ========  -->
+    <section class="ContactUs">
+        <div class="container px-md-5">
+            <div data-aos="fade-up">
+                <h1>Let’s Talk</h1>
+                <p class="w-50">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
+                <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
+                    <input name="ContactName" type="text" placeholder="Your Name" required="">
+                    <input name="ContactEmail" type="tel" placeholder="Email" required="">
+                </div>
+                <input name="ContactNumber" type="number" placeholder="Phone Number" required="">
+                <textarea name="ContactComment" placeholder="Write here message" rows="10" required=""></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
+                        <div>
+                            <h4>Response Submitted</h4>
+                            <h6>Your details have been successfully submitted. Thanks</h6>
+                        </div>
+                        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.14. ContactUs section ========  -->
+    <!-- ======== 1.15. Footer section ========  -->
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-md-column flex-row-reverse w-100">
+                <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-home"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Company Name</h6>
+                                <p>Plaza XYZ Street, XYZ City. XYZ</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-envelope"></i>
+                            </figure>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Email Address</h6>
+                                <p><span class="__cf_email__" data-cfemail="2f56405a5d414e424a6f4a424e4643014c4042">[email&#160;protected]</span>
                                 </p>
                             </div>
-                            <div class="d-flex flex-column gap-lg-4 gap-4">
-                                <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <h6 class="d-flex justify-content-center align-items-center">
-                                        01
-                                    </h6>
-                                    <p>Urna eu suspendisse felis sodales.</p>
-                                </div>
-                                <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <h6 class="d-flex justify-content-center align-items-center">
-                                        02
-                                    </h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                </div>
-                                <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <h6 class="d-flex justify-content-center align-items-center">
-                                        03
-                                    </h6>
-                                    <p>In nulla nunc arcu velit consectetur.</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                                <div><a href="Services.html" class="hover2">Learn More</a></div>
-                                <div>
-                                    <a href="Services.html" class="hover3"><i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                        Get Started</a>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======== End of 1.10. Agency section ========  -->
-        <!-- ======== End of 5.1. Solutions section ========  -->
-        <section class="Solutions">
-            <div class="container">
-                <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
-                    <h4>Enterprise Business Solutions</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
-                        auctor
-                        hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="d-flex flex-column gap-md-4 gap-4">
-                            <div class="d-flex gap-2" data-aos="flip-left">
-                                <div class="d-flex flex-column gap-md-3 gap-3">
-                                    <h4 class="pe-lg-2">Boost Traffic & Sales</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida.</p>
-                                    <div>
-                                        <a href="#" class="hover4">
-                                            <i class="fa fa-arrow-right-long"></i> Get Started
-                                        </a>
-                                    </div>
-                                </div>
-                                <figure class="d-flex align-items-end">
-                                    <img src="assets/images/Services/Chart_Banner.webp" alt="Banner">
-                                </figure>
-                            </div>
-                            <div class="d-flex gap-2 overflow-hidden" data-aos="flip-left">
-                                <div class="d-flex flex-column gap-md-2 ">
-                                    <div class="rounded-circle d-flex justify-content-center align-items-center flex-column ">
-                                        <h6>Get</h6>
-                                        <h5><span class="number" data-final-value="50"></span>%</h5>
-                                        <h6>OFF</h6>
-                                    </div>
-                                    <figure class="position-relative">
-                                        <img class="position-absolute" src="assets/images/Services/Bussiness_Bag.webp" alt="Bag">
-                                    </figure>
-                                </div>
-                                <div class="d-flex flex-column gap-lg-3 gap-3">
-                                    <h4 class="pe-lg-2">Elevate your Business</h4>
-                                    <p>with Our Cutting-Edge Digital Marketing</p>
-                                    <div>
-                                        <a href="#" class="hover4">
-                                            <i class="fa fa-arrow-right-long"></i> Get Started
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="position-relative h-100" data-aos="flip-left">
-                            <figure class="h-100">
-                                <img class="w-100 " src="assets/images/Services/Solution_Img.webp" alt="Solution_Img">
+                    </a>
+                    <a href="ContactUs.html">
+                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
+                            <figure class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-phone"></i>
                             </figure>
-                            <div class="d-flex flex-column position-absolute gap-md-4 gap-3">
-                                <h1>Holistic Digital services</h1>
-                                <h4>All In One Place</h4>
-                                <div class="pt-lg-5 pt-4">
-                                    <a href="#">Contact Us Today</a>
-                                </div>
+                            <div class="d-flex flex-column gap-1">
+                                <h6>Phone Number</h6>
+                                <p>123-4567-890</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======== End of 5.1. Solutions section ========  -->
-        <!-- ======== 1.14. ContactUs section ========  -->
-        <section class="ContactUs">
-            <div class="container px-md-5">
-                <div data-aos="fade-up">
-                    <h1>Let’s Talk</h1>
-                    <p class="w-50">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
-                    <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
-                        <input name="ContactName" type="text" placeholder="Your Name" required="">
-                        <input name="ContactEmail" type="tel" placeholder="Email" required="">
-                    </div>
-                    <input name="ContactNumber" type="number" placeholder="Phone Number" required="">
-                    <textarea name="ContactComment" placeholder="Write here message" rows="10" required=""></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-                <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
-                            <div>
-                                <h4>Response Submitted</h4>
-                                <h6>Your details have been successfully submitted. Thanks</h6>
-                            </div>
-                            <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======== End of 1.14. ContactUs section ========  -->
-        <!-- ======== 1.15. Footer section ========  -->
-        <footer>
-            <div class="container">
-                <div class="d-flex flex-md-column flex-row-reverse w-100">
-                    <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-home"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Company Name</h6>
-                                    <p>Plaza XYZ Street, XYZ City. XYZ</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Email Address</h6>
-                                    <p><span class="__cf_email__" data-cfemail="2f56405a5d414e424a6f4a424e4643014c4042">[email&#160;protected]</span></p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="ContactUs.html">
-                            <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                                <figure class="d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-phone"></i>
-                                </figure>
-                                <div class="d-flex flex-column gap-1">
-                                    <h6>Phone Number</h6>
-                                    <p>123-4567-890</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
-                        <figure>
-                            <a href="index.html">
-                                <img src="assets/images/footer_Icon.svg" alt="Footer_logo">
-                            </a>
-                        </figure>
-                        <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
-                            <input name="FooterEmail" type="email" placeholder="Subscribe Our newsletter" required="">
-                            <button type="submit" class="hover2">Get Started</button>
-                        </form>
-                        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
-                                    <div>
-                                        <h4>Response Submitted</h4>
-                                        <h6>Your details have been successfully submitted. Thanks</h6>
-                                    </div>
-                                    <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                        <figure class="d-flex align-items-center gap-lg-4 gap-3">
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="ContactUs.html">
-                                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                        </figure>
-                    </div>
+                    </a>
                 </div>
                 <hr>
-                <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
-                    <p>
-                        Copyright &copy; <span id="year"></span> Optimistx By
-                        Evonicmedia. All Rights Reserved.
-                    </p>
-                    <p>Powered by Evonicsoft</p>
+                <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
+                    <figure>
+                        <a href="index.html">
+                            <img src="assets/images/footer_Icon.svg" alt="Footer_logo">
+                        </a>
+                    </figure>
+                    <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
+                        <input name="FooterEmail" type="email" placeholder="Subscribe Our newsletter" required="">
+                        <button type="submit" class="hover2">Get Started</button>
+                    </form>
+                    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                         aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
+                                <div>
+                                    <h4>Response Submitted</h4>
+                                    <h6>Your details have been successfully submitted. Thanks</h6>
+                                </div>
+                                <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="d-flex align-items-center gap-lg-4 gap-3">
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="ContactUs.html">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </figure>
                 </div>
             </div>
-            <!-- scroll to top  -->
-            <button class="scrollToTopButton">
-                <svg class="progress-ring" width="69" height="69">
-                    <circle stroke="#5c569a" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
-                    <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5">
-                    </circle>
-                </svg>
-                <span class="icon"></span>
-            </button>
-        </footer>
-        <!-- ======== End of 1.15. Footer section ========  -->
-    </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
+                <p>
+                    Copyright &copy; <span id="year"></span> Optimistx By
+                    Evonicmedia. All Rights Reserved.
+                </p>
+                <p>Powered by Evonicsoft</p>
+            </div>
+        </div>
+        <!-- scroll to top  -->
+        <button class="scrollToTopButton">
+            <svg class="progress-ring" width="69" height="69">
+                <circle stroke="#5c569a" stroke-width="4" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
+                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5"
+                        cx="34.5" cy="34.5">
+                </circle>
+            </svg>
+            <span class="icon"></span>
+        </button>
+    </footer>
+    <!-- ======== End of 1.15. Footer section ========  -->
+</div>
 
-    <!-- bootstrap min javascript -->
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/javascript-lib/bootstrap.min.js"></script>
-    <!-- j Query -->
-    <script src="assets/js/jquery.js"></script>
-    <!-- slick slider js -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- main javascript -->
-    <script src="assets/js/custom.js"></script>
-    <!-- animation from javascript -->
-    <script src="assets/js/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            duration: 1500,
-        });
-    </script>
+<!-- bootstrap min javascript -->
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+<!-- j Query -->
+<script src="assets/js/jquery.js"></script>
+<!-- slick slider js -->
+<script src="assets/js/slick.min.js"></script>
+<!-- main javascript -->
+<script src="assets/js/custom.js"></script>
+<!-- animation from javascript -->
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 1500,
+    });
+</script>
 
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e3e0ae8e8987709',t:'MTczMTgyODkxMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function () {
+    function c() {
+        var b = a.contentDocument || a.contentWindow.document;
+        if (b) {
+            var d = b.createElement('script');
+            d.innerHTML = "window.__CF$cv$params={r:'8e3e0ae8e8987709',t:'MTczMTgyODkxMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName('head')[0].appendChild(d)
+        }
+    }
+
+    if (document.body) {
+        var a = document.createElement('iframe');
+        a.height = 1;
+        a.width = 1;
+        a.style.position = 'absolute';
+        a.style.top = 0;
+        a.style.left = 0;
+        a.style.border = 'none';
+        a.style.visibility = 'hidden';
+        document.body.appendChild(a);
+        if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else {
+            var e = document.onreadystatechange || function () {
+            };
+            document.onreadystatechange = function (b) {
+                e(b);
+                'loading' !== document.readyState && (document.onreadystatechange = e, c())
+            }
+        }
+    }
+})();</script>
+</body>
 
 </html>
