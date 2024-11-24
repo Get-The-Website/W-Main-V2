@@ -12,13 +12,11 @@ RewriteRule ^ecommerce-solution ecommerce-solution.php [NE,L]
 
 RewriteRule ^seo-and-marketing seo-and-marketing.php [NE,L]
 
-RewriteRule ^website-maintainance seo-and-marketing.php [NE,L]
+RewriteRule ^website-maintainance website-maintainance.php [NE,L]
 
 RewriteRule ^branding-and-design branding-and-design.php [NE,L]
 
 RewriteRule ^automation automation.php [NE,L]
-
-RewriteRule ^portfolio portfolio.php [NE,L]
 
 RewriteRule ^portfolio portfolio.php [NE,L]
 

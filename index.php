@@ -6,152 +6,19 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Get The Website - Digital Agency</title>
-    <!-- favicon  -->
-    <link href="assets/images/Fav_Icon.png" rel="shortcut icon" type="image/x-icon">
-    <!-- faremwork of css -->
-    <link href="assets/css/bootstrap-lib/bootstrap.min.css" rel="stylesheet">
-    <!-- style sheet of css -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Responsive sheet of css -->
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <!-- fonts awsome icon link  -->
-    <link href="assets/font-awesome-lib/icon/font-awesome.min.css" rel="stylesheet">
-    <!-- slick-slider link css -->
-    <link href="assets/css/slick.min.css" rel="stylesheet">
-    <!-- animation of css -->
-    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <?php
+    include 'include/css.php';
+    ?>
 </head>
 
 <body>
 
 <div class="site-wrapper">
     <!-- ======== 1.1. Header section ======== -->
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg container pt-lg-4 pt-3 pb-lg-4 pb-3" data-aos="fade-down">
-            <div class="container-fluid">
-                <!-- Company Logo -->
-                <a class="nav-logo p-0" href="index.html">
-                    <figure><img alt="Get The Website Logo" src="assets/images/logo.png"></figure>
-                </a>
-
-                <!-- Navigation Toggle Button -->
-                <div class="d-flex gap-3 flex-row-reverse">
-                    <button class="open-aside" onclick="open_aside()" type="button">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <!-- Main Navigation Menu -->
-                    <div class="d-flex justify-content-end gap-xl-4 gap-lg-3">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-3 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-
-                                <!-- Services Dropdown -->
-                                <li class="dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Services
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                        <li><a class="dropdown-item" href="services-web-development.html">Web Development</a></li>
-                                        <li><a class="dropdown-item" href="services-mobile-development.html">Mobile App Development</a></li>
-                                        <li><a class="dropdown-item" href="services-ecommerce.html">E-commerce Solutions</a></li>
-                                        <li><a class="dropdown-item" href="services-seo.html">SEO & Marketing</a></li>
-                                        <li><a class="dropdown-item" href="services-maintenance.html">Website Maintenance</a></li>
-                                        <li><a class="dropdown-item" href="services-ux-design.html">Branding & Design</a></li>
-                                        <li><a class="dropdown-item" href="services-ux-design.html">Automation</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Call-to-Action and Search -->
-                        <div>
-                            <a class="hover1 down-btn" href="#get-started" id="getStartedAnchor">Get Started</a>
-                        </div>
-                        <div class="Search_Icon">
-                            <input class="Search_checkbox" name="SearchCheckBox" type="radio">
-                            <div class="Search_box">
-                                <div class="iconContainer">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </div>
-                                <input class="search_input" name="SearchInputArea" placeholder="Search" type="text">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Sidebar (Mobile Navigation) -->
-        <aside>
-            <div class="right-sidbar" id="mySidenav">
-                <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
-                    <figure class="navbar-brand">
-                        <a href="index.html">
-                            <img alt="Logo" src="assets/images/logo.svg">
-                        </a>
-                    </figure>
-                    <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
-                </div>
-                <ul class="pt-4">
-                    <li class="nav-item active">
-                        <a aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html">About</a>
-                    </li>
-
-                    <!-- Services (Expandable for Sidebar) -->
-                    <li class="nav-item">
-                        <div class="d-flex align-items-center justify-content-between" id="slid-btn">
-                            <button class="a-slid page-btn">Services</button>
-                            <i class="fa-solid fa-caret-down pe-2"></i>
-                        </div>
-                        <ul id="slid-drop">
-                            <li><a href="services-web-development.html">Web Development</a></li>
-                            <li><a href="services-mobile-development.html">Mobile App Development</a></li>
-                            <li><a href="services-ecommerce.html">E-commerce Solutions</a></li>
-                            <li><a href="services-seo.html">SEO & Marketing</a></li>
-                            <li><a href="services-maintenance.html">Website Maintenance</a></li>
-                            <li><a href="services-ux-design.html">Branding & Design</a></li>
-                            <li><a href="services-ux-design.html">Automation</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="faq.html">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-    </header>
+    <?php
+    include 'include/header.php';
+    ?>
     <!-- ======== End of 1.1. Header section ========  -->
     <!-- ======== 1.2. Hero section ========  -->
     <section class="Hero">
@@ -1178,163 +1045,15 @@
     </section>
     <!-- ======== End of 1.14. ContactUs section ========  -->
     <!-- ======== 1.15. Footer section ========  -->
-    <footer>
-        <div class="container">
-            <div class="d-flex flex-md-column flex-row-reverse w-100">
-                <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
-                    <a href="ContactUs.html">
-                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                            <figure class="d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-home"></i>
-                            </figure>
-                            <div class="d-flex flex-column gap-1">
-                                <h6>Address</h6>
-                                <p>Ground Floor, Kabir Monjil, 16 KDA Ave, Khulna 9100</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="ContactUs.html">
-                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                            <figure class="d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-envelope"></i>
-                            </figure>
-                            <div class="d-flex flex-column gap-1">
-                                <h6>Email Address</h6>
-                                <p>
-                                    info@getthewebsite.net
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="ContactUs.html">
-                        <div class="d-flex gap-lg-4 gap-2 align-items-center">
-                            <figure class="d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-phone"></i>
-                            </figure>
-                            <div class="d-flex flex-column gap-1">
-                                <h6>Phone Number</h6>
-                                <p>01729-277765</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <hr>
-                <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
-                    <figure>
-                        <a href="index.html">
-                            <img alt="Footer_logo" src="assets/images/footer_Icon.svg">
-                        </a>
-                    </figure>
-                    <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
-                        <input name="FooterEmail" placeholder="Subscribe Our newsletter" required="" type="email">
-                        <button class="hover2" type="submit">Get Started</button>
-                    </form>
-                    <div aria-hidden="true" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"
-                         tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <img alt="submitIcon" src="assets/images/icons/Confirmation_1.gif">
-                                <div>
-                                    <h4>Response Submitted</h4>
-                                    <h6>Your details have been successfully submitted. Thanks</h6>
-                                </div>
-                                <button class="hover1 m-auto" data-bs-dismiss="modal" type="button">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                    <figure class="d-flex align-items-center gap-lg-4 gap-3">
-                        <a href="#">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column text-center gap-3 w-100 ">
-                <p>
-                    Copyright &copy; <span id="year"></span> By
-                    Get The Website. All Rights Reserved.
-                </p>
-                <p>Powered by FrogBID</p>
-            </div>
-        </div>
-        <!-- scroll to top  -->
-        <button class="scrollToTopButton">
-            <svg class="progress-ring" height="69" width="69">
-                <circle cx="34.5" cy="34.5" fill="transparent" r="30.5" stroke="#5c569a" stroke-width="4"></circle>
-                <circle class="progress-ring__circle" cx="34.5" cy="34.5" fill="transparent" r="30.5"
-                        stroke="white" stroke-width="4">
-                </circle>
-            </svg>
-            <span class="icon"></span>
-        </button>
-    </footer>
+    <?php
+    include 'include/footer.php';
+    ?>
     <!-- ======== End of 1.15. Footer section ========  -->
 </div>
 
-<!-- bootstrap min javascript -->
-<script src="assets/js/javascript-lib/bootstrap.min.js"></script>
-<!-- j Query -->
-<script src="assets/js/jquery.js"></script>
-<!-- slick slider js -->
-<script src="assets/js/slick.min.js"></script>
-<!-- main javascript -->
-<script src="assets/js/custom.js"></script>
-<!-- animation from javascript -->
-<script src="assets/js/aos.js"></script>
-
-<script>
-    AOS.init({
-        once: true,
-        duration: 1500,
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-        const images = document.querySelectorAll("img");
-        images.forEach(img => {
-            img.setAttribute("loading", "lazy");
-        });
-    });
-</script>
-
-<script>(function () {
-    function c() {
-        var b = a.contentDocument || a.contentWindow.document;
-        if (b) {
-            var d = b.createElement('script');
-            d.innerHTML = "window.__CF$cv$params={r:'8e3e0ac11cf67709',t:'MTczMTgyODkwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
-            b.getElementsByTagName('head')[0].appendChild(d)
-        }
-    }
-
-    if (document.body) {
-        var a = document.createElement('iframe');
-        a.height = 1;
-        a.width = 1;
-        a.style.position = 'absolute';
-        a.style.top = 0;
-        a.style.left = 0;
-        a.style.border = 'none';
-        a.style.visibility = 'hidden';
-        document.body.appendChild(a);
-        if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else {
-            var e = document.onreadystatechange || function () {
-            };
-            document.onreadystatechange = function (b) {
-                e(b);
-                'loading' !== document.readyState && (document.onreadystatechange = e, c())
-            }
-        }
-    }
-})();</script>
+<?php
+ include 'include/js.php';
+?>
 </body>
 
 </html>
