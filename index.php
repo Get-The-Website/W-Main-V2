@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="zxx">
-
 <head>
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -8,16 +7,14 @@
     <title>Get The Website - Digital Agency</title>
 
     <?php
-    include 'include/css.php';
+        include 'include/css.php';
     ?>
 </head>
-
 <body>
-
 <div class="site-wrapper">
     <!-- ======== 1.1. Header section ======== -->
     <?php
-    include 'include/header.php';
+        include 'include/header.php';
     ?>
     <!-- ======== End of 1.1. Header section ========  -->
     <!-- ======== 1.2. Hero section ========  -->
@@ -1046,14 +1043,13 @@
     <!-- ======== End of 1.14. ContactUs section ========  -->
     <!-- ======== 1.15. Footer section ========  -->
     <?php
-    include 'include/footer.php';
+        include 'include/footer.php';
     ?>
     <!-- ======== End of 1.15. Footer section ========  -->
 </div>
 
 <?php
- include 'include/js.php';
+    include 'include/js.php';
 ?>
 </body>
-
 </html>

@@ -6,20 +6,10 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>ComingSoon - Optimistx</title>
-    <!-- favicon  -->
-    <link href="assets/images/Fav_Icon.png" rel="shortcut icon" type="image/x-icon">
-    <!-- faremwork of css -->
-    <link href="assets/css/bootstrap-lib/bootstrap.min.css" rel="stylesheet">
-    <!-- style sheet of css -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Responsive sheet of css -->
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <!-- fonts awsome icon link  -->
-    <link href="assets/font-awesome-lib/icon/font-awesome.min.css" rel="stylesheet">
-    <!-- slick-slider link css -->
-    <link href="assets/css/slick.min.css" rel="stylesheet">
-    <!-- animation of css -->
-    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <?php
+        include 'include/css.php';
+    ?>
 </head>
 
 <body>
@@ -61,53 +51,8 @@
     <!-- ======== End of 11.1. ComingSoon section ========  -->
 </div>
 
-<!-- bootstrap min javascript -->
-<script src="assets/js/javascript-lib/bootstrap.min.js"></script>
-<!-- j Query -->
-<script src="assets/js/jquery.js"></script>
-<!-- slick slider js -->
-<script src="assets/js/slick.min.js"></script>
-<!-- main javascript -->
-<script src="assets/js/custom.js"></script>
-<!-- animation from javascript -->
-<script src="assets/js/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        duration: 1500,
-    });
-</script>
-
-<script>(function () {
-        function c() {
-            var b = a.contentDocument || a.contentWindow.document;
-            if (b) {
-                var d = b.createElement('script');
-                d.innerHTML = "window.__CF$cv$params={r:'8e3e0b32cf8b7709',t:'MTczMTgyODkyNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                b.getElementsByTagName('head')[0].appendChild(d)
-            }
-        }
-
-        if (document.body) {
-            var a = document.createElement('iframe');
-            a.height = 1;
-            a.width = 1;
-            a.style.position = 'absolute';
-            a.style.top = 0;
-            a.style.left = 0;
-            a.style.border = 'none';
-            a.style.visibility = 'hidden';
-            document.body.appendChild(a);
-            if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else {
-                var e = document.onreadystatechange || function () {
-                };
-                document.onreadystatechange = function (b) {
-                    e(b);
-                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
-                }
-            }
-        }
-    })();</script>
+<?php
+    include 'include/js.php';
+?>
 </body>
-
 </html>
