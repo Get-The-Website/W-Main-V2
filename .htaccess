@@ -12,7 +12,7 @@ RewriteRule ^ecommerce-solution ecommerce-solution.php [NE,L]
 
 RewriteRule ^seo-and-marketing seo-and-marketing.php [NE,L]
 
-RewriteRule ^website-maintainance website-maintainance.php [NE,L]
+RewriteRule ^website-maintenance website-maintenance.php [NE,L]
 
 RewriteRule ^branding-and-design branding-and-design.php [NE,L]
 
@@ -25,3 +25,9 @@ RewriteRule ^blog blog.php [NE,L]
 RewriteRule ^faq faq.php [NE,L]
 
 RewriteRule ^contact contact.php [NE,L]
+
+RewriteRule ^error contact.php [NE,L]
+
+RewriteRule ^coming-soon coming-soon.php [NE,L]
+
+RewriteRule ^insert contact.php [NE,L]
