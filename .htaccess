@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteRule ^home index.php [NE,L]
+
+RewriteRule ^about about.php [NE,L]
+
+RewriteRule ^web-development web-development.php [NE,L]
+
+RewriteRule ^mobile-app-development mobile-app-development.php [NE,L]
+
+RewriteRule ^ecommerce-solution ecommerce-solution.php [NE,L]
+
+RewriteRule ^seo-and-marketing seo-and-marketing.php [NE,L]
+
+RewriteRule ^website-maintainance seo-and-marketing.php [NE,L]
+
+RewriteRule ^branding-and-design branding-and-design.php [NE,L]
+
+RewriteRule ^automation automation.php [NE,L]
+
+RewriteRule ^portfolio portfolio.php [NE,L]
+
+RewriteRule ^portfolio portfolio.php [NE,L]
+
+RewriteRule ^blog blog.php [NE,L]
+
+RewriteRule ^faq faq.php [NE,L]
+
+RewriteRule ^contact contact.php [NE,L]
