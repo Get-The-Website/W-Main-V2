@@ -41,8 +41,8 @@
             <hr>
             <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
                 <figure>
-                    <a href="index.html">
-                        <img alt="Footer_logo" src="assets/images/footer_Icon.svg">
+                    <a href="home">
+                        <img alt="Footer_logo" src="assets/images/logo.png">
                     </a>
                 </figure>
                 <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
