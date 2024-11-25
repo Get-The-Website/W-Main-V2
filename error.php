@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Optimistx</title>
+    <title>Get The Website - Error</title>
 
     <?php
         include 'include/css.php';
@@ -20,12 +20,12 @@
             <div class="d-flex justify-content-center align-items-center flex-column mx-auto text-center"
                  data-aos="fade-up">
                 <h4>Ooops... Page Not Found</h4>
-                <h1 class="lh-1">404</h1>
+                <h1 class="lh-1">Error</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore
                     et dolore magna aliqua.</p>
                 <div class="pt-5">
-                    <a href="index.php" class="hover2">Back To Home</a>
+                    <a href="home" class="hover2">Back To Home</a>
                 </div>
             </div>
         </div>
