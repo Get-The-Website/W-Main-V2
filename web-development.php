@@ -22,8 +22,7 @@
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
                 <h1>Web Development</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
+                <p>Build innovative, responsive, and scalable websites tailored to meet your business needs. Our expert team delivers seamless user experiences and cutting-edge web solutions to help your brand thrive online.</p>
             </div>
         </div>
     </section>
@@ -33,10 +32,11 @@
         <div class="container position-relative">
             <div>
                 <figure class="position-absolute w-25">
-                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
+                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services Background">
                 </figure>
             </div>
             <div class="row gy-4">
+                <!-- Social Media Marketing -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
@@ -44,10 +44,7 @@
                         </figure>
                         <h6>Social Media Marketing</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Harness the power of social media to amplify your brand's voice. We craft targeted campaigns that engage audiences, drive traffic, and boost conversions across platforms like Facebook, Instagram, LinkedIn, and more.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -56,6 +53,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Creative Solutions -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
@@ -63,10 +61,7 @@
                         </figure>
                         <h6>Creative Solutions</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            From unique website designs to innovative marketing strategies, we provide creative solutions that set your brand apart in a crowded market. Let us turn your ideas into impactful results.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -75,17 +70,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- Business Strategy -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
+                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="Business Strategy">
                         </figure>
                         <h6>Business Strategy</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Align your digital presence with your business goals. Our strategic planning helps you identify opportunities, overcome challenges, and achieve sustainable growth in your industry.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -94,17 +87,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- SEO Optimization -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/SEO.svg" alt="Trophy">
+                            <img src="assets/images/icons/SEO.svg" alt="SEO Optimization">
                         </figure>
                         <h6>SEO Optimization</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Improve your website's visibility and attract more organic traffic. Our SEO experts optimize your site for search engines, ensuring your brand ranks high and reaches its target audience.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -113,17 +104,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- Brand Identity -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/Trophy.svg" alt="Trophy">
+                            <img src="assets/images/icons/Trophy.svg" alt="Brand Identity">
                         </figure>
                         <h6>Brand Identity</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Build a strong and memorable brand identity that resonates with your audience. We design logos, color schemes, and brand guidelines that communicate your values and stand the test of time.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -132,17 +121,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- Content Writing -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
+                            <img src="assets/images/icons/Content_Writing.svg" alt="Content Writing">
                         </figure>
                         <h6>Content Writing</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Deliver compelling content that speaks to your audience. From blogs to web copy, our expert writers create engaging, SEO-friendly content to enhance your brand’s communication.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -182,12 +169,9 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
                         <div class="w-75">
-                            <h4>We Are Professional SEO Agency</h4>
+                            <h4>We Are a Leading Web Development Agency</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
-                                velit consectetur massa mauris molestie hac. Hac arcu amet
-                                nullam pellentesque. Urna eu suspendisse felis sodales sit
-                                non.
+                                Bring your vision to life with our innovative web development services. From responsive designs to advanced functionality, we craft websites that engage users and deliver exceptional results.
                             </p>
                         </div>
                         <div class="d-flex flex-column gap-lg-4 gap-4">
@@ -195,26 +179,25 @@
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     01
                                 </h6>
-                                <p>Urna eu suspendisse felis sodales.</p>
+                                <p>Custom solutions tailored to your business needs.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     02
                                 </h6>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Seamless user experience across all devices.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     03
                                 </h6>
-                                <p>In nulla nunc arcu velit consectetur.</p>
+                                <p>Scalable and future-proof development practices.</p>
                             </div>
                         </div>
                         <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
                             <div><a href="web-development" class="hover2">Learn More</a></div>
                             <div>
-                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long"
-                                                                          aria-hidden="true"></i>
+                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                     Get Started</a>
                             </div>
                         </div>
@@ -227,30 +210,23 @@
     <!-- ======== End of 5.1. Solutions section ========  -->
     <section class="Solutions Product">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
-                 data-aos="fade-up">
-                <h4>Enterprise Business Solutions</h4>
-                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
-                    auctor
-                    hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
+            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
+                <h4>Transform Your Business with Expert Solutions</h4>
+                <p>
+                    Discover the power of innovative solutions designed to elevate your business performance, enhance customer satisfaction, and foster sustainable success. Let us help you achieve your vision with our comprehensive services.
                 </p>
             </div>
             <div class="row gy-4 mt-lg-3 mt-2">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Creative Solutions">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Solutions</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Innovative Strategies</h6>
+                            <p class="py-lg-3 py-2">
+                                Leverage cutting-edge strategies to tackle challenges and seize new opportunities. Our team brings a fresh perspective to redefine your business solutions.
+                            </p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa-solid fa-arrow-right-long"></i>
@@ -262,18 +238,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Email Marketing">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Email Marketing</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Targeted Email Campaigns</h6>
+                            <p class="py-lg-3 py-2">
+                                Reach your audience effectively with data-driven email marketing. Increase engagement and conversions with tailored messaging strategies.
+                            </p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -285,18 +256,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product Design">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Innovative Product Designs</h6>
+                            <p class="py-lg-3 py-2">
+                                Develop products that inspire and engage. Our innovative designs combine functionality with aesthetic appeal to deliver outstanding user experiences.
+                            </p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -308,20 +274,13 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="Product_Hover h-100" data-aos="flip-left">
                         <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Product_Img1">
+                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Advanced Design Solutions">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Product Design</h6>
-                            <p class="py-lg-3 py-2 m-0">Lorem ipsum dolor sit amet consectetur. Neque
-                                eget
-                                pharetra
-                                amet vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6 class="my-sm-0 my-2">Enhanced User Experience</h6>
+                            <p class="py-lg-3 py-2 m-0">
+                                Design seamless and user-centric interfaces that make a lasting impact. Elevate customer satisfaction with solutions that prioritize usability and accessibility.
+                            </p>
                             <div class="mb-2">
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -331,11 +290,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3"
-                         data-aos="flip-left">
+                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3" data-aos="flip-left">
                         <h4>
-                            Got any projects in mind? Don’t hesitate to get in touch with
-                            us!
+                            Have a Vision? Let's Turn It into Reality!
                         </h4>
                         <div>
                             <a href="web-development" class="hover4">
@@ -348,18 +305,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product Branding">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product branding</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Strategic Branding</h6>
+                            <p class="py-lg-3 py-2">
+                                Build a strong, memorable brand presence that resonates with your target market. Our branding services ensure consistency and impact across all platforms.
+                            </p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -371,18 +323,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="SEO Marketing Solutions">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>SEO Marketing Solution</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Optimized SEO Strategies</h6>
+                            <p class="py-lg-3 py-2">
+                                Boost your online visibility and stay ahead of the competition with our customized SEO strategies. We help you connect with the right audience effectively.
+                            </p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -394,18 +341,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Creative Design">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Exceptional Creativity</h6>
+                            <p class="py-lg-3 py-2">
+                                Take your visuals to the next level with our creative design solutions. From branding to marketing, we craft designs that leave a lasting impression.
+                            </p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
