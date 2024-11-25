@@ -39,7 +39,7 @@
                         <!-- Call-to-Action Buttons -->
                         <div class="d-flex pt-5 gap-lg-5 gap-3">
                             <div>
-                                <a class="hover3" href="about.html">
+                                <a class="hover3" href="about">
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                     Get Started
                                 </a>
@@ -139,7 +139,7 @@
                             ensuring functionality, scalability, and cutting-edge design.
                         </p>
                         <div class="pt-lg-3">
-                            <a class="hover3" href="Services.html">
+                            <a class="hover3" href="web-development">
                                 <i class="fa-solid fa-arrow-right-long"></i>
                                 Learn More
                             </a>
@@ -156,7 +156,7 @@
                             specialized SEO and optimization services for long-term success.
                         </p>
                         <div class="pt-lg-3">
-                            <a class="hover3" href="Services.html">
+                            <a class="hover3" href="web-development">
                                 <i class="fa-solid fa-arrow-right-long"></i>
                                 Learn More
                             </a>
@@ -173,7 +173,7 @@
                             seamless operations and minimal downtime for your business.
                         </p>
                         <div class="pt-lg-3">
-                            <a class="hover3" href="Services.html">
+                            <a class="hover3" href="web-development">
                                 <i class="fa-solid fa-arrow-right-long"></i>
                                 Learn More
                             </a>
@@ -190,7 +190,7 @@
                             expert Branding & Design services that prioritize user experience.
                         </p>
                         <div class="pt-lg-3">
-                            <a class="hover3" href="Services.html">
+                            <a class="hover3" href="web-development">
                                 <i class="fa-solid fa-arrow-right-long"></i>
                                 Learn More
                             </a>
@@ -250,13 +250,13 @@
                         <!-- Call-to-Actions -->
                         <div class="d-flex gap-lg-4 gap-3 align-items-center py-lg-3 py-2">
                             <div>
-                                <a class="hover3" href="Testimonial.html">
+                                <a class="hover3" href="contact">
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                     Start Your Project
                                 </a>
                             </div>
                             <div>
-                                <a class="hover2" href="Testimonial.html">Learn More About Us</a>
+                                <a class="hover2" href="contact">Learn More About Us</a>
                             </div>
                         </div>
                     </div>
@@ -291,7 +291,7 @@
                                     Maximize your social media impact with tailored campaigns that increase engagement, grow your audience, and boost conversions across all platforms.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="Services.html">View Detail
+                                    <a class="hover5" href="web-development">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -307,7 +307,7 @@
                                     Transform your vision into reality with innovative designs and strategies that set your brand apart in a crowded market.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="Services.html">View Detail
+                                    <a class="hover5" href="web-development">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -323,7 +323,7 @@
                                     Improve your search engine rankings with advanced SEO techniques, driving organic traffic and achieving long-term growth.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="Services.html">View Detail
+                                    <a class="hover5" href="web-development">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -339,7 +339,7 @@
                                     Establish a powerful brand identity that resonates with your audience and builds lasting connections.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="Services.html">View Detail
+                                    <a class="hover5" href="web-development">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -348,7 +348,7 @@
 
                         <!-- View All Services Button -->
                         <div class="d-flex mt-lg-4 mt-4 align-items-center justify-content-center w-100">
-                            <a class="w-100 text-center" href="Services.html">Explore All Services</a>
+                            <a class="w-100 text-center" href="web-development">Explore All Services</a>
                         </div>
                     </div>
                 </div>
@@ -365,7 +365,7 @@
                             </p>
                             <!-- Call-to-Action Button -->
                             <div class="d-flex justify-content-lg-center pt-md-5 pt-4">
-                                <a class="hover4" href="Services.html">
+                                <a class="hover4" href="web-development">
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                     Get Started
                                 </a>
@@ -419,7 +419,7 @@
                         </div>
                         <!-- Call to Action: Get Started -->
                         <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
-                            <a class="hover3" href="Services.html">
+                            <a class="hover3" href="web-development">
                                 <i aria-hidden="true" class="fa fa-long-arrow-right"></i>
                                 Get Started
                             </a>
@@ -462,7 +462,7 @@
                 <h2>We Think, We Design, We Create</h2>
                 <!-- Contact Us Button -->
                 <div class="mt-sm-4 mt-sm-3 mt-2">
-                    <a class="hover2" href="ContactUs.html">Contact Us Today!</a>
+                    <a class="hover2" href="contact">Contact Us Today!</a>
                 </div>
             </div>
         </div>
@@ -552,7 +552,7 @@
             <!-- Call to Actions -->
             <div class="d-flex justify-content-center align-items-center gap-3">
                 <div>
-                    <a class="hover2" href="About.html">Learn More</a>
+                    <a class="hover2" href="about">Learn More</a>
                 </div>
                 <div>
                     <a class="hover4" href="#">
@@ -594,7 +594,7 @@
                                 Our email marketing campaigns are designed to engage your audience and drive conversions. With expertly crafted messages and targeted lists, we help you build lasting relationships with your customers and boost sales.
                             </p>
                             <div>
-                                <a class="hover5" href="Projects.html">
+                                <a class="hover5" href="web-development">
                                     View Detail <i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i>
                                 </a>
                             </div>
@@ -614,7 +614,7 @@
                                 We offer innovative and tailored branding solutions that resonate with your target audience. From logo design to full-scale branding strategies, we help define your brand's identity and create a memorable impression.
                             </p>
                             <div>
-                                <a class="hover5" href="Projects.html">
+                                <a class="hover5" href="web-development">
                                     View Detail <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 </a>
                             </div>
@@ -634,7 +634,7 @@
                                 Our creative design services are crafted to bring your ideas to life through visually stunning websites and graphic designs. Whether you need a new website or a rebranding, we design digital experiences that captivate and engage.
                             </p>
                             <div>
-                                <a class="hover5" href="Projects.html">
+                                <a class="hover5" href="web-development">
                                     View Detail <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 </a>
                             </div>
@@ -654,7 +654,7 @@
                                 Our product design services focus on creating functional and aesthetic designs that solve real-world problems. From concept to final product, we ensure a seamless design process that aligns with your brand and user needs.
                             </p>
                             <div class="mb-2">
-                                <a class="hover5" href="Projects.html">
+                                <a class="hover5" href="web-development">
                                     View Detail <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 </a>
                             </div>
@@ -669,7 +669,7 @@
                             Do you have a project idea or need help with design? Let’s work together to bring your vision to life!
                         </h4>
                         <div>
-                            <a class="hover4" href="Projects.html">
+                            <a class="hover4" href="web-development">
                                 <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 Get Started
                             </a>
@@ -679,7 +679,7 @@
 
                 <!-- View All Projects Button -->
                 <div class="w-100 d-flex justify-content-center align-items-center mt-lg-5 mt-md-4 text-center">
-                    <a href="Projects.html">View All Projects</a>
+                    <a href="web-development">View All Projects</a>
                 </div>
             </div>
         </div>
@@ -743,10 +743,10 @@
                         <!-- Call to Action -->
                         <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
                             <div>
-                                <a class="hover2" href="Services.html">Learn More</a>
+                                <a class="hover2" href="web-development">Learn More</a>
                             </div>
                             <div>
-                                <a class="hover3" href="Services.html"><i aria-hidden="true" class="fa fa-arrow-right-long"></i> Get Started</a>
+                                <a class="hover3" href="web-development"><i aria-hidden="true" class="fa fa-arrow-right-long"></i> Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -871,7 +871,7 @@
                         <h5>Simple Ways To Optimize Your Website For SEO</h5>
                     </a>
                     <div class="d-flex align-items-center">
-                        <a class="hover5" href="Blog.html">Read More
+                        <a class="hover5" href="blog">Read More
                             <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                         </a>
                     </div>
@@ -889,7 +889,7 @@
                         <h5>How to Improve Your Site's User Experience (UX)</h5>
                     </a>
                     <div class="d-flex align-items-center">
-                        <a class="hover5" href="Blog.html">Read More
+                        <a class="hover5" href="blog">Read More
                             <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                         </a>
                     </div>
@@ -907,7 +907,7 @@
                         <h5>Why Content Marketing Is Crucial For Your Business Growth</h5>
                     </a>
                     <div class="d-flex align-items-center">
-                        <a class="hover5" href="Blog.html">Read More
+                        <a class="hover5" href="blog">Read More
                             <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                         </a>
                     </div>

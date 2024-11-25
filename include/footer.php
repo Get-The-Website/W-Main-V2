@@ -2,7 +2,7 @@
     <div class="container">
         <div class="d-flex flex-md-column flex-row-reverse w-100">
             <div class="d-flex justify-content-between align-items-md-center gap-md-4 gap-3">
-                <a href="ContactUs.html">
+                <a href="contact">
                     <div class="d-flex gap-lg-4 gap-2 align-items-center">
                         <figure class="d-flex justify-content-center align-items-center">
                             <i class="fa-solid fa-home"></i>
@@ -13,7 +13,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="ContactUs.html">
+                <a href="contact">
                     <div class="d-flex gap-lg-4 gap-2 align-items-center">
                         <figure class="d-flex justify-content-center align-items-center">
                             <i class="fa-solid fa-envelope"></i>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="ContactUs.html">
+                <a href="contact">
                     <div class="d-flex gap-lg-4 gap-2 align-items-center">
                         <figure class="d-flex justify-content-center align-items-center">
                             <i class="fa-solid fa-phone"></i>

@@ -88,7 +88,7 @@
                             </div>
                         </div>
                         <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
-                            <a href="Services.html" class="hover3">
+                            <a href="web-development" class="hover3">
                                 <i class="fa fa-long-arrow-right"></i>
                                 Get Started
                             </a>
@@ -224,13 +224,13 @@
                         </div>
                         <div class="d-flex gap-lg-5 gap-4 align-items-center py-lg-3 py-2">
                             <div>
-                                <a class="hover3" href="Testimonial.html">
+                                <a class="hover3" href="contact">
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                     Get Started
                                 </a>
                             </div>
                             <div>
-                                <a href="Testimonial.html" class="hover2">Learn More</a>
+                                <a href="contact" class="hover2">Learn More</a>
                             </div>
                         </div>
                     </div>

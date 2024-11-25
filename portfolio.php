@@ -137,7 +137,7 @@
                             us!
                         </h4>
                         <div>
-                            <a href="Projects.html" class="hover4">
+                            <a href="web-development" class="hover4">
                                 <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                 Get Started
                             </a>
@@ -323,7 +323,7 @@
                 </div>
                 <h2>We Think, We Design, We Create</h2>
                 <div class="mt-sm-4 mt-sm-3 mt-2">
-                    <a href="ContactUs.html" class="hover2">Contact Us Today!</a>
+                    <a href="contact" class="hover2">Contact Us Today!</a>
                 </div>
             </div>
         </div>

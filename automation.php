@@ -211,9 +211,9 @@
                             </div>
                         </div>
                         <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div><a href="Services.html" class="hover2">Learn More</a></div>
+                            <div><a href="web-development" class="hover2">Learn More</a></div>
                             <div>
-                                <a href="Services.html" class="hover3"><i class="fa fa-arrow-right-long"
+                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long"
                                                                           aria-hidden="true"></i>
                                     Get Started</a>
                             </div>
@@ -338,7 +338,7 @@
                             us!
                         </h4>
                         <div>
-                            <a href="Projects.html" class="hover4">
+                            <a href="web-development" class="hover4">
                                 <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                 Get Started
                             </a>
