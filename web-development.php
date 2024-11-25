@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Optimistx</title>
+    <title>Get The Website - Web Development</title>
 
     <?php
         include 'include/css.php';
@@ -21,18 +21,219 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>Our Projects</h1>
+                <h1>Web Development</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua.</p>
             </div>
         </div>
     </section>
     <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-    <!-- ======== 1.9. Products section ========  -->
-    <section class="Product">
+    <!-- ======== 1.5. Services section ========  -->
+    <section class="Services ServicesPage_Services">
         <div class="container position-relative">
-            <div class="position-absolute m-0">
-                <img src="assets/images/icons/Product_Flower.svg" alt="Product_Bg">
+            <div>
+                <figure class="position-absolute w-25">
+                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
+                </figure>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
+                        </figure>
+                        <h6>Social Media Marketing</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Solution.svg" alt="Solution">
+                        </figure>
+                        <h6>Creative Solutions</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
+                        </figure>
+                        <h6>Business Strategy</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/SEO.svg" alt="Trophy">
+                        </figure>
+                        <h6>SEO Optimization</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Trophy.svg" alt="Trophy">
+                        </figure>
+                        <h6>Brand Identity</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
+                        </figure>
+                        <h6>Content Writing</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
+                            mauris gravida. Egestas ullamcorper dictum auctor
+                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
+                            blandit. Diam lectus volutpat eu id purus odio.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <a class="hover5" href="#">View Detail
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.5. Services section ========  -->
+    <!-- ======== 1.10. Agency section ========  -->
+    <section class="Agency">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="d-flex justify-content-between w-100 position-relative h-100">
+                        <figure class="h-100 w-100" data-aos="fade-down">
+                            <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
+                        </figure>
+                        <div>
+                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp"
+                                 alt="Circle">
+                            <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
+                        </div>
+                        <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
+                            <figure>
+                                <img src="assets/images/index/Agency_Img2.webp" alt="Agency_Img2">
+                            </figure>
+                            <figure>
+                                <img src="assets/images/index/Agency_Img3.webp" alt="Agency_Img3">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
+                        <div class="w-75">
+                            <h4>We Are Professional SEO Agency</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
+                                velit consectetur massa mauris molestie hac. Hac arcu amet
+                                nullam pellentesque. Urna eu suspendisse felis sodales sit
+                                non.
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column gap-lg-4 gap-4">
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    01
+                                </h6>
+                                <p>Urna eu suspendisse felis sodales.</p>
+                            </div>
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    02
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
+                                <h6 class="d-flex justify-content-center align-items-center">
+                                    03
+                                </h6>
+                                <p>In nulla nunc arcu velit consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
+                            <div><a href="Services.html" class="hover2">Learn More</a></div>
+                            <div>
+                                <a href="Services.html" class="hover3"><i class="fa fa-arrow-right-long"
+                                                                          aria-hidden="true"></i>
+                                    Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======== End of 1.10. Agency section ========  -->
+    <!-- ======== End of 5.1. Solutions section ========  -->
+    <section class="Solutions Product">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
+                 data-aos="fade-up">
+                <h4>Enterprise Business Solutions</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
+                    auctor
+                    hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
+                </p>
             </div>
             <div class="row gy-4 mt-lg-3 mt-2">
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -214,10 +415,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- ======== End of 1.9. Products section ========  -->
+    <!-- ======== End of 5.1. Solutions section ========  -->
     <!-- ======== 1.13. Partners section ========  -->
     <section class="Partners pt-0">
         <div class="container">
@@ -310,41 +510,40 @@
         </div>
     </section>
     <!-- ======== End of 1.13. Partners section ========  -->
-    <!-- ======== 1.6. Video section ========  -->
-    <section class="Video">
-        <div class="container">
-            <div class="d-flex justify-content-center align-items-center gap-lg-5 gap-4 flex-column text-center"
-                 data-aos="zoom-in-up">
-                <div>
-                    <a>
-                        <i class="fa fa-play ps-1 d-flex justify-content-center align-items-center"
-                           data-bs-toggle="modal" data-bs-target="#staticBackdropVideo" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <h2>We Think, We Design, We Create</h2>
-                <div class="mt-sm-4 mt-sm-3 mt-2">
-                    <a href="ContactUs.html" class="hover2">Contact Us Today!</a>
-                </div>
+    <!-- ======== 1.14. ContactUs section ========  -->
+    <section class="ContactUs">
+        <div class="container px-md-5">
+            <div data-aos="fade-up">
+                <h1>Let’s Talk</h1>
+                <p class="w-50">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
             </div>
-        </div>
-        <div class="modal fade" id="staticBackdropVideo" data-bs-backdrop="static" data-bs-keyboard="false"
-             tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered h-100 my-0 mx-auto">
-                <div class="modal-content d-flex align-items-center justify-content-center border-0">
-                    <div class="modal-body">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                                class="fa-solid fa-xmark"></i></button>
-                        <iframe src="https://www.youtube.com/embed/u31qwQUeGuM?si=o1Nt3XrgyYRKwJ13"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""
-                                loading="lazy"></iframe>
+            <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
+                <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
+                    <input name="ContactName" type="text" placeholder="Your Name" required="">
+                    <input name="ContactEmail" type="tel" placeholder="Email" required="">
+                </div>
+                <input name="ContactNumber" type="number" placeholder="Phone Number" required="">
+                <textarea name="ContactComment" placeholder="Write here message" rows="10" required=""></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="assets/images/icons/Confirmation_1.gif" alt="submitIcon">
+                        <div>
+                            <h4>Response Submitted</h4>
+                            <h6>Your details have been successfully submitted. Thanks</h6>
+                        </div>
+                        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ======== End of 1.6. Video section ========  -->
+    <!-- ======== End of 1.14. ContactUs section ========  -->
     <!-- ======== 1.15. Footer section ========  -->
     <?php
         include 'include/footer.php';
@@ -353,7 +552,7 @@
 </div>
 
 <?php
-include 'include/js.php';
+    include 'include/js.php';
 ?>
 </body>
 </html>
