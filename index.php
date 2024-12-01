@@ -1006,35 +1006,30 @@
     <!-- ======== 1.14. ContactUs section ========  -->
     <section class="ContactUs">
         <div class="container px-md-5">
-            <!-- Section Heading -->
             <div data-aos="fade-up">
                 <h1>Let’s Talk</h1>
                 <p class="w-50">
-                    We’d love to hear from you! Whether you have a question, suggestion, or want to explore new opportunities, feel free to reach out.
+                    Have a project in mind or need assistance with your digital journey? Share your ideas with us, and let's make them a reality.
                 </p>
             </div>
-
-            <!-- Contact Form -->
             <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
                 <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
-                    <input name="ContactName" placeholder="Your Name" required="" type="text">
-                    <input name="ContactEmail" placeholder="Email" required="" type="email">
+                    <input name="ContactName" type="text" placeholder="Your Name" required>
+                    <input name="ContactEmail" type="email" placeholder="Email Address" required>
                 </div>
-                <input name="ContactNumber" placeholder="Phone Number" required="" type="tel">
-                <textarea name="ContactComment" placeholder="Write here message" required="" rows="10"></textarea>
+                <input name="ContactNumber" type="tel" placeholder="Phone Number" required>
+                <textarea name="ContactComment" placeholder="Write your message here" rows="10" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
-
-            <!-- Success Modal -->
-            <div aria-hidden="true" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+            <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <img alt="submitIcon" src="assets/images/icons/Confirmation_1.gif">
+                    <div class="modal-content text-center">
+                        <img src="assets/images/icons/Confirmation_1.gif" alt="Confirmation Icon">
                         <div>
-                            <h4>Response Submitted</h4>
-                            <h6>Your details have been successfully submitted. Thanks for reaching out!</h6>
+                            <h4>Thank You!</h4>
+                            <h6>Your message has been received. Our team will get back to you shortly.</h6>
                         </div>
-                        <button class="hover1 m-auto" data-bs-dismiss="modal" type="button">Close</button>
+                        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
