@@ -22,8 +22,7 @@
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
                 <h1>Automation</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
+                <p>Unlock efficiency and drive innovation with our cutting-edge automation solutions. From process automation to intelligent workflow management, we help businesses streamline operations, reduce human error, and accelerate growth.</p>
             </div>
         </div>
     </section>
@@ -42,13 +41,8 @@
                         <figure>
                             <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
                         </figure>
-                        <h6>Social Media Marketing</h6>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
-                        </p>
+                        <h6>Process Automation</h6>
+                        <p>Enhance operational efficiency by automating repetitive tasks and workflows. Our solutions help you reduce manual work, improve accuracy, and save valuable time.</p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
@@ -61,13 +55,8 @@
                         <figure>
                             <img src="assets/images/icons/Solution.svg" alt="Solution">
                         </figure>
-                        <h6>Creative Solutions</h6>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
-                        </p>
+                        <h6>Intelligent Workflow</h6>
+                        <p>Optimize your business processes with intelligent workflow solutions that adapt to your needs, ensuring seamless communication and task management across teams.</p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
@@ -80,13 +69,8 @@
                         <figure>
                             <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
                         </figure>
-                        <h6>Business Strategy</h6>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
-                        </p>
+                        <h6>AI-Powered Solutions</h6>
+                        <p>Leverage artificial intelligence to automate decision-making, enhance customer interactions, and predict future trends, leading to smarter business strategies.</p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
@@ -99,13 +83,8 @@
                         <figure>
                             <img src="assets/images/icons/SEO.svg" alt="Trophy">
                         </figure>
-                        <h6>SEO Optimization</h6>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
-                        </p>
+                        <h6>Cloud Automation</h6>
+                        <p>Implement cloud-based automation to scale your business infrastructure without compromising performance. Easily manage data and applications across multiple environments.</p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
@@ -118,13 +97,8 @@
                         <figure>
                             <img src="assets/images/icons/Trophy.svg" alt="Trophy">
                         </figure>
-                        <h6>Brand Identity</h6>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
-                        </p>
+                        <h6>Automated Reporting</h6>
+                        <p>Generate real-time, accurate reports with automated data collection and analysis, reducing manual oversight and enabling you to make informed decisions faster.</p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
@@ -137,13 +111,8 @@
                         <figure>
                             <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
                         </figure>
-                        <h6>Content Writing</h6>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
-                        </p>
+                        <h6>Robotic Process Automation (RPA)</h6>
+                        <p>Integrate robotic process automation to handle repetitive and time-consuming tasks, freeing up your workforce for more strategic, value-driven work.</p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
@@ -182,12 +151,9 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
                         <div class="w-75">
-                            <h4>We Are Professional SEO Agency</h4>
+                            <h4>We Are Professional Automation Agency</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
-                                velit consectetur massa mauris molestie hac. Hac arcu amet
-                                nullam pellentesque. Urna eu suspendisse felis sodales sit
-                                non.
+                                Unlock the full potential of your business with our cutting-edge automation solutions. We specialize in streamlining operations, reducing costs, and improving productivity with advanced process automation and intelligent workflows.
                             </p>
                         </div>
                         <div class="d-flex flex-column gap-lg-4 gap-4">
@@ -195,26 +161,26 @@
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     01
                                 </h6>
-                                <p>Urna eu suspendisse felis sodales.</p>
+                                <p>Automate repetitive tasks and reduce human error.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     02
                                 </h6>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Enhance workflow efficiency with intelligent automation.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     03
                                 </h6>
-                                <p>In nulla nunc arcu velit consectetur.</p>
+                                <p>Leverage AI-driven solutions for smarter decision-making.</p>
                             </div>
                         </div>
                         <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div><a href="web-development" class="hover2">Learn More</a></div>
+                            <div><a href="automation-solutions" class="hover2">Learn More</a></div>
                             <div>
-                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long"
-                                                                          aria-hidden="true"></i>
+                                <a href="automation-solutions" class="hover3"><i class="fa fa-arrow-right-long"
+                                                                                 aria-hidden="true"></i>
                                     Get Started</a>
                             </div>
                         </div>
@@ -229,11 +195,8 @@
         <div class="container">
             <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
                  data-aos="fade-up">
-                <h4>Enterprise Business Solutions</h4>
-                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
-                    auctor
-                    hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
-                </p>
+                <h4>Enterprise Automation Solutions</h4>
+                <p>Transform your business with cutting-edge automation solutions that streamline processes, improve efficiency, and drive growth. Our tailored solutions integrate seamlessly with your existing systems to deliver powerful results.</p>
             </div>
             <div class="row gy-4 mt-lg-3 mt-2">
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -242,15 +205,8 @@
                             <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Solutions</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Workflow Automation</h6>
+                            <p class="py-lg-3 py-2">Automate your routine tasks to enhance productivity and eliminate errors, allowing your team to focus on high-impact work.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa-solid fa-arrow-right-long"></i>
@@ -265,15 +221,8 @@
                             <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Email Marketing</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Email Automation</h6>
+                            <p class="py-lg-3 py-2">Streamline your email marketing campaigns with automation that allows you to reach your audience at the right time with personalized messages.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -288,15 +237,8 @@
                             <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>AI-driven Solutions</h6>
+                            <p class="py-lg-3 py-2">Leverage AI to optimize your processes and make intelligent, data-driven decisions that enhance business operations.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -311,17 +253,8 @@
                             <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Product Design</h6>
-                            <p class="py-lg-3 py-2 m-0">Lorem ipsum dolor sit amet consectetur. Neque
-                                eget
-                                pharetra
-                                amet vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6 class="my-sm-0 my-2">Robotic Process Automation</h6>
+                            <p class="py-lg-3 py-2 m-0">Automate manual tasks across your business with robotic process automation, enhancing operational efficiency and minimizing costs.</p>
                             <div class="mb-2">
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -334,11 +267,10 @@
                     <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3"
                          data-aos="flip-left">
                         <h4>
-                            Got any projects in mind? Don’t hesitate to get in touch with
-                            us!
+                            Got any automation projects in mind? Don’t hesitate to get in touch with us!
                         </h4>
                         <div>
-                            <a href="web-development" class="hover4">
+                            <a href="automation-solutions" class="hover4">
                                 <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                 Get Started
                             </a>
@@ -351,15 +283,8 @@
                             <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product branding</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Automation Consulting</h6>
+                            <p class="py-lg-3 py-2">Our experts guide you through the automation journey, providing consulting services that ensure a smooth and successful transition to automation.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -374,15 +299,8 @@
                             <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>SEO Marketing Solution</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Process Optimization</h6>
+                            <p class="py-lg-3 py-2">Enhance the efficiency of your operations by automating repetitive processes and improving workflow optimization to maximize business performance.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -397,15 +315,8 @@
                             <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Product_Img1">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Automation in Marketing</h6>
+                            <p class="py-lg-3 py-2">Transform your marketing efforts with automation tools that enable smarter lead generation, customer engagement, and campaign management.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
