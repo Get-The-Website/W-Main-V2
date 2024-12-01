@@ -365,10 +365,10 @@
         <div class="container">
             <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center"
                  data-aos="fade-up">
-                <h4>Companies We Love</h4>
+                <h4>Trusted by Leading Companies</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu velit
-                    consectetur massa mauris molestie hac.
+                    We are proud to collaborate with innovative businesses that share our vision for excellence and growth.
+                    Together, we build lasting partnerships and deliver impactful solutions.
                 </p>
             </div>
             <div class="row">
