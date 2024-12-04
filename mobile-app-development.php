@@ -197,7 +197,7 @@
                 </div>
             </div>
         </div>
-    </section>s
+    </section>
     <!-- ======== End of 1.10. Agency section ========  -->
     <!-- ======== End of 5.1. Solutions section ========  -->
     <section class="Solutions Product">

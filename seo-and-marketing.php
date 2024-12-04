@@ -21,9 +21,8 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>Seo & Marketing</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
+                <h1>SEO & Marketing</h1>
+                <p>Maximize your online presence with data-driven SEO strategies and impactful marketing campaigns. We help your business attract, engage, and convert the right audience to drive sustainable growth.</p>
             </div>
         </div>
     </section>
@@ -44,10 +43,7 @@
                         </figure>
                         <h6>Social Media Marketing</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Enhance your brand's online visibility and engagement with tailored social media strategies. We help you connect with your audience, build loyalty, and drive meaningful interactions.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -63,10 +59,7 @@
                         </figure>
                         <h6>Creative Solutions</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Discover innovative marketing strategies and creative campaigns designed to elevate your brand. We combine creativity and data-driven insights to deliver impactful results.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -82,10 +75,7 @@
                         </figure>
                         <h6>Business Strategy</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Build a comprehensive business strategy to achieve long-term success. We align your marketing goals with a results-oriented approach to drive growth and profitability.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -101,10 +91,7 @@
                         </figure>
                         <h6>SEO Optimization</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Improve your website's search engine rankings with cutting-edge SEO techniques. We ensure your business gets discovered by the right audience at the right time.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -120,10 +107,7 @@
                         </figure>
                         <h6>Brand Identity</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Craft a distinctive brand identity that resonates with your audience. From logos to messaging, we create cohesive designs that define and differentiate your brand.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -139,10 +123,7 @@
                         </figure>
                         <h6>Content Writing</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Engage your audience with high-quality, compelling content. Our expert writers craft content that tells your story, builds trust, and drives conversions.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -165,8 +146,7 @@
                             <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
                         </figure>
                         <div>
-                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp"
-                                 alt="Circle">
+                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp" alt="Circle">
                             <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
                         </div>
                         <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
@@ -182,12 +162,9 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
                         <div class="w-75">
-                            <h4>We Are Professional SEO Agency</h4>
+                            <h4>We Are Your Trusted SEO Experts</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
-                                velit consectetur massa mauris molestie hac. Hac arcu amet
-                                nullam pellentesque. Urna eu suspendisse felis sodales sit
-                                non.
+                                Unlock your business potential with our professional SEO services. We specialize in improving online visibility, driving organic traffic, and delivering measurable results tailored to your goals.
                             </p>
                         </div>
                         <div class="d-flex flex-column gap-lg-4 gap-4">
@@ -195,26 +172,25 @@
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     01
                                 </h6>
-                                <p>Urna eu suspendisse felis sodales.</p>
+                                <p>Comprehensive keyword research and analysis to boost visibility.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     02
                                 </h6>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>On-page optimization strategies to enhance user experience.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     03
                                 </h6>
-                                <p>In nulla nunc arcu velit consectetur.</p>
+                                <p>Customized link-building campaigns for long-term growth.</p>
                             </div>
                         </div>
                         <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div><a href="web-development" class="hover2">Learn More</a></div>
+                            <div><a href="seo-services" class="hover2">Learn More</a></div>
                             <div>
-                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long"
-                                                                          aria-hidden="true"></i>
+                                <a href="seo-services" class="hover3"><i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                     Get Started</a>
                             </div>
                         </div>
@@ -227,34 +203,21 @@
     <!-- ======== End of 5.1. Solutions section ========  -->
     <section class="Solutions Product">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
-                 data-aos="fade-up">
-                <h4>Enterprise Business Solutions</h4>
-                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
-                    auctor
-                    hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
-                </p>
+            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
+                <h4>Comprehensive SEO & Marketing Solutions</h4>
+                <p>Elevate your digital presence with data-driven SEO strategies and innovative marketing campaigns. We help your business rank higher, reach the right audience, and achieve measurable growth.</p>
             </div>
             <div class="row gy-4 mt-lg-3 mt-2">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="On-Page SEO">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Solutions</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>On-Page SEO</h6>
+                            <p class="py-lg-3 py-2">Optimize your website’s structure, content, and performance to improve search engine rankings and provide a seamless user experience.</p>
                             <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa-solid fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -262,22 +225,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Content Marketing">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Email Marketing</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Content Marketing</h6>
+                            <p class="py-lg-3 py-2">Craft compelling, keyword-rich content that drives traffic, engages users, and builds authority in your niche.</p>
                             <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -285,22 +239,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="PPC Campaigns">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>PPC Campaigns</h6>
+                            <p class="py-lg-3 py-2">Maximize your ROI with targeted pay-per-click campaigns that drive qualified leads to your website.</p>
                             <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -308,62 +253,36 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="Product_Hover h-100" data-aos="flip-left">
                         <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Product_Img1">
+                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Technical SEO">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Product Design</h6>
-                            <p class="py-lg-3 py-2 m-0">Lorem ipsum dolor sit amet consectetur. Neque
-                                eget
-                                pharetra
-                                amet vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Technical SEO</h6>
+                            <p class="py-lg-3 py-2 m-0">Ensure your website is optimized for crawling and indexing with a robust technical SEO strategy that enhances visibility and site performance.</p>
                             <div class="mb-2">
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3"
-                         data-aos="flip-left">
-                        <h4>
-                            Got any projects in mind? Don’t hesitate to get in touch with
-                            us!
-                        </h4>
+                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3" data-aos="flip-left">
+                        <h4>Ready to Dominate Search Engines?</h4>
+                        <p>Let us create a personalized SEO and marketing plan to accelerate your business growth. Contact us today!</p>
                         <div>
-                            <a href="web-development" class="hover4">
-                                <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                Get Started
-                            </a>
+                            <a href="web-development" class="hover4"><i class="fa fa-arrow-right-long" aria-hidden="true"></i> Get Started</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Social Media Marketing">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product branding</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Social Media Marketing</h6>
+                            <p class="py-lg-3 py-2">Expand your reach and build meaningful connections with your audience through strategic social media marketing campaigns.</p>
                             <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -371,22 +290,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Local SEO">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>SEO Marketing Solution</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Local SEO</h6>
+                            <p class="py-lg-3 py-2">Enhance your local visibility with optimized listings, targeted keywords, and strategies designed to attract nearby customers.</p>
                             <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -394,22 +304,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Analytics & Reporting">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Analytics & Reporting</h6>
+                            <p class="py-lg-3 py-2">Track, analyze, and optimize your campaigns with in-depth analytics and transparent reporting to ensure consistent performance improvement.</p>
                             <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                                <a href="#" class="hover5">View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
