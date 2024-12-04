@@ -21,9 +21,8 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>Website Maintenance</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
+                <h1>Website Maintenance Services</h1>
+                <p>Ensure your website is always up-to-date, secure, and performing at its best. Our comprehensive website maintenance solutions provide peace of mind, allowing you to focus on growing your business.</p>
             </div>
         </div>
     </section>
@@ -33,7 +32,7 @@
         <div class="container position-relative">
             <div>
                 <figure class="position-absolute w-25">
-                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
+                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services Background">
                 </figure>
             </div>
             <div class="row gy-4">
@@ -42,12 +41,9 @@
                         <figure>
                             <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
                         </figure>
-                        <h6>Social Media Marketing</h6>
+                        <h6>Regular Updates</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Keep your website fresh and functional with regular updates, ensuring compatibility with the latest technology and trends.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -61,12 +57,9 @@
                         <figure>
                             <img src="assets/images/icons/Solution.svg" alt="Solution">
                         </figure>
-                        <h6>Creative Solutions</h6>
+                        <h6>Security Checks</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Protect your website from threats with proactive security measures, including malware scans and vulnerability fixes.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -78,14 +71,11 @@
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
+                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="Magnifying Glass">
                         </figure>
-                        <h6>Business Strategy</h6>
+                        <h6>Performance Optimization</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Ensure fast loading speeds and seamless user experiences with advanced performance tuning and monitoring.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -97,14 +87,11 @@
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/SEO.svg" alt="Trophy">
+                            <img src="assets/images/icons/SEO.svg" alt="SEO Optimization">
                         </figure>
-                        <h6>SEO Optimization</h6>
+                        <h6>SEO Maintenance</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Stay ahead in search rankings with ongoing SEO adjustments and keyword performance analysis.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -118,12 +105,9 @@
                         <figure>
                             <img src="assets/images/icons/Trophy.svg" alt="Trophy">
                         </figure>
-                        <h6>Brand Identity</h6>
+                        <h6>Backup Solutions</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Safeguard your data with automated backups and quick restoration options to keep your website running smoothly.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -135,14 +119,11 @@
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
-                            <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
+                            <img src="assets/images/icons/Content_Writing.svg" alt="Content Writing">
                         </figure>
-                        <h6>Content Writing</h6>
+                        <h6>Content Updates</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget etiam eu
-                            mauris gravida. Egestas ullamcorper dictum auctor
-                            hendrerit viverra. Tempus etiam laoreet pretium aliquam
-                            blandit. Diam lectus volutpat eu id purus odio.
+                            Keep your site engaging and relevant with regular content updates and enhancements that resonate with your audience.
                         </p>
                         <div class="d-flex align-items-center">
                             <a class="hover5" href="#">View Detail
@@ -165,8 +146,7 @@
                             <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
                         </figure>
                         <div>
-                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp"
-                                 alt="Circle">
+                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp" alt="Circle">
                             <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
                         </div>
                         <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
@@ -182,12 +162,10 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
                         <div class="w-75">
-                            <h4>We Are Professional SEO Agency</h4>
+                            <h4>Your Trusted Website Maintenance Agency</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. In nulla nunc arcu
-                                velit consectetur massa mauris molestie hac. Hac arcu amet
-                                nullam pellentesque. Urna eu suspendisse felis sodales sit
-                                non.
+                                Elevate your online presence with expert website maintenance services. From regular updates
+                                to enhanced security and performance optimization, we ensure your site runs smoothly and stays relevant.
                             </p>
                         </div>
                         <div class="d-flex flex-column gap-lg-4 gap-4">
@@ -195,26 +173,25 @@
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     01
                                 </h6>
-                                <p>Urna eu suspendisse felis sodales.</p>
+                                <p>Regular updates to ensure compatibility and functionality.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     02
                                 </h6>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Advanced security measures to protect against vulnerabilities.</p>
                             </div>
                             <div class="d-flex gap-lg-4 gap-3 align-items-center">
                                 <h6 class="d-flex justify-content-center align-items-center">
                                     03
                                 </h6>
-                                <p>In nulla nunc arcu velit consectetur.</p>
+                                <p>Performance optimization for a seamless user experience.</p>
                             </div>
                         </div>
                         <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
                             <div><a href="web-development" class="hover2">Learn More</a></div>
                             <div>
-                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long"
-                                                                          aria-hidden="true"></i>
+                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                     Get Started</a>
                             </div>
                         </div>
@@ -229,28 +206,21 @@
         <div class="container">
             <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
                  data-aos="fade-up">
-                <h4>Enterprise Business Solutions</h4>
-                <p>Lorem ipsum dolor sit amet consectetur. Eget etiam eu mauris gravida. Egestas ullamcorper dictum
-                    auctor
-                    hendrerit viverra. Tempus etiam laoreet pretium aliquam blandit.
-                </p>
+                <h4>Website Maintenance Services</h4>
+                <p>Ensure your website stays up-to-date, secure, and performs optimally. Our comprehensive website maintenance
+                    services cover regular updates, security enhancements, and performance optimization to keep your site running
+                    smoothly and securely.</p>
             </div>
             <div class="row gy-4 mt-lg-3 mt-2">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Security Updates">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Solutions</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Security Updates</h6>
+                            <p class="py-lg-3 py-2">Protect your website from the latest security threats with regular updates and
+                                vulnerability patches. We ensure your site remains safe from attacks and data breaches.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa-solid fa-arrow-right-long"></i>
@@ -262,18 +232,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Performance Optimization">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Email Marketing</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Performance Optimization</h6>
+                            <p class="py-lg-3 py-2">Ensure fast loading times and smooth performance across devices. We optimize
+                                your website’s speed and overall performance for an enhanced user experience.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -285,18 +249,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Content Updates">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Content Updates</h6>
+                            <p class="py-lg-3 py-2">Keep your website fresh and engaging with regular content updates. From
+                                blog posts to new features, we ensure your content is always current.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -308,20 +266,12 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="Product_Hover h-100" data-aos="flip-left">
                         <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Product_Img1">
+                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Website Backups">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Product Design</h6>
-                            <p class="py-lg-3 py-2 m-0">Lorem ipsum dolor sit amet consectetur. Neque
-                                eget
-                                pharetra
-                                amet vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6 class="my-sm-0 my-2">Website Backups</h6>
+                            <p class="py-lg-3 py-2 m-0">We perform regular backups to ensure your website’s data is always safe
+                                and recoverable in case of an emergency.</p>
                             <div class="mb-2">
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -334,8 +284,7 @@
                     <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3"
                          data-aos="flip-left">
                         <h4>
-                            Got any projects in mind? Don’t hesitate to get in touch with
-                            us!
+                            Need Assistance with Website Maintenance? Let’s Get in Touch!
                         </h4>
                         <div>
                             <a href="web-development" class="hover4">
@@ -348,18 +297,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="SEO Maintenance">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Product branding</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>SEO Maintenance</h6>
+                            <p class="py-lg-3 py-2">Keep your website optimized for search engines with ongoing SEO maintenance.
+                                We ensure your site remains visible and ranks well on search engines.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -371,18 +314,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Website Analytics">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>SEO Marketing Solution</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Website Analytics</h6>
+                            <p class="py-lg-3 py-2">Track your website’s performance with detailed analytics and reporting. We
+                                provide insights into your traffic, user behavior, and site health.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
@@ -394,18 +331,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="Product_Hover" data-aos="flip-left">
                         <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Product_Img1">
+                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Bug Fixes">
                         </figure>
                         <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Design</h6>
-                            <p class="py-lg-3 py-2">Lorem ipsum dolor sit amet consectetur. Neque eget pharetra amet
-                                vulputate
-                                consequat
-                                eget. Velit vitae
-                                pretium fringilla mollis. Sed posuere elit enim pretium odio tincidunt. Velit aenean
-                                pulvinar enim
-                                quam
-                                turpis arcu sed.</p>
+                            <h6>Bug Fixes</h6>
+                            <p class="py-lg-3 py-2">Ensure your website functions smoothly with regular bug fixes. We address and
+                                resolve issues promptly to ensure uninterrupted performance.</p>
                             <div>
                                 <a href="#" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>

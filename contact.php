@@ -24,7 +24,7 @@
         <h1 class="d-none">Lorem ipsum dolor sit.</h1>
         <iframe allowfullscreen=""
                 data-aos="zoom-in-up" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36692.198056712055!2d-122.45744662978882!3d37.77022795386011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1716969660518!5m2!1sen!2s" style="border:0; width:100%; height:432px;"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d229.8591538835608!2d89.55795710835874!3d22.811856668588412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1733295371603!5m2!1sen!2sbd" style="border:0; width:100%; height:432px;"></iframe>
     </section>
     <!-- ======== End of 3.1. Map section ========  -->
     <!-- ======== 1.14. ContactUs section ========  -->
@@ -33,28 +33,27 @@
             <div data-aos="fade-up">
                 <h1>Let’s Talk</h1>
                 <p class="w-50">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Have a project in mind or need assistance with your digital journey? Share your ideas with us, and let's make them a reality.
                 </p>
             </div>
             <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
                 <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
-                    <input name="ContactName" placeholder="Your Name" required="" type="text">
-                    <input name="ContactEmail" placeholder="Email" required="" type="email">
+                    <input name="ContactName" type="text" placeholder="Your Name" required>
+                    <input name="ContactEmail" type="email" placeholder="Email Address" required>
                 </div>
-                <input name="ContactNumber" placeholder="Phone Number" required="" type="tel">
-                <textarea name="ContactComment" placeholder="Write here message" required="" rows="10"></textarea>
+                <input name="ContactNumber" type="tel" placeholder="Phone Number" required>
+                <textarea name="ContactComment" placeholder="Write your message here" rows="10" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
-            <div aria-hidden="true" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+            <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <img alt="submitIcon" src="assets/images/icons/Confirmation_1.gif">
+                    <div class="modal-content text-center">
+                        <img src="assets/images/icons/Confirmation_1.gif" alt="Confirmation Icon">
                         <div>
-                            <h4>Response Submitted</h4>
-                            <h6>Your details have been successfully submitted. Thanks</h6>
+                            <h4>Thank You!</h4>
+                            <h6>Your message has been received. Our team will get back to you shortly.</h6>
                         </div>
-                        <button class="hover1 m-auto" data-bs-dismiss="modal" type="button">Close</button>
+                        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
