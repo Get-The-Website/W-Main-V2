@@ -29,13 +29,13 @@
                             With Our Expert Development Services
                         </h4>
                         <!-- Website Audit Form -->
-                        <div>
+<!--                        <div>
                             <form class="pt-md-5 pt-4 d-flex gap-2">
                                 <input class="w-75" name="WebsiteAudit" placeholder="Audit your website" required=""
                                        type="url">
                                 <button class="hover2" type="submit">Audit</button>
                             </form>
-                        </div>
+                        </div>-->
                         <!-- Call-to-Action Buttons -->
                         <div class="d-flex pt-5 gap-lg-5 gap-3">
                             <div>
@@ -45,9 +45,9 @@
                                 </a>
                             </div>
                             <div>
-                                <a class="hover4" href="#">
+                                <a class="hover4" href="https://demo.getthewebsite.net/">
                                     <i class="fa fa-play d-flex justify-content-center align-items-center"></i>
-                                    Watch Video
+                                    View Demo
                                 </a>
                             </div>
                         </div>
