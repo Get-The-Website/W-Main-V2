@@ -66,7 +66,7 @@ $isServiceActive = in_array($currentPage, $servicePages);
                         </ul>
                     </div>
                     <div>
-                        <a class="hover1 down-btn" href="contact" id="getStartedAnchor">Get Started</a>
+                        <a class="hover1 down-btn" href="https://demo.getthewebsite.net/" id="getStartedAnchor">View Demo</a>
                     </div>
                     <div class="Search_Icon">
                         <input class="Search_checkbox" name="SearchCheckBox" type="radio">
