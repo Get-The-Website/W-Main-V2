@@ -1,9 +1,9 @@
 <?php
 class DBController {
     private $host = "localhost";
-    private $user = "root";
-    private $password = "";
-    private $database = "getthewebsite";
+    private $user = "u994228968_getthewebsite";
+    private $password = "u3!GIE1=]#qm";
+    private $database = "u994228968_getthewebsite";
     private $from_email= "noreply@getthewebsite.net";
     private $notify_email= "frogbidofficial@gmail.com";
     private $conn;
