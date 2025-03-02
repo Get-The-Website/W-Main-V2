@@ -30,4 +30,4 @@ RewriteRule ^error contact.php [NE,L]
 
 RewriteRule ^coming-soon coming-soon.php [NE,L]
 
-RewriteRule ^insert contact.php [NE,L]
+RewriteRule ^insert insert.php [NE,L]

@@ -199,23 +199,57 @@ $(document).ready(function () {
 
 //  1.14. ContactUs section === Submit message
 const contactForm = document.querySelector(".ContactUs form");
-if (contactForm !== null)
+
+if (contactForm !== null) {
   contactForm.addEventListener("submit", function (event) {
-    const path = document
-      .querySelector(".ContactUs .modal img")
-      .getAttribute("src");
-    document.querySelector(".ContactUs .modal img").setAttribute("src", "");
-    event.preventDefault();
-    var modal = new bootstrap.Modal(
-      document.querySelector(".ContactUs .modal")
-    );
-    modal.show();
-    document.querySelector(".ContactUs form").reset();
+    event.preventDefault(); // Prevent form from submitting normally
+
+    const formData = new FormData(contactForm); // Collect form data
+
+    // Manually append the submit value
+    formData.append("contactSubmit", "true");
+
+    // Log formData to ensure it's populated
+    for (const [key, value] of formData.entries()) {
+      console.log(`${key}: ${value}`);
+    }
+
+    const path = document.querySelector(".ContactUs .modal img").getAttribute("src");
+    document.querySelector(".ContactUs .modal img").setAttribute("src", ""); // Clear the image
+    var modal = new bootstrap.Modal(document.querySelector(".ContactUs .modal"));
+    modal.show(); // Show the modal
+
+    // Reset the form
+    contactForm.reset();
+
+    // Restore the image in the modal
     document.querySelector(".ContactUs .modal img").setAttribute("src", path);
-    setTimeout(() => {
-      modal.hide();
-    }, 5000);
+
+    // Send form data using fetch (AJAX submission)
+    fetch('insert', {
+      method: 'POST',
+      body: formData
+    })
+        .then(response => response.json())
+        .then(data => {
+          // If the form submission was successful
+          console.log(data);
+          if (data.status === 'success') {
+
+            // Hide the modal after 5 seconds
+            setTimeout(() => {
+              modal.hide();
+            }, 5000);
+          } else {
+            alert('There was an issue with your submission');
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('Error submitting form. Please try again later.');
+        });
   });
+}
 
 // ======= 1.15. Footer Date ========
 if (document.getElementById("year")) {
