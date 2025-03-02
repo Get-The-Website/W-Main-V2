@@ -16,7 +16,9 @@ $servicePages = [
 // Check if the current page is a service page
 $isServiceActive = in_array($currentPage, $servicePages);
 ?>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2DK5V9K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header>
     <nav class="navbar navbar-expand-lg container pt-lg-4 pt-3 pb-lg-4 pb-3" data-aos="fade-down">
         <div class="container-fluid">
