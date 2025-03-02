@@ -215,7 +215,7 @@
                         <!-- Main Image -->
                         <figure>
                             <img alt="Goal Image" class="w-100" data-aos="fade-up"
-                                 src="assets/images/index/Goal_img.webp">
+                                 src="assets/images/index/goal-image.png">
                         </figure>
                         <!-- Decorative Doodle -->
                         <figure class="position-absolute">
@@ -440,7 +440,7 @@
                         </div>
                         <!-- Company Image -->
                         <figure class="w-100 h-100" data-aos="fade-down">
-                            <img alt="Company Image" class="w-100 h-100" src="assets/images/index/company_Img1.webp">
+                            <img alt="Company Image" class="w-100 h-100" src="assets/images/index/company-image.png">
                         </figure>
                     </div>
                 </div>
