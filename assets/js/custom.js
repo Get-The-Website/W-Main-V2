@@ -263,21 +263,57 @@ if (document.getElementById("year")) {
 
 //  1.15. Footer section === Submit message
 const mainForm = document.querySelector("footer form");
-if (mainForm !== null)
+
+if (mainForm !== null) {
   mainForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent default form submission
+
+    const formData = new FormData(mainForm);
+    formData.append("submitNewsletter", "true"); // Ensure the submit value is included
+
+    // Handle modal logic
     const path = document
-      .querySelector("footer .modal img")
-      .getAttribute("src");
-    document.querySelector("footer .modal img").setAttribute("src", "");
-    event.preventDefault();
-    var modal = new bootstrap.Modal(document.querySelector("footer .modal"));
-    modal.show();
-    document.querySelector("footer form").reset();
+        .querySelector("footer .modal img")
+        .getAttribute("src");
+    document.querySelector("footer .modal img").setAttribute("src", ""); // Clear image
+    var modal = new bootstrap.Modal(
+        document.querySelector("footer .modal")
+    );
+    modal.show(); // Show modal
+
+    // Reset form
+    mainForm.reset();
+
+    // Restore image in the modal
     document.querySelector("footer .modal img").setAttribute("src", path);
-    setTimeout(() => {
-      modal.hide();
-    }, 5000);
+
+
+    // Send form data via AJAX
+    fetch("insert", {
+      method: "POST",
+      body: formData,
+    })
+        .then((response) => response.json()) // Parse JSON response
+        .then((data) => {
+          console.log(data); // Debugging response
+
+          if (data.status === "success") {
+
+            // Hide modal after 5 seconds
+            setTimeout(() => {
+              modal.hide();
+            }, 5000);
+          } else {
+            alert("There was an issue with your subscription. Please try again.");
+          }
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          alert("Error submitting form. Please try again later.");
+        });
   });
+}
+
 
 //  6.1. Quote section === Submit message
 const QuoteForm = document.querySelector(".Quote form");

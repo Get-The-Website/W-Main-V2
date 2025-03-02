@@ -1012,14 +1012,15 @@
                     Have a project in mind or need assistance with your digital journey? Share your ideas with us, and let's make them a reality.
                 </p>
             </div>
-            <form class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
+            <form method="post" action="insert" class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
+                <input type="hidden" name="page" value="home" required/>
                 <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
                     <input name="ContactName" type="text" placeholder="Your Name" required>
                     <input name="ContactEmail" type="email" placeholder="Email Address" required>
                 </div>
                 <input name="ContactNumber" type="tel" placeholder="Phone Number" required>
                 <textarea name="ContactComment" placeholder="Write your message here" rows="10" required></textarea>
-                <button type="submit">Send Message</button>
+                <button type="submit" name="contactSubmit">Send Message</button>
             </form>
             <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">

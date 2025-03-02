@@ -45,9 +45,9 @@
                         <img alt="Footer_logo" src="assets/images/logo.png">
                     </a>
                 </figure>
-                <form action="#" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
+                <form action="insert" method="post" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
                     <input name="FooterEmail" placeholder="Subscribe Our newsletter" required="" type="email">
-                    <button class="hover2" type="submit">Get Started</button>
+                    <button class="hover2" type="submit" name="submitNewsletter">Get Started</button>
                 </form>
                 <div aria-hidden="true" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"
                      tabindex="-1">
