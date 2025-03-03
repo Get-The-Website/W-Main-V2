@@ -201,7 +201,7 @@ $(document).ready(function () {
 const contactForm = document.querySelector(".ContactUs form");
 
 if (contactForm !== null) {
-  contactForm.addEventListener("submit", function (event) {
+  contactForm.addEventListener("submit", async function (event) {
     event.preventDefault(); // Prevent form from submitting normally
 
     const formData = new FormData(contactForm); // Collect form data
@@ -225,29 +225,29 @@ if (contactForm !== null) {
     // Restore the image in the modal
     document.querySelector(".ContactUs .modal img").setAttribute("src", path);
 
-    // Send form data using fetch (AJAX submission)
-    fetch('insert', {
-      method: 'POST',
-      body: formData
-    })
-        .then(response => response.json())
-        .then(data => {
-          // If the form submission was successful
-          console.log(data);
-          if (data.status === 'success') {
+    try {
+      // Send form data using fetch (AJAX submission)
+      const response = await fetch('insert', {
+        method: 'POST',
+        body: formData
+      });
 
-            // Hide the modal after 5 seconds
-            setTimeout(() => {
-              modal.hide();
-            }, 5000);
-          } else {
-            alert('There was an issue with your submission');
-          }
-        })
-        .catch(error => {
-          console.error('Error:', error);
-          alert('Error submitting form. Please try again later.');
-        });
+      const data = await response.json();
+
+      // If the form submission was successful
+      console.log(data);
+      if (data.status === 'success') {
+        // Hide the modal after 5 seconds
+        setTimeout(() => {
+          modal.hide();
+        }, 5000);
+      } else {
+        alert('There was an issue with your submission');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Error submitting form. Please try again later.');
+    }
   });
 }
 
@@ -265,20 +265,16 @@ if (document.getElementById("year")) {
 const mainForm = document.querySelector("footer form");
 
 if (mainForm !== null) {
-  mainForm.addEventListener("submit", function (event) {
+  mainForm.addEventListener("submit", async function (event) {
     event.preventDefault(); // Prevent default form submission
 
     const formData = new FormData(mainForm);
     formData.append("submitNewsletter", "true"); // Ensure the submit value is included
 
     // Handle modal logic
-    const path = document
-        .querySelector("footer .modal img")
-        .getAttribute("src");
+    const path = document.querySelector("footer .modal img").getAttribute("src");
     document.querySelector("footer .modal img").setAttribute("src", ""); // Clear image
-    var modal = new bootstrap.Modal(
-        document.querySelector("footer .modal")
-    );
+    var modal = new bootstrap.Modal(document.querySelector("footer .modal"));
     modal.show(); // Show modal
 
     // Reset form
@@ -287,30 +283,29 @@ if (mainForm !== null) {
     // Restore image in the modal
     document.querySelector("footer .modal img").setAttribute("src", path);
 
+    try {
+      // Send form data via AJAX using fetch
+      const response = await fetch("insert", {
+        method: "POST",
+        body: formData,
+      });
 
-    // Send form data via AJAX
-    fetch("insert", {
-      method: "POST",
-      body: formData,
-    })
-        .then((response) => response.json()) // Parse JSON response
-        .then((data) => {
-          console.log(data); // Debugging response
+      const data = await response.json(); // Parse the response as JSON
 
-          if (data.status === "success") {
+      console.log(data); // Debugging response
 
-            // Hide modal after 5 seconds
-            setTimeout(() => {
-              modal.hide();
-            }, 5000);
-          } else {
-            alert("There was an issue with your subscription. Please try again.");
-          }
-        })
-        .catch((error) => {
-          console.error("Error:", error);
-          alert("Error submitting form. Please try again later.");
-        });
+      if (data.status === "success") {
+        // Hide modal after 5 seconds
+        setTimeout(() => {
+          modal.hide();
+        }, 5000);
+      } else {
+        alert("There was an issue with your subscription. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error submitting form. Please try again later.");
+    }
   });
 }
 

@@ -531,9 +531,10 @@
 
             <!-- Section Title and Description -->
             <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
-                <h3>Our Innovative Creations</h3>
+                <h3>Additional Services to Grow Your Business
+                </h3>
                 <p>
-                    From digital marketing to creative design, our team brings forward innovative solutions that help elevate your brand. Explore the range of services we've created to empower businesses like yours.
+                    Everything You Need for Online Success, In One Place.
                 </p>
             </div>
 
@@ -541,81 +542,37 @@
             <div class="row gy-4 mt-lg-3 mt-2">
                 <!-- Product 1: Email Marketing -->
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
+                    <div class="" data-aos="flip-left">
                         <figure class="w-100">
-                            <img alt="Product_Img1" class="w-100" src="assets/images/index/Product_Img1.webp">
+                            <img alt="Product_Img1" class="w-100" src="assets/images/product/digital.png">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Email Marketing Campaigns</h6>
-                            <p class="py-lg-3 py-2">
-                                Our email marketing campaigns are designed to engage your audience and drive conversions. With expertly crafted messages and targeted lists, we help you build lasting relationships with your customers and boost sales.
-                            </p>
-                            <div>
-                                <a class="hover5" href="web-development">
-                                    View Detail <i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
                 <!-- Product 2: Creative Solutions -->
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
+                    <div class="" data-aos="flip-left">
                         <figure class="w-100">
-                            <img alt="Product_Img2" class="w-100" src="assets/images/index/Product_Img2.webp">
+                            <img alt="Product_Img2" class="w-100" src="assets/images/product/content.png">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Branding Solutions</h6>
-                            <p class="py-lg-3 py-2">
-                                We offer innovative and tailored branding solutions that resonate with your target audience. From logo design to full-scale branding strategies, we help define your brand's identity and create a memorable impression.
-                            </p>
-                            <div>
-                                <a class="hover5" href="web-development">
-                                    View Detail <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
                 <!-- Product 3: Creative Design -->
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
+                    <div class="" data-aos="flip-left">
                         <figure class="w-100">
-                            <img alt="Product_Img3" class="w-100" src="assets/images/index/Product_Img3.webp">
+                            <img alt="Product_Img3" class="w-100" src="assets/images/product/branding.png">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Creative Web & Graphic Design</h6>
-                            <p class="py-lg-3 py-2">
-                                Our creative design services are crafted to bring your ideas to life through visually stunning websites and graphic designs. Whether you need a new website or a rebranding, we design digital experiences that captivate and engage.
-                            </p>
-                            <div>
-                                <a class="hover5" href="web-development">
-                                    View Detail <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
                 <!-- Product 4: Product Design -->
                 <div class="col-lg-6">
-                    <div class="Product_Hover h-100" data-aos="flip-left">
+                    <div class="h-100" data-aos="flip-left">
                         <figure class="w-100 h-100">
-                            <img alt="Product_Img4" class="w-100 h-100" src="assets/images/index/Product_Img4.webp">
+                            <img alt="Product_Img4" class="w-100" src="assets/images/product/social.png">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Innovative Product Design</h6>
-                            <p class="py-lg-3 py-2 m-0">
-                                Our product design services focus on creating functional and aesthetic designs that solve real-world problems. From concept to final product, we ensure a seamless design process that aligns with your brand and user needs.
-                            </p>
-                            <div class="mb-2">
-                                <a class="hover5" href="web-development">
-                                    View Detail <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -642,237 +599,6 @@
         </div>
     </section>
     <!-- ======== End of 1.9. Products section ========  -->
-    <!-- ======== 1.10. Agency section ========  -->
-    <section class="Agency">
-        <div class="container">
-            <div class="row">
-                <!-- Left Side: Images -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between w-100 position-relative h-100">
-                        <!-- Main Image -->
-                        <figure class="h-100 w-100" data-aos="fade-down">
-                            <img alt="Agency_Img1" src="assets/images/index/Agency_Img1.webp">
-                        </figure>
-                        <!-- Decorative Elements -->
-                        <div>
-                            <img alt="Circle" class="position-absolute" src="assets/images/index/Hero_small_circle.webp">
-                            <img alt="Doodle" class="position-absolute" src="assets/images/icons/goal_doddle.svg">
-                        </div>
-                        <!-- Additional Images -->
-                        <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
-                            <figure>
-                                <img alt="Agency_Img2" src="assets/images/index/Agency_Img2.webp">
-                            </figure>
-                            <figure>
-                                <img alt="Agency_Img3" src="assets/images/index/Agency_Img3.webp">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Right Side: Text and Features -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
-                        <!-- Title and Description -->
-                        <div class="w-75">
-                            <h4>We Are Your Trusted SEO Experts</h4>
-                            <p>
-                                At [Your Agency Name], we specialize in driving organic traffic and increasing online visibility for your business. Our SEO strategies are tailored to your specific goals, helping you rank higher on search engines and achieve lasting success.
-                            </p>
-                        </div>
-
-                        <!-- Key Features -->
-                        <div class="d-flex flex-column gap-lg-4 gap-4">
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">01</h6>
-                                <p>Comprehensive SEO Audits: We start with a deep analysis to understand your website's current performance and identify areas for improvement.</p>
-                            </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">02</h6>
-                                <p>On-Page Optimization: Our team will optimize your website’s structure, content, and technical aspects to enhance search engine rankings.</p>
-                            </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">03</h6>
-                                <p>Link Building & Outreach: We build high-quality backlinks and conduct outreach campaigns to boost your domain authority and rankings.</p>
-                            </div>
-                        </div>
-
-                        <!-- Call to Action -->
-                        <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div>
-                                <a class="hover2" href="web-development">Learn More</a>
-                            </div>
-                            <div>
-                                <a class="hover3" href="web-development"><i aria-hidden="true" class="fa fa-arrow-right-long"></i> Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.10. Agency section ========  -->
-    <!-- ======== 1.11. Testimonial section ========  -->
-    <section class="Testimonial">
-        <div class="container">
-            <!-- Section Heading -->
-            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
-                <h3>What Our Clients Say</h3>
-                <p>
-                    Discover how our clients feel about working with us. We're proud to have helped businesses grow with our services.
-                </p>
-            </div>
-        </div>
-
-        <!-- Testimonial Slider -->
-        <div class="Testimonial_Slider1 d-flex px-lg-4 gap-lg-4 mt-lg-5 mt-4 align-items-center justify-content-center">
-            <!-- Testimonial 1 -->
-            <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
-                <figure>
-                    <img alt="Testimonial1" src="assets/images/slider/Testimonial_Img1.webp">
-                </figure>
-                <div class="d-flex flex-column">
-                    <figure class="d-flex gap-2">
-                        <!-- Star Rating -->
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                    </figure>
-                    <!-- Testimonial Content -->
-                    <p class="py-3">
-                        "Working with [Your Company] was an absolute game-changer. Their approach to SEO and digital marketing exceeded my expectations. My website traffic has significantly increased, and I’ve seen noticeable improvements in search engine rankings."
-                    </p>
-                    <div class="d-flex flex-column gap-1">
-                        <h6>Sophia</h6>
-                        <p>Graphic Designer</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonial 2 -->
-            <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
-                <figure>
-                    <img alt="Testimonial2" src="assets/images/slider/Testimonial_Img2.webp">
-                </figure>
-                <div class="d-flex flex-column">
-                    <figure class="d-flex gap-2">
-                        <!-- Star Rating -->
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                    </figure>
-                    <!-- Testimonial Content -->
-                    <p class="py-3">
-                        "The team at [Your Company] helped me improve my website’s usability, resulting in more customer engagement. I highly recommend them for any design or SEO needs."
-                    </p>
-                    <div class="d-flex flex-column gap-1">
-                        <h6>Jophep</h6>
-                        <p>Data Analyst</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div class="d-flex gap-lg-5 mx-lg-3 mx-2">
-                <figure>
-                    <img alt="Testimonial3" src="assets/images/slider/Testimonial_Img3.webp">
-                </figure>
-                <div class="d-flex flex-column">
-                    <figure class="d-flex gap-2">
-                        <!-- Star Rating -->
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                        <i aria-hidden="true" class="fa fa-star"></i>
-                    </figure>
-                    <!-- Testimonial Content -->
-                    <p class="py-3">
-                        "The creative team at [Your Company] took my vision and turned it into a reality. The UI/UX design was exactly what I had hoped for, and their attention to detail was impeccable."
-                    </p>
-                    <div class="d-flex flex-column gap-1">
-                        <h6>Watson</h6>
-                        <p>UI/UX Designer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.11. Testimonial section ========  -->
-    <!-- ======== 1.12. Blog section ========  -->
-    <section class="Blog">
-        <div class="container">
-            <!-- Section Heading -->
-            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
-                <h3>Latest News</h3>
-                <p>
-                    Stay updated with the latest trends, tips, and insights in digital marketing, SEO, and web design.
-                </p>
-            </div>
-        </div>
-
-        <!-- Blog Posts -->
-        <div class="d-flex gap-lg-4 gap-3 mt-md-5 mt-4">
-            <!-- Blog 1 -->
-            <div class="position-relative" data-aos="flip-left">
-                <figure>
-                    <img alt="Blog1" src="assets/images/index/Blog_Img1.webp">
-                </figure>
-                <div class="position-absolute">
-                    <p class="date">August 1, 2023</p>
-                    <a href="#">
-                        <h5>Simple Ways To Optimize Your Website For SEO</h5>
-                    </a>
-                    <div class="d-flex align-items-center">
-                        <a class="hover5" href="blog">Read More
-                            <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog 2 -->
-            <div class="position-relative" data-aos="flip-left">
-                <figure>
-                    <img alt="Blog2" src="assets/images/index/Blog_Img2.webp">
-                </figure>
-                <div class="position-absolute">
-                    <p class="date">August 1, 2023</p>
-                    <a href="#">
-                        <h5>How to Improve Your Site's User Experience (UX)</h5>
-                    </a>
-                    <div class="d-flex align-items-center">
-                        <a class="hover5" href="blog">Read More
-                            <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog 3 -->
-            <div class="position-relative" data-aos="flip-left">
-                <figure>
-                    <img alt="Blog3" src="assets/images/index/Blog_Img3.webp">
-                </figure>
-                <div class="position-absolute">
-                    <p class="date">August 1, 2023</p>
-                    <a href="#">
-                        <h5>Why Content Marketing Is Crucial For Your Business Growth</h5>
-                    </a>
-                    <div class="d-flex align-items-center">
-                        <a class="hover5" href="blog">Read More
-                            <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.12. Blog section ========  -->
     <!-- ======== 1.13. Partners section ========  -->
     <section class="Partners">
         <div class="container">
