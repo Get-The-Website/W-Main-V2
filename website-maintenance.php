@@ -361,80 +361,68 @@
                 </p>
             </div>
             <div class="row">
-                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4" data-aos="zoom-in-up">
+                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4 justify-content-center" data-aos="zoom-in-up">
+                    <!-- Partner 1 -->
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                        <a href="#" aria-label="Partner 1">
+                            <img alt="Partner 1" src="assets/images/partners/Partner_1.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 2 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 2">
+                            <img alt="Partner 2" src="assets/images/partners/Partner_2.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 3 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 3">
+                            <img alt="Partner 3" src="assets/images/partners/Partner_3.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 4 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 4">
+                            <img alt="Partner 4" src="assets/images/partners/Partner_4.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 5 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 5">
+                            <img alt="Partner 5" src="assets/images/partners/Partner_5.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 6 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 6">
+                            <img alt="Partner 6" src="assets/images/partners/Partner_6.png">
+                        </a>
+                    </figure>
+                    <!-- Repeat for additional partners -->
+                    <figure>
+                        <a href="#" aria-label="Partner 7">
+                            <img alt="Partner 7" src="assets/images/partners/Partner_7.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                        <a href="#" aria-label="Partner 8">
+                            <img alt="Partner 8" src="assets/images/partners/Partner_8.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                        <a href="#" aria-label="Partner 9">
+                            <img alt="Partner 9" src="assets/images/partners/Partner_9.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                        <a href="#" aria-label="Partner 10">
+                            <img alt="Partner 10" src="assets/images/partners/Partner_10.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                </div>
-                <div class="Partners_Slider2 d-flex gap-lg-4" dir="rtl" data-aos="zoom-in-up">
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                        <a href="#" aria-label="Partner 11">
+                            <img alt="Partner 11" src="assets/images/partners/Partner_11.png">
+                        </a>
                     </figure>
                 </div>
             </div>

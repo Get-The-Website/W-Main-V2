@@ -36,106 +36,76 @@
                 </figure>
             </div>
             <div class="row gy-4">
-                <!-- Social Media Marketing -->
+                <!-- Custom Website Design -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
                             <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
                         </figure>
-                        <h6>Social Media Marketing</h6>
+                        <h6>Custom Website Design</h6>
                         <p>
-                            Harness the power of social media to amplify your brand's voice. We craft targeted campaigns that engage audiences, drive traffic, and boost conversions across platforms like Facebook, Instagram, LinkedIn, and more.
+                            We create unique, visually appealing websites tailored to your brand and goals. We focus on user experience to ensure your visitors love your site.
                         </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- Creative Solutions -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Solution.svg" alt="Solution">
-                        </figure>
-                        <h6>Creative Solutions</h6>
-                        <p>
-                            From unique website designs to innovative marketing strategies, we provide creative solutions that set your brand apart in a crowded market. Let us turn your ideas into impactful results.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Business Strategy -->
+                <!-- E-commerce Website Solutions -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
                             <img src="assets/images/icons/Bussiness_Strategy.svg" alt="Business Strategy">
                         </figure>
-                        <h6>Business Strategy</h6>
+                        <h6>E-commerce Website Solutions</h6>
                         <p>
-                            Align your digital presence with your business goals. Our strategic planning helps you identify opportunities, overcome challenges, and achieve sustainable growth in your industry.
+                            We help you sell online with easy-to-use e-commerce platforms. We set up your online store, payment gateways, and everything you need to start generating sales.
                         </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- SEO Optimization -->
+                <!-- Website Optimization and SEO -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
                             <img src="assets/images/icons/SEO.svg" alt="SEO Optimization">
                         </figure>
-                        <h6>SEO Optimization</h6>
+                        <h6>Website Optimization and SEO</h6>
                         <p>
-                            Improve your website's visibility and attract more organic traffic. Our SEO experts optimize your site for search engines, ensuring your brand ranks high and reaches its target audience.
+                            We improve your website's performance and search engine visibility. We ensure your website loads quickly, is mobile-friendly, and ranks higher on Google.
                         </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- Brand Identity -->
+                <!-- Website Maintenance and Support -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
                             <img src="assets/images/icons/Trophy.svg" alt="Brand Identity">
                         </figure>
-                        <h6>Brand Identity</h6>
+                        <h6>Website Maintenance and Support</h6>
                         <p>
-                            Build a strong and memorable brand identity that resonates with your audience. We design logos, color schemes, and brand guidelines that communicate your values and stand the test of time.
+                            We provide ongoing support to keep your website running smoothly. We handle updates, security, and technical issues, so you can focus on your business.
                         </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- Content Writing -->
+                <!-- Website Redesign and Updates -->
                 <div class="col-lg-4 col-md-6 flex-wrap">
                     <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
                         <figure>
                             <img src="assets/images/icons/Content_Writing.svg" alt="Content Writing">
                         </figure>
-                        <h6>Content Writing</h6>
+                        <h6>Website Redesign and Updates</h6>
                         <p>
-                            Deliver compelling content that speaks to your audience. From blogs to web copy, our expert writers create engaging, SEO-friendly content to enhance your brand’s communication.
+                            We give your current website a fresh new look, and update it to current web standards. We optimize it to improve its performance and user experience.
                         </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
+                    </div>
+                </div>
+                <!-- Content Management Systems (CMS) Integration -->
+                <div class="col-lg-4 col-md-6 flex-wrap">
+                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
+                        <figure>
+                            <img src="assets/images/icons/Content_Writing.svg" alt="Content Writing">
+                        </figure>
+                        <h6>Content Management Systems (CMS) Integration</h6>
+                        <p>
+                            We implement easy-to-use CMS systems that allow you to update your own website content, without needing to know code.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -372,80 +342,68 @@
                 </p>
             </div>
             <div class="row">
-                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4" data-aos="zoom-in-up">
+                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4 justify-content-center" data-aos="zoom-in-up">
+                    <!-- Partner 1 -->
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                        <a href="#" aria-label="Partner 1">
+                            <img alt="Partner 1" src="assets/images/partners/Partner_1.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 2 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 2">
+                            <img alt="Partner 2" src="assets/images/partners/Partner_2.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 3 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 3">
+                            <img alt="Partner 3" src="assets/images/partners/Partner_3.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 4 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 4">
+                            <img alt="Partner 4" src="assets/images/partners/Partner_4.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 5 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 5">
+                            <img alt="Partner 5" src="assets/images/partners/Partner_5.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 6 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 6">
+                            <img alt="Partner 6" src="assets/images/partners/Partner_6.png">
+                        </a>
+                    </figure>
+                    <!-- Repeat for additional partners -->
+                    <figure>
+                        <a href="#" aria-label="Partner 7">
+                            <img alt="Partner 7" src="assets/images/partners/Partner_7.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                        <a href="#" aria-label="Partner 8">
+                            <img alt="Partner 8" src="assets/images/partners/Partner_8.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                        <a href="#" aria-label="Partner 9">
+                            <img alt="Partner 9" src="assets/images/partners/Partner_9.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                        <a href="#" aria-label="Partner 10">
+                            <img alt="Partner 10" src="assets/images/partners/Partner_10.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                </div>
-                <div class="Partners_Slider2 d-flex gap-lg-4" dir="rtl" data-aos="zoom-in-up">
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                        <a href="#" aria-label="Partner 11">
+                            <img alt="Partner 11" src="assets/images/partners/Partner_11.png">
+                        </a>
                     </figure>
                 </div>
             </div>

@@ -24,9 +24,12 @@
                 <!-- Left Column (Text and CTA) -->
                 <div class="col-lg-6">
                     <div class="mt-lg-4 position-relative" data-aos="fade-up">
-                        <h1>Transform Your Ideas into Reality</h1>
+                        <h1>Get the Website
+                            Get the Growth
+                        </h1>
                         <h4>
-                            With Our Expert Development Services
+                            Get Your Website Started.
+                            Get Your Business Growing.
                         </h4>
                         <!-- Website Audit Form -->
 <!--                        <div>
@@ -41,7 +44,7 @@
                             <div>
                                 <a class="hover3" href="about">
                                     <i class="fa-solid fa-arrow-right-long"></i>
-                                    Get Started
+                                    Schedule a Free Consultation
                                 </a>
                             </div>
                             <div>
@@ -103,83 +106,53 @@
         <div class="container">
             <!-- Section Header -->
             <div class="text-center d-flex align-items-center mx-auto flex-column" data-aos="fade-up">
-                <h4>Enhance Your Online Presence</h4>
+                <h4>We Make Websites That Work For You</h4>
                 <p>
-                    Our innovative solutions are designed to elevate your business.
-                    From SEO to marketing, we bring results-driven strategies tailored
-                    to your needs.
+                    Simple solutions to get your business online and growing.
                 </p>
             </div>
             <div class="Features_Star position-relative">
                 <img alt="Decorative Star" class="position-absolute" src="assets/images/icons/Services_Star.svg">
             </div>
             <div class="row gy-lg-0 gy-4">
-                <!-- Feature 1: Marketing Services -->
+                <!-- Feature 1: Custom Web Development -->
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column gap-lg-2 gap-3 h-100" data-aos="flip-left">
                         <h3>01</h3>
-                        <h6 class="pt-2">Custom Web Development</h6>
+                        <h6 class="pt-2">Your Dream Website, Build Easy</h6>
                         <p class="pt-1">
-                            Tailored websites crafted to meet your unique business goals,
-                            ensuring functionality, scalability, and cutting-edge design.
+                            We design websites that look great and are simple to use. No complicated tech talk, just a website you'll love.
                         </p>
-                        <div class="pt-lg-3">
-                            <a class="hover3" href="web-development">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                                Learn More
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- Feature 2: SEO Optimizations -->
+                <!-- Feature 2: SEO & Performance -->
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column gap-lg-2 gap-3 h-100" data-aos="flip-left">
                         <h3>02</h3>
-                        <h6 class="pt-2">SEO & Performance</h6>
+                        <h6 class="pt-2">Make Your Website Run Smoothly</h6>
                         <p class="pt-1">
-                            Boost your search rankings and site performance with our
-                            specialized SEO and optimization services for long-term success.
+                            We design websites that look great and are simple to use. No complicated tech talk, just a website you'll love.
                         </p>
-                        <div class="pt-lg-3">
-                            <a class="hover3" href="web-development">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                                Learn More
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- Feature 3: Professional Support -->
+                <!-- Feature 3: Dedicated Support -->
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column gap-lg-2 gap-3 h-100" data-aos="flip-left">
                         <h3>03</h3>
-                        <h6 class="pt-2">Dedicated Support</h6>
+                        <h6 class="pt-2">Sell Your Stuff Online</h6>
                         <p class="pt-1">
-                            Enjoy 24/7 support for all your technical needs, ensuring
-                            seamless operations and minimal downtime for your business.
+                            Want to sell online? We can set up your online store so you can start making sales right away. Easy payments and happy customers.
                         </p>
-                        <div class="pt-lg-3">
-                            <a class="hover3" href="web-development">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                                Learn More
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <!-- Feature 4: Brand Strategy -->
+                <!-- Feature 4: Branding & Design -->
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column gap-lg-2 gap-3 h-100" data-aos="flip-left">
                         <h3>04</h3>
-                        <h6 class="pt-2">Branding & Design</h6>
+                        <h6 class="pt-2">Keep Your Website Fresh</h6>
                         <p class="pt-1">
-                            Create intuitive and visually stunning interfaces with our
-                            expert Branding & Design services that prioritize user experience.
+                            We'll take care of your website, so it stays up-to-date and running smoothly. We handle the tech stuff, so you can focus on your business.
                         </p>
-                        <div class="pt-lg-3">
-                            <a class="hover3" href="web-development">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                                Learn More
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -213,23 +186,22 @@
                 <div class="col-lg-6">
                     <div class="d-flex flex-column gap-sm-4 gap-3 justify-content-between mt-lg-3" data-aos="fade-up">
                         <!-- Title and Subheading -->
-                        <h4>Our Core Goal: Client Satisfaction at Local Level</h4>
+                        <h4>Your Website Problems? <br/>We Fix Them.</h4>
                         <h6 class="pe-lg-2">
-                            We focus on providing personalized digital strategies that resonate with local businesses.
+                            Get a Website That Helps Your Business Grow
                         </h6>
 
                         <!-- Description -->
                         <p>
-                            At the heart of our mission is a commitment to understanding and meeting the unique needs of local clients. We craft solutions that are tailored to each business, focusing on measurable results that drive growth and visibility in your community. With a deep understanding of local markets, we help you stand out and stay competitive.
+                            If your website isn't bringing in new customers, it's time for a change. We build websites that are easy to use and look great, so people want to stay and learn about your business. We know you want a website that works, without all the headaches. That's what we do at 'getthewebsite'.
                         </p>
 
                         <!-- Key Process Steps -->
                         <div class="d-flex gap-lg-3 gap-3 flex-wrap py-lg-3 py-2">
-                            <h6>Consultation & Briefing</h6>
-                            <h6>Market Analysis</h6>
-                            <h6>Creative Design</h6>
-                            <h6>Development & Execution</h6>
-                            <h6>SEO & Optimization</h6>
+                            <h6>More Customers</h6>
+                            <h6>Easy to Use</h6>
+                            <h6>Looks Great</h6>
+                            <h6>Mobile Responsive</h6>
                         </div>
 
                         <!-- Call-to-Actions -->
@@ -255,7 +227,7 @@
         <div class="container">
             <!-- Introduction -->
             <div class="d-flex flex-column pe-lg-5 gap-3 w-75" data-aos="fade-up">
-                <h4 class="w-50">Empowering Your Business with Digital Excellence</h4>
+                <h4 class="w-50">Services We Offer</h4>
                 <p>
                     Unlock the potential of your online presence with our comprehensive digital solutions. From innovative strategies to measurable results, we’re here to help you thrive in the digital landscape.
                 </p>
@@ -271,9 +243,9 @@
                                 <figure>
                                     <img alt="Social Media" src="assets/images/icons/marketing_Laptop.svg">
                                 </figure>
-                                <h6>Social Media Marketing</h6>
+                                <h6>Custom Website Design</h6>
                                 <p>
-                                    Maximize your social media impact with tailored campaigns that increase engagement, grow your audience, and boost conversions across all platforms.
+                                    We create unique, visually appealing websites tailored to your brand and goals. We focus on user experience to ensure your visitors love your site.
                                 </p>
                                 <div class="d-flex align-items-center">
                                     <a class="hover5" href="web-development">View Detail
@@ -287,9 +259,9 @@
                                 <figure>
                                     <img alt="Creative Solutions" src="assets/images/icons/Solution.svg">
                                 </figure>
-                                <h6>Creative Solutions</h6>
+                                <h6>E-commerce Website Solutions</h6>
                                 <p>
-                                    Transform your vision into reality with innovative designs and strategies that set your brand apart in a crowded market.
+                                    We help you sell online with easy-to-use e-commerce platforms. We set up your online store, payment gateways, and everything you need to start generating sales.
                                 </p>
                                 <div class="d-flex align-items-center">
                                     <a class="hover5" href="web-development">View Detail
@@ -303,9 +275,9 @@
                                 <figure>
                                     <img alt="SEO Optimization" src="assets/images/icons/SEO.svg">
                                 </figure>
-                                <h6>SEO Optimization</h6>
+                                <h6>Website Maintenance and Support</h6>
                                 <p>
-                                    Improve your search engine rankings with advanced SEO techniques, driving organic traffic and achieving long-term growth.
+                                    We provide ongoing support to keep your website running smoothly. We handle updates, security, and technical issues, so you can focus on your business.
                                 </p>
                                 <div class="d-flex align-items-center">
                                     <a class="hover5" href="web-development">View Detail
@@ -319,9 +291,9 @@
                                 <figure>
                                     <img alt="Brand Identity" src="assets/images/icons/Trophy.svg">
                                 </figure>
-                                <h6>Brand Identity</h6>
+                                <h6>Website Redesign and Updates</h6>
                                 <p>
-                                    Establish a powerful brand identity that resonates with your audience and builds lasting connections.
+                                    We give your current website a fresh new look, and update it to current web standards. We optimize it to improve its performance and user experience.
                                 </p>
                                 <div class="d-flex align-items-center">
                                     <a class="hover5" href="web-development">View Detail
@@ -374,31 +346,31 @@
                     <div>
                         <div class="pe-lg-5 pe-sm-3" data-aos="fade-up">
                             <!-- Heading and Short Introduction -->
-                            <h4 class="w-75">A Web Design Company You Can Count On</h4>
+                            <h4 class="w-75">Why Trust Us to Grow Your Business?</h4>
                             <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
-                                At [Company Name], we are committed to creating innovative, user-friendly, and visually appealing websites that help businesses grow online. We focus on crafting solutions tailored to your unique needs and goals.
+                                Trust Us to Build Your Online Success. Grow With Us, Your Website Our Expertise. We Deliver Real Results:
                             </p>
                         </div>
                         <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
                             <!-- Value Proposition 1: Competitive Rates -->
                             <div class="d-flex flex-column">
-                                <h6>Competitive Rates</h6>
+                                <h6>We don't just build websites we build growth.</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    We offer affordable pricing without compromising quality. Whether you're a startup or an established business, we provide tailored solutions that fit your budget while delivering top-tier results.
+                                    See our portfolio for proof.
                                 </p>
                             </div>
                             <!-- Value Proposition 2: Premium Development -->
                             <div class="d-flex flex-column">
-                                <h6>Premium Development</h6>
+                                <h6>Expert Team, Your Success</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Our team of expert developers ensures that every project is built with the latest technologies and best practices. We prioritize clean, efficient code and fast, secure websites that provide an exceptional user experience.
+                                    Our skilled team is dedicated to making your online vision a reality, with clear communication every step.
                                 </p>
                             </div>
-                            <!-- Value Proposition 3: No Contracts Required -->
+                            <!-- Value Proposition 3: No Contracts Needed -->
                             <div class="d-flex flex-column">
-                                <h6>No Contracts Needed</h6>
+                                <h6>Your Vision, Our Priority</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Enjoy the flexibility of no long-term contracts. Our focus is on building lasting relationships based on trust, transparency, and results. You only pay for the services you need, when you need them.
+                                    We listen, collaborate, and build websites that truly represent your brand. Your success is our focus.
                                 </p>
                             </div>
                         </div>
@@ -919,68 +891,63 @@
                     <!-- Partner 1 -->
                     <figure>
                         <a href="#" aria-label="Partner 1">
-                            <img alt="Partner 1" src="assets/images/icons/Partner_1.svg">
+                            <img alt="Partner 1" src="assets/images/partners/Partner_1.png">
                         </a>
                     </figure>
                     <!-- Partner 2 -->
                     <figure>
                         <a href="#" aria-label="Partner 2">
-                            <img alt="Partner 2" src="assets/images/icons/Partner_2.svg">
+                            <img alt="Partner 2" src="assets/images/partners/Partner_2.png">
                         </a>
                     </figure>
                     <!-- Partner 3 -->
                     <figure>
                         <a href="#" aria-label="Partner 3">
-                            <img alt="Partner 3" src="assets/images/icons/Partner_3.svg">
+                            <img alt="Partner 3" src="assets/images/partners/Partner_3.png">
                         </a>
                     </figure>
                     <!-- Partner 4 -->
                     <figure>
                         <a href="#" aria-label="Partner 4">
-                            <img alt="Partner 4" src="assets/images/icons/Partner_4.svg">
+                            <img alt="Partner 4" src="assets/images/partners/Partner_4.png">
                         </a>
                     </figure>
                     <!-- Partner 5 -->
                     <figure>
                         <a href="#" aria-label="Partner 5">
-                            <img alt="Partner 5" src="assets/images/icons/Partner_5.svg">
+                            <img alt="Partner 5" src="assets/images/partners/Partner_5.png">
                         </a>
                     </figure>
                     <!-- Partner 6 -->
                     <figure>
                         <a href="#" aria-label="Partner 6">
-                            <img alt="Partner 6" src="assets/images/icons/Partner_6.svg">
+                            <img alt="Partner 6" src="assets/images/partners/Partner_6.png">
                         </a>
                     </figure>
                     <!-- Repeat for additional partners -->
                     <figure>
-                        <a href="#" aria-label="Partner 1">
-                            <img alt="Partner 1" src="assets/images/icons/Partner_1.svg">
+                        <a href="#" aria-label="Partner 7">
+                            <img alt="Partner 7" src="assets/images/partners/Partner_7.png">
                         </a>
                     </figure>
                     <figure>
-                        <a href="#" aria-label="Partner 2">
-                            <img alt="Partner 2" src="assets/images/icons/Partner_2.svg">
+                        <a href="#" aria-label="Partner 8">
+                            <img alt="Partner 8" src="assets/images/partners/Partner_8.png">
                         </a>
                     </figure>
                     <figure>
-                        <a href="#" aria-label="Partner 3">
-                            <img alt="Partner 3" src="assets/images/icons/Partner_3.svg">
+                        <a href="#" aria-label="Partner 9">
+                            <img alt="Partner 9" src="assets/images/partners/Partner_9.png">
                         </a>
                     </figure>
                     <figure>
-                        <a href="#" aria-label="Partner 4">
-                            <img alt="Partner 4" src="assets/images/icons/Partner_4.svg">
+                        <a href="#" aria-label="Partner 10">
+                            <img alt="Partner 10" src="assets/images/partners/Partner_10.png">
                         </a>
                     </figure>
                     <figure>
-                        <a href="#" aria-label="Partner 5">
-                            <img alt="Partner 5" src="assets/images/icons/Partner_5.svg">
-                        </a>
-                    </figure>
-                    <figure>
-                        <a href="#" aria-label="Partner 6">
-                            <img alt="Partner 6" src="assets/images/icons/Partner_6.svg">
+                        <a href="#" aria-label="Partner 11">
+                            <img alt="Partner 11" src="assets/images/partners/Partner_11.png">
                         </a>
                     </figure>
                 </div>
