@@ -13,9 +13,10 @@ $updated_at = date('Y-m-d H:i:s');
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require __DIR__ . '/PHPMailer/src/Exception.php';
+require __DIR__ . '/PHPMailer/src/PHPMailer.php';
+require __DIR__ . '/PHPMailer/src/SMTP.php';
+
 
 function getUserIP() {
     if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
