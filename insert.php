@@ -188,7 +188,6 @@ if(isset($_POST['contactSubmit'])){
 }
 
 if(isset($_POST['submitNewsletter'])){
-    $page='footer';
 
     $FooterEmail=$_POST['FooterEmail'];
 
