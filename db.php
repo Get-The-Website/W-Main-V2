@@ -1,7 +1,11 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 require_once('connection/dbConnect.php');
 $db_handle = new DBController();
 date_default_timezone_set("Asia/Dhaka");
+
 
 $inserted_at = date('Y-m-d H:i:s');
 $updated_at = date('Y-m-d H:i:s');
