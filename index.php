@@ -91,22 +91,7 @@
                 <!-- Right Column (Images and Graphics) -->
                 <div class="col-lg-6">
                     <div class="d-flex gap-lg-4 gap-3 justify-content-center align-items-center position-relative" data-aos="fade-down">
-                        <figure class="position-absolute">
-                            <img src="assets/images/index/Hero_small_circle.webp" alt="Circle">
-                        </figure>
-                        <figure class="position-absolute">
-                            <img src="assets/images/icons/hero_dots.svg" alt="dots">
-                        </figure>
-                        <div class="gradient_cirlce1"></div>
-                        <div class="gradient_cirlce2"></div>
-                        <figure class="mt-lg-5 mt-4 position-relative d-flex align-items-end">
-                            <img class="mt-lg-5 mt-3 w-100" src="assets/images/index/hero_Img1.webp" alt="Hero_img1">
-                        </figure>
-                        <img src="assets/images/icons/pink_block.svg" alt="pink_block">
-                        <img src="assets/images/icons/magifying_glass.svg" alt="MagnifyingGlass">
-                        <figure class="m-0 d-flex align-items-end">
-                            <img src="assets/images/index/hero_img2.webp" alt="Hero_img2">
-                        </figure>
+                            <img src="assets/images/index/banner.png" alt="Hero_img2" class="img-fluid">
                     </div>
                 </div>
             </div>
