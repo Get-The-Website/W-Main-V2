@@ -1,5 +1,5 @@
 <!-- favicon  -->
-<link href="assets/images/Fav_Icon.png" rel="shortcut icon" type="image/x-icon">
+<link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
 <!-- faremwork of css -->
 <link href="assets/css/bootstrap-lib/bootstrap.min.css" rel="stylesheet">
 <!-- style sheet of css -->

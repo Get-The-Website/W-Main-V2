@@ -24,12 +24,14 @@
                 <!-- Left Column (Text and CTA) -->
                 <div class="col-lg-6">
                     <div class="mt-lg-4 position-relative" data-aos="fade-up">
-                        <h1>Get the Website
-                            Get the Growth
+                        <h1>Get the<br/>
+                            Website, Get<br/>
+                            Your Identity
                         </h1>
                         <h4>
-                            Get Your Website Started.
-                            Get Your Business Growing.
+                            Websites That<br/>
+                            Grow Your Business<br/>
+                            Your Success, Our Priority
                         </h4>
                         <!-- Website Audit Form -->
 <!--                        <div>
@@ -42,29 +44,29 @@
                         <!-- Call-to-Action Buttons -->
                         <div class="d-flex pt-5 gap-lg-5 gap-3">
                             <div>
-                                <a class="hover3" href="about">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    Schedule a Free Consultation
+                                <a class="hover6"href="https://m.me/getthewebsite">
+                                    <i class="fa-brands fa-facebook-messenger d-flex justify-content-center align-items-center"></i>
+                                    Messenger
                                 </a>
                             </div>
                             <div>
-                                <a class="hover4" href="https://demo.getthewebsite.net/">
-                                    <i class="fa fa-play d-flex justify-content-center align-items-center"></i>
-                                    View Demo
+                                <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    Whatsapp
                                 </a>
                             </div>
                         </div>
                         <!-- Contact Info -->
                         <div class="Contact_Info d-flex gap-lg-4 gap-3 align-items-center justify-content-center">
                             <div class="d-flex gap-lg-4 gap-3">
-                                <a href="#">
+                                <a href="callto:+8801729277765">
                                     <div class="d-flex gap-3 align-items-center">
                                         <i class="fa-solid fa-phone border-0"></i>
                                         <p>01729-277765</p>
                                     </div>
                                 </a>
                                 <hr>
-                                <a href="#">
+                                <a href="mailto:info@getthewebsite.net">
                                     <div class="d-flex gap-3 align-items-center">
                                         <i class="fa-solid fa-envelope"></i>
                                         <p>info@getthewebsite.net</p>
@@ -73,7 +75,7 @@
                                 <hr>
                                 <!-- Social Icons -->
                                 <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <a href="#">
+                                    <a href="https://m.me/getthewebsite">
                                         <i class="fa-brands fa-facebook"></i>
                                     </a>
                                     <a href="#">
@@ -209,11 +211,8 @@
                             <div>
                                 <a class="hover3" href="contact">
                                     <i class="fa-solid fa-arrow-right-long"></i>
-                                    Start Your Project
+                                    Schedule a free Consultation
                                 </a>
-                            </div>
-                            <div>
-                                <a class="hover2" href="contact">Learn More About Us</a>
                             </div>
                         </div>
                     </div>
@@ -322,7 +321,7 @@
                             </p>
                             <!-- Call-to-Action Button -->
                             <div class="d-flex justify-content-lg-center pt-md-5 pt-4">
-                                <a class="hover4" href="web-development">
+                                <a class="hover6"href="web-development">
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                     Get Started
                                 </a>
@@ -376,10 +375,20 @@
                         </div>
                         <!-- Call to Action: Get Started -->
                         <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
-                            <a class="hover3" href="web-development">
-                                <i aria-hidden="true" class="fa fa-long-arrow-right"></i>
-                                Get Started
-                            </a>
+                            <div class="d-flex pt-5 gap-lg-5 gap-3">
+                                <div>
+                                    <a class="hover6"href="https://m.me/getthewebsite">
+                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center align-items-center"></i>
+                                        Messenger
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        Whatsapp
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -411,33 +420,15 @@
             <div class="d-flex justify-content-center align-items-center gap-lg-5 gap-4 flex-column text-center" data-aos="zoom-in-up">
                 <!-- Video Play Button -->
                 <div>
-                    <a>
-                        <i aria-hidden="true" class="fa fa-play ps-1 d-flex justify-content-center align-items-center" data-bs-target="#staticBackdropVideo" data-bs-toggle="modal"></i>
+                    <a href="https://demo.getthewebsite.net/">
+                        <i aria-hidden="true" class="fa fa-play ps-1 d-flex justify-content-center align-items-center"></i>
                     </a>
                 </div>
                 <!-- Main Heading -->
                 <h2>We Think, We Design, We Create</h2>
                 <!-- Contact Us Button -->
                 <div class="mt-sm-4 mt-sm-3 mt-2">
-                    <a class="hover2" href="contact">Contact Us Today!</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Video -->
-        <div aria-hidden="true" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="staticBackdropVideo" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered h-100 my-0 mx-auto">
-                <div class="modal-content d-flex align-items-center justify-content-center border-0">
-                    <div class="modal-body">
-                        <!-- Close Button for Modal -->
-                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"><i class="fa-solid fa-xmark"></i></button>
-                        <!-- Embedded YouTube Video -->
-                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen="" frameborder="0" loading="lazy"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                src="https://www.youtube.com/embed/u31qwQUeGuM?si=o1Nt3XrgyYRKwJ13"
-                                title="YouTube video player"></iframe>
-                    </div>
+                    <a class="hover2" href="https://demo.getthewebsite.net/">View Demo</a>
                 </div>
             </div>
         </div>
@@ -463,7 +454,7 @@
                             Over the years, we have successfully onboarded numerous brands, driving innovation and growth for each of them.
                         </p>
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="1286"></span>+</h3>
+                            <h3><span class="number" data-final-value="1286"></span></h3>
                             <p>Brands Joined</p>
                         </div>
                     </div>
@@ -472,7 +463,7 @@
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="3460"></span>+</h3>
+                            <h3><span class="number" data-final-value="3460"></span></h3>
                             <p>Satisfied Clients</p>
                         </div>
                         <p class="pe-lg-5">
@@ -487,7 +478,7 @@
                             Our brand partnerships have enabled us to expand our reach and capabilities in the digital landscape.
                         </p>
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="2861"></span>+</h3>
+                            <h3><span class="number" data-final-value="2861"></span></h3>
                             <p>Brands Collaborated</p>
                         </div>
                     </div>
@@ -496,7 +487,7 @@
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="8550"></span>+</h3>
+                            <h3><span class="number" data-final-value="8550"></span></h3>
                             <p>Successful Campaigns</p>
                         </div>
                         <p class="pe-lg-5">
@@ -509,13 +500,7 @@
             <!-- Call to Actions -->
             <div class="d-flex justify-content-center align-items-center gap-3">
                 <div>
-                    <a class="hover2" href="about">Learn More</a>
-                </div>
-                <div>
-                    <a class="hover4" href="#">
-                        <i class="fa-solid fa-play d-flex justify-content-center align-items-center"></i>
-                        Watch Video
-                    </a>
+                    <a class="hover2" href="contact">Schedule a free Consultation</a>
                 </div>
             </div>
         </div>
@@ -571,7 +556,7 @@
                 <div class="col-lg-6">
                     <div class="h-100" data-aos="flip-left">
                         <figure class="w-100 h-100">
-                            <img alt="Product_Img4" class="w-100" src="assets/images/product/social.png">
+                            <img alt="Product_Img4" class="w-100 h-100" src="assets/images/product/social.png">
                         </figure>
                     </div>
                 </div>
@@ -583,17 +568,12 @@
                             Do you have a project idea or need help with design? Let’s work together to bring your vision to life!
                         </h4>
                         <div>
-                            <a class="hover4" href="web-development">
+                            <a class="hover6"href="web-development">
                                 <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 Get Started
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <!-- View All Projects Button -->
-                <div class="w-100 d-flex justify-content-center align-items-center mt-lg-5 mt-md-4 text-center">
-                    <a href="web-development">View All Projects</a>
                 </div>
             </div>
         </div>
@@ -604,10 +584,9 @@
         <div class="container">
             <!-- Section Heading -->
             <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
-                <h4>Companies We Love</h4>
+                <h4>Trusted By Businesses, Loved By Clients</h4>
                 <p>
-                    We are proud to collaborate with some of the most innovative and impactful companies in the industry.
-                    Here's a look at our trusted partners.
+                    Building Relationships, Driving Growth: Your Success, Our Priority
                 </p>
             </div>
 
@@ -698,7 +677,7 @@
                 </div>
                 <input name="ContactNumber" type="tel" placeholder="Phone Number" required>
                 <textarea name="ContactComment" placeholder="Write your message here" rows="10" required></textarea>
-                <button type="submit" name="contactSubmit">Send Message</button>
+                <button type="submit" name="contactSubmit">Submit</button>
             </form>
             <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">

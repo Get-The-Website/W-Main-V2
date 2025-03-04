@@ -44,7 +44,7 @@
                 </div>
                 <input name="ContactNumber" type="tel" placeholder="Phone Number" required>
                 <textarea name="ContactComment" placeholder="Write your message here" rows="10" required></textarea>
-                <button type="submit" name="contactSubmit">Send Message</button>
+                <button type="submit" name="contactSubmit">Submit</button>
             </form>
             <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">

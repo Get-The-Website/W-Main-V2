@@ -23,7 +23,7 @@ $isServiceActive = in_array($currentPage, $servicePages);
     <nav class="navbar navbar-expand-lg container pt-lg-4 pt-3 pb-lg-4 pb-3" data-aos="fade-down">
         <div class="container-fluid">
             <a class="nav-logo p-0" href="home">
-                <figure><img alt="Get The Website Logo" src="assets/images/logo.png"></figure>
+                <figure><img alt="Get The Website Logo" src="assets/images/gtw-logo-color.png"></figure>
             </a>
             <div class="d-flex gap-3 flex-row-reverse">
                 <button class="open-aside" onclick="open_aside()" type="button">
@@ -69,15 +69,6 @@ $isServiceActive = in_array($currentPage, $servicePages);
                     </div>
                     <div>
                         <a class="hover1 down-btn" href="https://demo.getthewebsite.net/" id="getStartedAnchor">View Demo</a>
-                    </div>
-                    <div class="Search_Icon">
-                        <input class="Search_checkbox" name="SearchCheckBox" type="radio">
-                        <div class="Search_box">
-                            <div class="iconContainer">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                            <input class="search_input" name="SearchInputArea" placeholder="Search" type="text">
-                        </div>
                     </div>
                 </div>
             </div>

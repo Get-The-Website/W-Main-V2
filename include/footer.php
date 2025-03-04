@@ -13,7 +13,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="contact">
+                <a href="mailto:info@getthewebsite.net">
                     <div class="d-flex gap-lg-4 gap-2 align-items-center">
                         <figure class="d-flex justify-content-center align-items-center">
                             <i class="fa-solid fa-envelope"></i>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="contact">
+                <a href="callto:+8801729277765">
                     <div class="d-flex gap-lg-4 gap-2 align-items-center">
                         <figure class="d-flex justify-content-center align-items-center">
                             <i class="fa-solid fa-phone"></i>
@@ -42,24 +42,21 @@
             <div class="d-flex justify-content-between align-items-md-center px-lg-0 px-md-3">
                 <figure>
                     <a href="home">
-                        <img alt="Footer_logo" src="assets/images/logo.png">
+                        <img alt="Footer_logo" src="assets/images/gtw-logo-w.png">
                     </a>
                 </figure>
-                <form action="insert" method="post" class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
-                    <input name="FooterEmail" placeholder="Subscribe Our newsletter" required="" type="email">
-                    <button class="hover2" type="submit" name="submitNewsletter">Get Started</button>
-                </form>
-                <div aria-hidden="true" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"
-                     tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <img alt="submitIcon" src="assets/images/icons/Confirmation_1.gif">
-                            <div>
-                                <h4>Response Submitted</h4>
-                                <h6>Your details have been successfully submitted. Thanks</h6>
-                            </div>
-                            <button class="hover1 m-auto" data-bs-dismiss="modal" type="button">Close</button>
-                        </div>
+                <div class="d-flex align-items-center gap-lg-4 gap-3 flex-md-row flex-column">
+                    <div>
+                        <a class="hover6" href="https://m.me/getthewebsite">
+                            <i class="fa-brands fa-facebook-messenger d-flex justify-content-center align-items-center"></i>
+                            Messenger
+                        </a>
+                    </div>
+                    <div>
+                        <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Whatsapp
+                        </a>
                     </div>
                 </div>
                 <figure class="d-flex align-items-center gap-lg-4 gap-3">
