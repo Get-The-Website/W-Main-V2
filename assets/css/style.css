@@ -327,7 +327,7 @@ button {
     font-weight: 400;
     font-size: 17px;
     border: 1px solid;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     color: #2cffc0;
     z-index: 1;
     display: inline-block;
@@ -1761,6 +1761,16 @@ header .navbar-collapse .Search_Icon {
 
 .Product .hover4 i {
     transform: rotate(-30deg);
+}
+
+.d-flex.social.justify-content-center{
+    background-color: #2cffc0 !important;
+    border-radius: 10px;
+    padding: 30px 65px;
+}
+
+.d-flex.social.justify-content-center h4{
+    color:black !important;
 }
 
 .Product .flex-column:last-child {

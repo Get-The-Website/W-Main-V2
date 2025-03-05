@@ -554,10 +554,16 @@
 
                 <!-- Product 4: Product Design -->
                 <div class="col-lg-6">
-                    <div class="h-100" data-aos="flip-left">
-                        <figure class="w-100 h-100">
-                            <img alt="Product_Img4" class="w-100 h-100" src="assets/images/product/social.png">
-                        </figure>
+                    <div class="d-flex social justify-content-center align-items-center flex-column h-100 text-center gap-3" data-aos="flip-left">
+                        <h4>
+                            Social Media Management & Content
+                        </h4>
+                        <div>
+                            <a class="hover5" href="web-development">
+                                <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
+                                Get Started
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -568,7 +574,7 @@
                             Do you have a project idea or need help with design? Let’s work together to bring your vision to life!
                         </h4>
                         <div>
-                            <a class="hover6"href="web-development">
+                            <a class="hover4" href="web-development">
                                 <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 Get Started
                             </a>
