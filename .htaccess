@@ -4,6 +4,8 @@ RewriteRule ^home index.php [NE,L]
 
 RewriteRule ^about about.php [NE,L]
 
+RewriteRule ^services services.php [NE,L]
+
 RewriteRule ^web-development web-development.php [NE,L]
 
 RewriteRule ^mobile-app-development mobile-app-development.php [NE,L]

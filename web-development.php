@@ -22,325 +22,125 @@
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
                 <h1>Web Development</h1>
-                <p>Build innovative, responsive, and scalable websites tailored to meet your business needs. Our expert team delivers seamless user experiences and cutting-edge web solutions to help your brand thrive online.</p>
+                <p style="padding: unset">Your website is more than just a digital address; it's the heart of your online presence. We don't just create websites; we sculpt digital experiences that captivate and convert. Our process begins with a deep dive into your brand, understanding your unique story, target audience, and business goals. We then translate this understanding into visually stunning and functionally seamless designs. We utilize wireframing and prototyping to map out the user journey, ensuring intuitive navigation and a delightful user experience. Our skilled designers create bespoke layouts, incorporating your brand's aesthetics and personality. We provide multiple design concepts and offer unlimited revisions, ensuring your complete satisfaction. From color palettes to typography, every element is meticulously crafted to create a website that truly reflects your vision and drives results. We deliver high-fidelity designs, ready for development, ensuring a smooth transition from concept to reality.</p>
             </div>
         </div>
     </section>
     <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-    <!-- ======== 1.5. Services section ========  -->
-    <section class="Services ServicesPage_Services">
-        <div class="container position-relative">
-            <div>
-                <figure class="position-absolute w-25">
-                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services Background">
-                </figure>
-            </div>
-            <div class="row gy-4">
-                <!-- Custom Website Design -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
-                        </figure>
-                        <h6>Custom Website Design</h6>
-                        <p>
-                            We create unique, visually appealing websites tailored to your brand and goals. We focus on user experience to ensure your visitors love your site.
-                        </p>
-                    </div>
-                </div>
-                <!-- E-commerce Website Solutions -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="Business Strategy">
-                        </figure>
-                        <h6>E-commerce Website Solutions</h6>
-                        <p>
-                            We help you sell online with easy-to-use e-commerce platforms. We set up your online store, payment gateways, and everything you need to start generating sales.
-                        </p>
-                    </div>
-                </div>
-                <!-- Website Optimization and SEO -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/SEO.svg" alt="SEO Optimization">
-                        </figure>
-                        <h6>Website Optimization and SEO</h6>
-                        <p>
-                            We improve your website's performance and search engine visibility. We ensure your website loads quickly, is mobile-friendly, and ranks higher on Google.
-                        </p>
-                    </div>
-                </div>
-                <!-- Website Maintenance and Support -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Trophy.svg" alt="Brand Identity">
-                        </figure>
-                        <h6>Website Maintenance and Support</h6>
-                        <p>
-                            We provide ongoing support to keep your website running smoothly. We handle updates, security, and technical issues, so you can focus on your business.
-                        </p>
-                    </div>
-                </div>
-                <!-- Website Redesign and Updates -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Content_Writing.svg" alt="Content Writing">
-                        </figure>
-                        <h6>Website Redesign and Updates</h6>
-                        <p>
-                            We give your current website a fresh new look, and update it to current web standards. We optimize it to improve its performance and user experience.
-                        </p>
-                    </div>
-                </div>
-                <!-- Content Management Systems (CMS) Integration -->
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Content_Writing.svg" alt="Content Writing">
-                        </figure>
-                        <h6>Content Management Systems (CMS) Integration</h6>
-                        <p>
-                            We implement easy-to-use CMS systems that allow you to update your own website content, without needing to know code.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.5. Services section ========  -->
-    <!-- ======== 1.10. Agency section ========  -->
-    <section class="Agency">
+    <!-- ======== 1.7. Company section ========  -->
+    <section class="Company pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between w-100 position-relative h-100">
-                        <figure class="h-100 w-100" data-aos="fade-down">
-                            <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
-                        </figure>
-                        <div>
-                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp"
-                                 alt="Circle">
-                            <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
-                        </div>
-                        <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
-                            <figure>
-                                <img src="assets/images/index/Agency_Img2.webp" alt="Agency_Img2">
-                            </figure>
-                            <figure>
-                                <img src="assets/images/index/Agency_Img3.webp" alt="Agency_Img3">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
-                        <div class="w-75">
-                            <h4>We Are a Leading Web Development Agency</h4>
-                            <p>
-                                Bring your vision to life with our innovative web development services. From responsive designs to advanced functionality, we craft websites that engage users and deliver exceptional results.
+                    <div>
+                        <div class="pe-lg-5 pe-sm-3" data-aos="fade-up">
+                            <!-- Heading and Short Introduction -->
+                            <h4 class="w-75">Key Features</h4>
+                            <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
+                                We create bespoke website designs using modern UI/UX principles, focusing on responsive design and cross-browser compatibility. We utilize tools like Figma and Adobe XD for prototyping and design mockups, ensuring a seamless transition to development.
                             </p>
                         </div>
-                        <div class="d-flex flex-column gap-lg-4 gap-4">
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    01
-                                </h6>
-                                <p>Custom solutions tailored to your business needs.</p>
+                        <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
+                            <!-- Value Proposition 1: Responsive Design -->
+                            <div class="d-flex flex-column">
+                                <h6>Responsive Design</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    HTML5, CSS3, JavaScript frameworks (React, Vue.js, Angular).
+                                </p>
                             </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    02
-                                </h6>
-                                <p>Seamless user experience across all devices.</p>
+
+                            <!-- Value Proposition 2: UI/UX Design -->
+                            <div class="d-flex flex-column">
+                                <h6>UI/UX Design</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Figma, Adobe XD, Sketch.
+                                </p>
                             </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    03
-                                </h6>
-                                <p>Scalable and future-proof development practices.</p>
+
+                            <!-- Value Proposition 3: Prototyping -->
+                            <div class="d-flex flex-column">
+                                <h6>Prototyping</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Interactive prototypes for user flow validation.
+                                </p>
                             </div>
-                        </div>
-                        <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div><a href="web-development" class="hover2">Learn More</a></div>
-                            <div>
-                                <a href="web-development" class="hover3"><i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                    Get Started</a>
+
+                            <!-- Value Proposition 4: Design Systems -->
+                            <div class="d-flex flex-column">
+                                <h6>Design Systems</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Consistent UI elements and branding guidelines.
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.10. Agency section ========  -->
-    <!-- ======== End of 5.1. Solutions section ========  -->
-    <section class="Solutions Product">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
-                <h4>Transform Your Business with Expert Solutions</h4>
-                <p>
-                    Discover the power of innovative solutions designed to elevate your business performance, enhance customer satisfaction, and foster sustainable success. Let us help you achieve your vision with our comprehensive services.
-                </p>
-            </div>
-            <div class="row gy-4 mt-lg-3 mt-2">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Creative Solutions">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Innovative Strategies</h6>
-                            <p class="py-lg-3 py-2">
-                                Leverage cutting-edge strategies to tackle challenges and seize new opportunities. Our team brings a fresh perspective to redefine your business solutions.
-                            </p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+
+                            <!-- Value Proposition 5: Cross-Browser Compatibility -->
+                            <div class="d-flex flex-column">
+                                <h6>Cross-Browser Compatibility</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Testing across major browsers (Chrome, Firefox, Safari, Edge).
+                                </p>
+                            </div>
+
+                            <!-- Value Proposition 6: Accessibility -->
+                            <div class="d-flex flex-column">
+                                <h6>Accessibility</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    WCAG compliance for inclusive design.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Email Marketing">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Targeted Email Campaigns</h6>
-                            <p class="py-lg-3 py-2">
-                                Reach your audience effectively with data-driven email marketing. Increase engagement and conversions with tailored messaging strategies.
-                            </p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product Design">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Innovative Product Designs</h6>
-                            <p class="py-lg-3 py-2">
-                                Develop products that inspire and engage. Our innovative designs combine functionality with aesthetic appeal to deliver outstanding user experiences.
-                            </p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="Product_Hover h-100" data-aos="flip-left">
-                        <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Advanced Design Solutions">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Enhanced User Experience</h6>
-                            <p class="py-lg-3 py-2 m-0">
-                                Design seamless and user-centric interfaces that make a lasting impact. Elevate customer satisfaction with solutions that prioritize usability and accessibility.
-                            </p>
-                            <div class="mb-2">
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                        <!-- Call to Action: Get Started -->
+                        <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
+                            <div class="d-flex pt-5 gap-lg-5 gap-3">
+                                <div>
+                                    <a class="hover6" href="https://m.me/getthewebsite">
+                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center"></i>
+                                        Messenger
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        Whatsapp
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3" data-aos="flip-left">
-                        <h4>
-                            Have a Vision? Let's Turn It into Reality!
-                        </h4>
-                        <div>
-                            <a href="web-development" class="hover4">
-                                <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                Get Started
-                            </a>
+                    <div class="d-flex h-100 align-items-center justify-content-center position-relative gap-lg-4">
+                        <!-- Decorative Elements -->
+                        <div class="m-0">
+                            <figure class="position-absolute">
+                                <img alt="Dots" src="assets/images/icons/hero_dots.svg">
+                            </figure>
+                            <figure class="bottom-0">
+                                <img alt="Flower" src="assets/images/icons/Company_Flower.svg">
+                            </figure>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product Branding">
+                        <!-- Company Image -->
+                        <figure class="w-100 h-100" data-aos="fade-down">
+                            <img alt="Company Image" class="w-100 h-100" src="assets/images/index/company-image.png">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Strategic Branding</h6>
-                            <p class="py-lg-3 py-2">
-                                Build a strong, memorable brand presence that resonates with your target market. Our branding services ensure consistency and impact across all platforms.
-                            </p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="SEO Marketing Solutions">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Optimized SEO Strategies</h6>
-                            <p class="py-lg-3 py-2">
-                                Boost your online visibility and stay ahead of the competition with our customized SEO strategies. We help you connect with the right audience effectively.
-                            </p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Creative Design">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Exceptional Creativity</h6>
-                            <p class="py-lg-3 py-2">
-                                Take your visuals to the next level with our creative design solutions. From branding to marketing, we craft designs that leave a lasting impression.
-                            </p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ======== End of 5.1. Solutions section ========  -->
+    <!-- ======== End of 1.7. Company section ========  -->
     <!-- ======== 1.13. Partners section ========  -->
-    <section class="Partners pt-0">
+    <section class="Partners">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center"
-                 data-aos="fade-up">
-                <h4>Trusted by Leading Companies</h4>
+            <!-- Section Heading -->
+            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
+                <h4>Trusted By Businesses, Loved By Clients</h4>
                 <p>
-                    We are proud to collaborate with innovative businesses that share our vision for excellence and growth.
-                    Together, we build lasting partnerships and deliver impactful solutions.
+                    Building Relationships, Driving Growth: Your Success, Our Priority
                 </p>
             </div>
+
+            <!-- Partner Logos Carousel -->
             <div class="row">
                 <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4 justify-content-center" data-aos="zoom-in-up">
                     <!-- Partner 1 -->

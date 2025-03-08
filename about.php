@@ -23,10 +23,10 @@
             <div class="text-center" data-aos="zoom-in-up">
                 <h1>About Us</h1>
                 <p>
-                    At Get The Website Now, we specialize in transforming ideas into reality. From sleek websites and
-                    mobile apps to robust e-commerce solutions, SEO strategies, and automation, we are your one-stop
-                    solution for digital innovation. Our mission is to empower businesses with cutting-edge technology
-                    and design, ensuring a seamless and impactful online presence.
+                    Stop settling for a website that blends in. At GetTheWebsite, we build digital powerhouses that drive real results.
+                    We're a team of web design and development experts, dedicated to cutting through the noise and making your online presence truly stand out.
+                    If you're ready to make a statement, you're in the right place. We're not just your developers;
+                    we're your partners in making your online vision unforgettable.
                 </p>
             </div>
         </div>
@@ -35,62 +35,73 @@
     <!-- ======== 1.7. Company section ========  -->
     <section class="Company pt-5">
         <div class="container">
-            <div class="row flex-md-row flex-column-reverse">
+            <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex h-100 align-items-center justify-content-center position-relative pe-lg-4">
-                        <div class="m-0">
-                            <figure class="Gradient_Circle"></figure>
-                            <figure class="position-absolute">
-                                <img src="assets/images/icons/hero_dots.svg" alt="Dots">
-                            </figure>
-                            <figure class="bottom-0 p-0">
-                                <img src="assets/images/icons/Company_Flower.svg" alt="Flower">
-                            </figure>
+                    <div>
+                        <div class="pe-lg-5 pe-sm-3" data-aos="fade-up">
+                            <!-- Heading and Short Introduction -->
+                            <h4 class="w-75">Why Trust Us to Grow Your Business?</h4>
+                            <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
+                                Trust Us to Build Your Online Success. Grow With Us, Your Website Our Expertise. We Deliver Real Results:
+                            </p>
                         </div>
-                        <figure class="w-100 h-100" data-aos="fade-down">
-                            <img class="w-100 h-100" src="assets/images/index/company_Img1.webp" alt="Company Image">
-                        </figure>
+                        <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
+                            <!-- Value Proposition 1: Competitive Rates -->
+                            <div class="d-flex flex-column">
+                                <h6>We don't just build websites we build growth.</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    See our portfolio for proof.
+                                </p>
+                            </div>
+                            <!-- Value Proposition 2: Premium Development -->
+                            <div class="d-flex flex-column">
+                                <h6>Expert Team, Your Success</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Our skilled team is dedicated to making your online vision a reality, with clear communication every step.
+                                </p>
+                            </div>
+                            <!-- Value Proposition 3: No Contracts Needed -->
+                            <div class="d-flex flex-column">
+                                <h6>Your Vision, Our Priority</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    We listen, collaborate, and build websites that truly represent your brand. Your success is our focus.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Call to Action: Get Started -->
+                        <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
+                            <div class="d-flex pt-5 gap-lg-5 gap-3">
+                                <div>
+                                    <a class="hover6" href="https://m.me/getthewebsite">
+                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center"></i>
+                                        Messenger
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        Whatsapp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div data-aos="fade-up">
-                        <div class="pe-lg-5 pe-3">
-                            <h4 class="w-75">Your Trusted Partner in Digital Transformation</h4>
-                            <p class="pt-3 pb-lg-4 pb-4 pe-lg-5">
-                                At Get The Website Now, we are dedicated to providing cutting-edge solutions to help
-                                businesses thrive in the digital landscape. From web development to branding, we are
-                                committed to delivering excellence at every step.
-                            </p>
+                    <div class="d-flex h-100 align-items-center justify-content-center position-relative gap-lg-4">
+                        <!-- Decorative Elements -->
+                        <div class="m-0">
+                            <figure class="position-absolute">
+                                <img alt="Dots" src="assets/images/icons/hero_dots.svg">
+                            </figure>
+                            <figure class="bottom-0">
+                                <img alt="Flower" src="assets/images/icons/Company_Flower.svg">
+                            </figure>
                         </div>
-                        <div class="d-flex flex-md-column gap-lg-4 gap-3">
-                            <div class="d-flex flex-column">
-                                <h6>Competitive Rates</h6>
-                                <p class="pt-3">
-                                    We offer exceptional services at competitive rates, ensuring you get the best value
-                                    for your investment while maintaining top-notch quality.
-                                </p>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <h6>Premium Development</h6>
-                                <p class="pt-3">
-                                    Our team of expert developers crafts tailored solutions, leveraging the latest
-                                    technologies to meet your unique business needs.
-                                </p>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <h6>No Contracts Needed</h6>
-                                <p class="pt-3">
-                                    Enjoy flexibility and trust with our services—no long-term contracts are required.
-                                    We focus on building relationships through results.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
-                            <a href="web-development" class="hover3">
-                                <i class="fa fa-long-arrow-right"></i>
-                                Get Started
-                            </a>
-                        </div>
+                        <!-- Company Image -->
+                        <figure class="w-100 h-100" data-aos="fade-down">
+                            <img alt="Company Image" class="w-100 h-100" src="assets/images/index/company-image.png">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -100,72 +111,70 @@
     <!-- ======== End of 1.8. Stats section ========  -->
     <section class="Stats">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
+            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
+                <!-- Section Title and Description -->
                 <h4>Our Company Growth</h4>
                 <p>
-                    Over the years, Get The Website Now has grown into a trusted digital solutions provider.
-                    With a commitment to innovation and excellence, we’ve helped businesses achieve their
-                    goals and elevate their online presence.
+                    We are proud of our achievements and the continuous growth we experience every year. Our dedicated team and innovative solutions have made us a trusted partner for numerous businesses.
                 </p>
             </div>
+
+            <!-- Growth Stats -->
             <div class="row mt-lg-5 mt-4">
+                <!-- Stats Column 1 -->
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <p class="pe-lg-5">
-                            Empowering over 1,200 businesses globally, we help brands connect with their audiences
-                            through cutting-edge solutions.
+                            Over the years, we have successfully onboarded numerous brands, driving innovation and growth for each of them.
                         </p>
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="1286"></span>+</h3>
-                            <p>Brands Empowered</p>
+                            <h3><span class="number" data-final-value="25"></span>+</h3>
+                            <p>Brands Joined</p>
                         </div>
                     </div>
                 </div>
+                <!-- Stats Column 2 -->
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="3460"></span>+</h3>
-                            <p>Happy Clients</p>
+                            <h3><span class="number" data-final-value="64"></span>+</h3>
+                            <p>Satisfied Clients</p>
                         </div>
                         <p class="pe-lg-5">
-                            Our clients' satisfaction is our greatest achievement, with thousands of successful
-                            collaborations worldwide.
+                            Our commitment to excellence and client satisfaction has resulted in thousands of happy and loyal clients.
                         </p>
                     </div>
                 </div>
+                <!-- Stats Column 3 -->
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <p class="pe-lg-5">
-                            From startups to industry leaders, we’ve partnered with over 2,800 brands to enhance
-                            their digital journey.
+                            Our brand partnerships have enabled us to expand our reach and capabilities in the digital landscape.
                         </p>
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="2861"></span>+</h3>
-                            <p>Successful Projects</p>
+                            <h3><span class="number" data-final-value="28"></span>+</h3>
+                            <p>Brands Collaborated</p>
                         </div>
                     </div>
                 </div>
+                <!-- Stats Column 4 -->
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="8550"></span>+</h3>
-                            <p>Campaigns Delivered</p>
+                            <h3><span class="number" data-final-value="125"></span>+</h3>
+                            <p>Successful Campaigns</p>
                         </div>
                         <p class="pe-lg-5">
-                            We’ve launched thousands of impactful campaigns, driving results and fostering meaningful
-                            connections for our clients.
+                            Through innovative strategies and tailored approaches, we have successfully executed thousands of campaigns, driving results for our clients.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+
+            <!-- Call to Actions -->
+            <div class="d-flex justify-content-center align-items-center gap-3">
                 <div>
-                    <a class="hover2" href="#">Learn More</a>
-                </div>
-                <div>
-                    <a href="#" class="hover4">
-                        <i class="fa-solid fa-play d-flex justify-content-center align-items-center"></i>
-                        Watch Video</a>
+                    <a class="hover2" href="contact">Schedule a free Consultation</a>
                 </div>
             </div>
         </div>
@@ -175,44 +184,54 @@
     <section class="Goal About_Goal">
         <div class="container">
             <div class="row">
+                <!-- Left Column: Visuals -->
                 <div class="col-lg-6">
                     <div class="position-relative mt-lg-0 mt-md-5">
+                        <!-- Decorative Dots -->
                         <figure class="position-relative d-flex justify-content-end">
-                            <img src="assets/images/icons/hero_dots.svg" alt="dots">
+                            <img alt="dots" src="assets/images/icons/hero_dots.svg">
                         </figure>
-                        <figure data-aos="fade-up">
-                            <img class="w-100" src="assets/images/index/Goal_img.webp" alt="Goal Image">
+                        <!-- Main Image -->
+                        <figure>
+                            <img alt="Goal Image" class="w-100" data-aos="fade-up"
+                                 src="assets/images/index/goal-image.png">
                         </figure>
+                        <!-- Decorative Doodle -->
                         <figure class="position-absolute">
-                            <img src="assets/images/icons/goal_doddle.svg" alt="doodle">
+                            <img alt="doodle" src="assets/images/icons/goal_doddle.svg">
                         </figure>
                     </div>
                 </div>
+
+                <!-- Right Column: Content -->
                 <div class="col-lg-6">
                     <div class="d-flex flex-column gap-sm-4 gap-3 justify-content-between mt-lg-3" data-aos="fade-up">
-                        <h4>Our Main Goal Is To Drive Success for Our Clients</h4>
+                        <!-- Title and Subheading -->
+                        <h4>Your Website Problems? <br/>We Fix Them.</h4>
                         <h6 class="pe-lg-2">
-                            We aim to deliver impactful digital solutions tailored to our clients' needs, ensuring measurable success and growth.
+                            Get a Website That Helps Your Business Grow
                         </h6>
+
+                        <!-- Description -->
                         <p>
-                            At Get The Website Now, our primary focus is creating meaningful connections between businesses and their audiences. From custom web development and mobile app solutions to branding, design, and automation, we strive to provide unmatched quality and client satisfaction. By integrating modern technologies and creative strategies, we ensure every project stands out and drives success.
+                            If your website isn't bringing in new customers, it's time for a change. We build websites that are easy to use and look great, so people want to stay and learn about your business. We know you want a website that works, without all the headaches. That's what we do at 'getthewebsite'.
                         </p>
+
+                        <!-- Key Process Steps -->
                         <div class="d-flex gap-lg-3 gap-3 flex-wrap py-lg-3 py-2">
-                            <h6>The Briefing</h6>
-                            <h6>Analysis & Planning</h6>
-                            <h6>Design & Adaptation</h6>
-                            <h6>Development</h6>
-                            <h6>Search Engine Optimization</h6>
+                            <h6>More Customers</h6>
+                            <h6>Easy to Use</h6>
+                            <h6>Looks Great</h6>
+                            <h6>Mobile Responsive</h6>
                         </div>
-                        <div class="d-flex gap-lg-5 gap-4 align-items-center py-lg-3 py-2">
+
+                        <!-- Call-to-Actions -->
+                        <div class="d-flex gap-lg-4 gap-3 align-items-center py-lg-3 py-2">
                             <div>
                                 <a class="hover3" href="contact">
                                     <i class="fa-solid fa-arrow-right-long"></i>
-                                    Get Started
+                                    Schedule a free Consultation
                                 </a>
-                            </div>
-                            <div>
-                                <a href="contact" class="hover2">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -224,51 +243,78 @@
     <!-- ======== 1.13. Partners section ========  -->
     <section class="Partners">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center"
-                 data-aos="fade-up">
-                <h4>Trusted by Leading Companies</h4>
+            <!-- Section Heading -->
+            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
+                <h4>Trusted By Businesses, Loved By Clients</h4>
                 <p>
-                    We are proud to collaborate with innovative businesses that share our vision for excellence and growth.
-                    Together, we build lasting partnerships and deliver impactful solutions.
+                    Building Relationships, Driving Growth: Your Success, Our Priority
                 </p>
             </div>
+
+            <!-- Partner Logos Carousel -->
             <div class="row">
-                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4" data-aos="zoom-in-up">
+                <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4 justify-content-center" data-aos="zoom-in-up">
+                    <!-- Partner 1 -->
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
+                        <a href="#" aria-label="Partner 1">
+                            <img alt="Partner 1" src="assets/images/partners/Partner_1.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 2 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 2">
+                            <img alt="Partner 2" src="assets/images/partners/Partner_2.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 3 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 3">
+                            <img alt="Partner 3" src="assets/images/partners/Partner_3.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 4 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 4">
+                            <img alt="Partner 4" src="assets/images/partners/Partner_4.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 5 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 5">
+                            <img alt="Partner 5" src="assets/images/partners/Partner_5.png">
+                        </a>
+                    </figure>
+                    <!-- Partner 6 -->
+                    <figure>
+                        <a href="#" aria-label="Partner 6">
+                            <img alt="Partner 6" src="assets/images/partners/Partner_6.png">
+                        </a>
+                    </figure>
+                    <!-- Repeat for additional partners -->
+                    <figure>
+                        <a href="#" aria-label="Partner 7">
+                            <img alt="Partner 7" src="assets/images/partners/Partner_7.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
+                        <a href="#" aria-label="Partner 8">
+                            <img alt="Partner 8" src="assets/images/partners/Partner_8.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
+                        <a href="#" aria-label="Partner 9">
+                            <img alt="Partner 9" src="assets/images/partners/Partner_9.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
+                        <a href="#" aria-label="Partner 10">
+                            <img alt="Partner 10" src="assets/images/partners/Partner_10.png">
+                        </a>
                     </figure>
                     <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_1.svg" alt="logo1"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_2.svg" alt="logo2"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_3.svg" alt="logo3"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_4.svg" alt="logo4"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_5.svg" alt="logo5"></a>
-                    </figure>
-                    <figure>
-                        <a href="#"><img src="assets/images/icons/Partner_6.svg" alt="logo6"></a>
+                        <a href="#" aria-label="Partner 11">
+                            <img alt="Partner 11" src="assets/images/partners/Partner_11.png">
+                        </a>
                     </figure>
                 </div>
             </div>

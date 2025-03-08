@@ -2249,13 +2249,13 @@ footer form .hover2 {
     font-size: 16px;
 }
 
-footer .fa-brands {
+footer .fa-brands.fa-facebook, footer .fa-brands.fa-instagram, footer .fa-brands.fa-twitter, footer .fa-brands.fa-linkedin {
     font-size: 25px;
     color: #ffffff;
     transition: all ease 0.5s;
 }
 
-footer .fa-brands:hover {
+footer .fa-brands.fa-facebook:hover, footer .fa-brands.fa-instagram:hover, footer .fa-brands.fa-twitter:hover, footer .fa-brands.fa-linkedin:hover {
     color: #2CFFC0;
 }
 

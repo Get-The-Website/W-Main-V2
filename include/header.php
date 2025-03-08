@@ -81,7 +81,7 @@ $isServiceActive = in_array($currentPage, $servicePages);
             <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
                 <figure class="navbar-brand">
                     <a href="home">
-                        <img alt="Logo" src="assets/images/logo.png">
+                        <img alt="Logo" src="assets/images/gtw-logo-color.png">
                     </a>
                 </figure>
                 <button class="fa-solid fa-xmark" onclick="close_aside()"></button>
@@ -122,6 +122,9 @@ $isServiceActive = in_array($currentPage, $servicePages);
                 </li>
                 <li class="nav-item <?= ($currentPage == 'contact') ? 'active' : '' ?>">
                     <a href="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="hover2" href="https://demo.getthewebsite.net/">View Demo</a>
                 </li>
             </ul>
         </div>

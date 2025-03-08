@@ -75,18 +75,7 @@
                                 <hr>
                                 <!-- Social Icons -->
                                 <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                    <a href="https://m.me/getthewebsite">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa-brands fa-linkedin"></i>
-                                    </a>
+                                    <a class="hover2" href="https://demo.getthewebsite.net/">View Demo</a>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +252,7 @@
                                     We help you sell online with easy-to-use e-commerce platforms. We set up your online store, payment gateways, and everything you need to start generating sales.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="web-development">View Detail
+                                    <a class="hover5" href="ecommerce-solution">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -279,7 +268,7 @@
                                     We provide ongoing support to keep your website running smoothly. We handle updates, security, and technical issues, so you can focus on your business.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="web-development">View Detail
+                                    <a class="hover5" href="website-maintenance">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -304,7 +293,7 @@
 
                         <!-- View All Services Button -->
                         <div class="d-flex mt-lg-4 mt-4 align-items-center justify-content-center w-100">
-                            <a class="w-100 text-center" href="web-development">Explore All Services</a>
+                            <a class="w-100 text-center" href="services">Explore All Services</a>
                         </div>
                     </div>
                 </div>
@@ -377,8 +366,8 @@
                         <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
                             <div class="d-flex pt-5 gap-lg-5 gap-3">
                                 <div>
-                                    <a class="hover6"href="https://m.me/getthewebsite">
-                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center align-items-center"></i>
+                                    <a class="hover6" href="https://m.me/getthewebsite">
+                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center"></i>
                                         Messenger
                                     </a>
                                 </div>
@@ -396,7 +385,6 @@
                     <div class="d-flex h-100 align-items-center justify-content-center position-relative gap-lg-4">
                         <!-- Decorative Elements -->
                         <div class="m-0">
-                            <figure class="Gradient_Circle"></figure>
                             <figure class="position-absolute">
                                 <img alt="Dots" src="assets/images/icons/hero_dots.svg">
                             </figure>
@@ -454,7 +442,7 @@
                             Over the years, we have successfully onboarded numerous brands, driving innovation and growth for each of them.
                         </p>
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="1286"></span></h3>
+                            <h3><span class="number" data-final-value="25"></span>+</h3>
                             <p>Brands Joined</p>
                         </div>
                     </div>
@@ -463,7 +451,7 @@
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="3460"></span></h3>
+                            <h3><span class="number" data-final-value="64"></span>+</h3>
                             <p>Satisfied Clients</p>
                         </div>
                         <p class="pe-lg-5">
@@ -478,7 +466,7 @@
                             Our brand partnerships have enabled us to expand our reach and capabilities in the digital landscape.
                         </p>
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="2861"></span></h3>
+                            <h3><span class="number" data-final-value="28"></span>+</h3>
                             <p>Brands Collaborated</p>
                         </div>
                     </div>
@@ -487,7 +475,7 @@
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="d-flex flex-column" data-aos="flip-left">
                         <div class="d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-2">
-                            <h3><span class="number" data-final-value="8550"></span></h3>
+                            <h3><span class="number" data-final-value="125"></span>+</h3>
                             <p>Successful Campaigns</p>
                         </div>
                         <p class="pe-lg-5">
