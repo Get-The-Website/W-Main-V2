@@ -22,331 +22,127 @@
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
                 <h1>Mobile App Development</h1>
-                <p>Transform your ideas into powerful, user-friendly mobile applications that captivate your audience and drive growth. From concept to deployment, we deliver excellence.</p>
+                <p style="padding: unset">
+                    Extend your brand's reach and engage your audience on the go with our custom mobile app development services. We create native and cross-platform mobile apps for iOS and Android, tailored to your business requirements. We handle everything from app design and development to testing and deployment. We ensure your mobile app is user-friendly, feature-rich, and optimized for performance. We also provide ongoing maintenance and support to ensure your app remains up-to-date and functioning smoothly. We can also integrate various APIs and implement push notifications.
+                </p>
             </div>
         </div>
     </section>
     <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-    <!-- ======== 1.5. Services section ========  -->
-    <section class="Services ServicesPage_Services">
-        <div class="container position-relative">
-            <div>
-                <figure class="position-absolute w-25">
-                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
-                </figure>
-            </div>
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/marketing_Laptop.svg" alt="Mobile App Development">
-                        </figure>
-                        <h6>Custom Mobile App Development</h6>
-                        <p>
-                            We build bespoke mobile applications tailored to your specific needs, ensuring a seamless and responsive experience for your users across all devices.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Solution.svg" alt="App Design">
-                        </figure>
-                        <h6>App Design and UI/UX</h6>
-                        <p>
-                            Our mobile app design services focus on creating user-friendly, visually engaging interfaces that enhance user experience and drive engagement.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="App Development">
-                        </figure>
-                        <h6>iOS and Android App Development</h6>
-                        <p>
-                            We specialize in building apps for both iOS and Android platforms, ensuring compatibility, high performance, and an intuitive interface.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/SEO.svg" alt="App Testing">
-                        </figure>
-                        <h6>App Testing and Quality Assurance</h6>
-                        <p>
-                            We ensure that your app is fully tested for performance, security, and functionality, delivering a flawless user experience.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Trophy.svg" alt="App Maintenance">
-                        </figure>
-                        <h6>App Maintenance and Support</h6>
-                        <p>
-                            After launch, we provide continuous maintenance and support, including updates, bug fixes, and new features to keep your app running smoothly.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Content_Writing.svg" alt="App Marketing">
-                        </figure>
-                        <h6>App Marketing</h6>
-                        <p>
-                            We help you market your app effectively, increasing visibility, downloads, and user engagement through strategic app store optimization (ASO) and marketing campaigns.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.5. Services section ========  -->
-    <!-- ======== 1.10. Agency section ========  -->
-    <section class="Agency">
+    <!-- ======== 1.7. Company section ========  -->
+    <section class="Company pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between w-100 position-relative h-100">
-                        <figure class="h-100 w-100" data-aos="fade-down">
-                            <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
-                        </figure>
-                        <div>
-                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp" alt="Circle">
-                            <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
-                        </div>
-                        <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
-                            <figure>
-                                <img src="assets/images/index/Agency_Img2.webp" alt="Agency_Img2">
-                            </figure>
-                            <figure>
-                                <img src="assets/images/index/Agency_Img3.webp" alt="Agency_Img3">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
-                        <div class="w-75">
-                            <h4>We Are a Professional Mobile App Development Agency</h4>
-                            <p>
-                                At our agency, we specialize in developing custom mobile applications that provide seamless user experiences. Our expertise covers both iOS and Android platforms, ensuring compatibility across a wide range of devices.
+                    <div>
+                        <div class="pe-lg-5 pe-sm-3" data-aos="fade-up">
+                            <!-- Heading and Short Introduction -->
+                            <h4 class="w-75">Key Features</h4>
+                            <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
+                                We develop native (Swift, Kotlin) and cross-platform (React Native, Flutter) mobile applications, ensuring seamless integration and optimal performance.
                             </p>
                         </div>
-                        <div class="d-flex flex-column gap-lg-4 gap-4">
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    01
-                                </h6>
-                                <p>Custom Mobile App Development: Tailored to your business needs and goals, ensuring a unique experience for your users.</p>
+                        <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
+                            <!-- Value Proposition 1: Native App Development -->
+                            <div class="d-flex flex-column">
+                                <h6>Native App Development</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Swift (iOS), Kotlin (Android) development for high-performance apps.
+                                </p>
                             </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    02
-                                </h6>
-                                <p>UI/UX Design: Focused on creating user-friendly and engaging designs that drive user retention and satisfaction.</p>
+
+                            <!-- Value Proposition 2: Cross-Platform Development -->
+                            <div class="d-flex flex-column">
+                                <h6>Cross-Platform Development</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    React Native, Flutter for building apps that work seamlessly across platforms.
+                                </p>
                             </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    03
-                                </h6>
-                                <p>App Maintenance and Support: Offering continuous updates and improvements to keep your app running smoothly post-launch.</p>
+
+                            <!-- Value Proposition 3: API Integration -->
+                            <div class="d-flex flex-column">
+                                <h6>API Integration</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    RESTful APIs, GraphQL for seamless data communication and integration.
+                                </p>
                             </div>
-                        </div>
-                        <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div><a href="mobile-app-development" class="hover2">Learn More</a></div>
-                            <div>
-                                <a href="mobile-app-development" class="hover3"><i class="fa fa-arrow-right-long" aria-hidden="true"></i> Get Started</a>
+
+                            <!-- Value Proposition 4: Database Integration -->
+                            <div class="d-flex flex-column">
+                                <h6>Database Integration</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    SQLite, Realm, Firebase for robust and secure mobile app data management.
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.10. Agency section ========  -->
-    <!-- ======== End of 5.1. Solutions section ========  -->
-    <section class="Solutions Product">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center" data-aos="fade-up">
-                <h4>Mobile App Development Solutions</h4>
-                <p>We offer cutting-edge mobile app development services to help your business thrive on both Android and iOS platforms. From concept to deployment, we create seamless user experiences that drive results.</p>
-            </div>
-            <div class="row gy-4 mt-lg-3 mt-2">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Native App Development">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Native App Development</h6>
-                            <p class="py-lg-3 py-2">We develop high-performance, native mobile apps for Android and iOS that offer a rich user experience and seamless functionality.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+
+                            <!-- Value Proposition 5: Push Notifications -->
+                            <div class="d-flex flex-column">
+                                <h6>Push Notifications</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Firebase Cloud Messaging (FCM), Apple Push Notification Service (APNs) to engage users.
+                                </p>
+                            </div>
+
+                            <!-- Value Proposition 6: Version Control -->
+                            <div class="d-flex flex-column">
+                                <h6>Version Control</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Git for code management and version control to ensure smooth development.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Hybrid App Development">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Hybrid App Development</h6>
-                            <p class="py-lg-3 py-2">Our hybrid app development combines the best of both worlds, delivering cost-effective cross-platform apps that work seamlessly across Android and iOS devices.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="UI/UX Design">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>UI/UX Design</h6>
-                            <p class="py-lg-3 py-2">We create intuitive and engaging user interfaces and experiences that captivate users and enhance app usability.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="Product_Hover h-100" data-aos="flip-left">
-                        <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="App Maintenance">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>App Maintenance & Support</h6>
-                            <p class="py-lg-3 py-2 m-0">We provide continuous app maintenance and support, ensuring your app runs smoothly with regular updates and bug fixes.</p>
-                            <div class="mb-2">
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                        <!-- Call to Action: Get Started -->
+                        <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
+                            <div class="d-flex pt-5 gap-lg-5 gap-3">
+                                <div>
+                                    <a class="hover6" href="https://m.me/getthewebsite">
+                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center"></i>
+                                        Messenger
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        Whatsapp
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3" data-aos="flip-left">
-                        <h4>
-                            Have a mobile app idea? Let’s turn it into reality!
-                        </h4>
-                        <div>
-                            <a href="mobile-app-development" class="hover4">
-                                <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                Get Started
-                            </a>
+                    <div class="d-flex h-100 align-items-center justify-content-center position-relative gap-lg-4">
+                        <!-- Decorative Elements -->
+                        <div class="m-0">
+                            <figure class="position-absolute">
+                                <img alt="Dots" src="assets/images/icons/hero_dots.svg">
+                            </figure>
+                            <figure class="bottom-0">
+                                <img alt="Flower" src="assets/images/icons/Company_Flower.svg">
+                            </figure>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="App Optimization">
+                        <!-- Company Image -->
+                        <figure class="w-100 h-100" data-aos="fade-down">
+                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/mobile%20app.jpg">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>App Optimization</h6>
-                            <p class="py-lg-3 py-2">We optimize apps to ensure maximum performance and efficiency, improving speed, usability, and overall user experience.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="App Analytics">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>App Analytics</h6>
-                            <p class="py-lg-3 py-2">Track user behavior and app performance to make data-driven decisions that enhance user engagement and business outcomes.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Mobile App Marketing">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Mobile App Marketing</h6>
-                            <p class="py-lg-3 py-2">We offer app marketing services that drive visibility and installs, using proven strategies to increase app success.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ======== End of 5.1. Solutions section ========  -->
+    <!-- ======== End of 1.7. Company section ========  -->
     <!-- ======== 1.13. Partners section ========  -->
-    <section class="Partners pt-0">
+    <section class="Partners">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center"
-                 data-aos="fade-up">
-                <h4>Trusted by Leading Companies</h4>
+            <!-- Section Heading -->
+            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
+                <h4>Trusted By Businesses, Loved By Clients</h4>
                 <p>
-                    We are proud to collaborate with innovative businesses that share our vision for excellence and growth.
-                    Together, we build lasting partnerships and deliver impactful solutions.
+                    Building Relationships, Driving Growth: Your Success, Our Priority
                 </p>
             </div>
+
+            <!-- Partner Logos Carousel -->
             <div class="row">
                 <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4 justify-content-center" data-aos="zoom-in-up">
                     <!-- Partner 1 -->
@@ -426,7 +222,7 @@
                 </p>
             </div>
             <form method="post" action="insert" class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
-                <input type="hidden" name="page" value="app" required/>
+                <input type="hidden" name="page" value="web" required/>
                 <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
                     <input name="ContactName" type="text" placeholder="Your Name" required>
                     <input name="ContactEmail" type="email" placeholder="Email Address" required>

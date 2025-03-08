@@ -4,13 +4,15 @@ $currentPage = basename($_SERVER['REQUEST_URI']);
 
 // Define an array of all service pages
 $servicePages = [
-    'web-development',
-    'mobile-app-development',
+    'custom-website-design',
     'ecommerce-solution',
     'seo-and-marketing',
     'website-maintenance',
-    'branding-and-design',
-    'automation'
+    'website-redesign-updates',
+    'cms-integration',
+    'mobile-app-development',
+    'automation',
+    'server-setup'
 ];
 
 // Check if the current page is a service page
@@ -44,13 +46,15 @@ $isServiceActive = in_array($currentPage, $servicePages);
                                     Services
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                    <li><a class="dropdown-item <?= ($currentPage == 'web-development') ? 'active' : '' ?>" href="web-development">Web Development</a></li>
-                                    <li><a class="dropdown-item <?= ($currentPage == 'mobile-app-development') ? 'active' : '' ?>" href="mobile-app-development">Mobile App Development</a></li>
+                                    <li><a class="dropdown-item <?= ($currentPage == 'custom-website-design') ? 'active' : '' ?>" href="custom-website-design">Custom Website Design</a></li>
                                     <li><a class="dropdown-item <?= ($currentPage == 'ecommerce-solution') ? 'active' : '' ?>" href="ecommerce-solution">E-commerce Solutions</a></li>
                                     <li><a class="dropdown-item <?= ($currentPage == 'seo-and-marketing') ? 'active' : '' ?>" href="seo-and-marketing">SEO & Marketing</a></li>
                                     <li><a class="dropdown-item <?= ($currentPage == 'website-maintenance') ? 'active' : '' ?>" href="website-maintenance">Website Maintenance</a></li>
-                                    <li><a class="dropdown-item <?= ($currentPage == 'branding-and-design') ? 'active' : '' ?>" href="branding-and-design">Branding & Design</a></li>
+                                    <li><a class="dropdown-item <?= ($currentPage == 'website-redesign-updates') ? 'active' : '' ?>" href="website-redesign-updates">Website Redesign</a></li>
+                                    <li><a class="dropdown-item <?= ($currentPage == 'cms-integration') ? 'active' : '' ?>" href="cms-integration">CMS Integration</a></li>
+                                    <li><a class="dropdown-item <?= ($currentPage == 'mobile-app-development') ? 'active' : '' ?>" href="mobile-app-development">Mobile App Development</a></li>
                                     <li><a class="dropdown-item <?= ($currentPage == 'automation') ? 'active' : '' ?>" href="automation">Automation</a></li>
+                                    <li><a class="dropdown-item <?= ($currentPage == 'server-setup') ? 'active' : '' ?>" href="server-setup">Server Setup</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -101,13 +105,15 @@ $isServiceActive = in_array($currentPage, $servicePages);
                         <i class="fa-solid fa-caret-down pe-2"></i>
                     </div>
                     <ul id="slid-drop">
-                        <li><a href="web-development">Web Development</a></li>
-                        <li><a href="mobile-app-development">Mobile App Development</a></li>
+                        <li><a href="custom-website-design">Custom Website Design</a></li>
                         <li><a href="ecommerce-solution">E-commerce Solutions</a></li>
                         <li><a href="seo-and-marketing">SEO & Marketing</a></li>
                         <li><a href="website-maintenance">Website Maintenance</a></li>
-                        <li><a href="branding-and-design">Branding & Design</a></li>
+                        <li><a href="website-redesign-updates">Website Redesign</a></li>
+                        <li><a href="cms-integration">CMS Integration</a></li>
+                        <li><a href="mobile-app-development">Mobile App Development</a></li>
                         <li><a href="automation">Automation</a></li>
+                        <li><a href="server-setup">Server Setup</a></li>
                     </ul>
                 </li>
 

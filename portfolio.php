@@ -43,7 +43,7 @@
                             <h6>Web Development</h6>
                             <p class="py-lg-3 py-2">We offer custom web development solutions, creating responsive and user-friendly websites tailored to your business needs. Whether it's a simple landing page or a complex web application, we bring your ideas to life.</p>
                             <div>
-                                <a href="web-development" class="hover5">
+                                <a href="custom-website-design.php" class="hover5">
                                     View Detail <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
                             </div>
@@ -104,7 +104,7 @@
                             Have a project in mind? Let’s collaborate and create something amazing.
                         </h4>
                         <div>
-                            <a href="web-development" class="hover4">
+                            <a href="custom-website-design.php" class="hover4">
                                 <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                 Get Started
                             </a>
@@ -136,7 +136,7 @@
                             <h6>Branding & Design</h6>
                             <p class="py-lg-3 py-2">We help businesses establish a strong visual identity through creative branding and design. Our design services focus on crafting logos, brand aesthetics, and materials that speak to your brand's essence.</p>
                             <div>
-                                <a href="branding-and-design" class="hover5">
+                                <a href="server-setup.php" class="hover5">
                                     View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
                                 </a>
                             </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get The Website - Web Development</title>
+    <title>Get The Website - Custom Website Design</title>
 
     <?php
         include 'include/css.php';
@@ -21,7 +21,7 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>Web Development</h1>
+                <h1>Custom Website Design</h1>
                 <p style="padding: unset">Your website is more than just a digital address; it's the heart of your online presence. We don't just create websites; we sculpt digital experiences that captivate and convert. Our process begins with a deep dive into your brand, understanding your unique story, target audience, and business goals. We then translate this understanding into visually stunning and functionally seamless designs. We utilize wireframing and prototyping to map out the user journey, ensuring intuitive navigation and a delightful user experience. Our skilled designers create bespoke layouts, incorporating your brand's aesthetics and personality. We provide multiple design concepts and offer unlimited revisions, ensuring your complete satisfaction. From color palettes to typography, every element is meticulously crafted to create a website that truly reflects your vision and drives results. We deliver high-fidelity designs, ready for development, ensuring a smooth transition from concept to reality.</p>
             </div>
         </div>
@@ -121,7 +121,7 @@
                         </div>
                         <!-- Company Image -->
                         <figure class="w-100 h-100" data-aos="fade-down">
-                            <img alt="Company Image" class="w-100 h-100" src="assets/images/index/company-image.png">
+                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/web%20design.jpg">
                         </figure>
                     </div>
                 </div>

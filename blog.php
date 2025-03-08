@@ -46,11 +46,11 @@
                             </figure>
                             <div class="position-absolute">
                                 <p class="date">December 4, 2024</p>
-                                <a href="web-development">
+                                <a href="custom-website-design.php">
                                     <h5 class="w-75">Top Web Development Trends to Watch in 2024</h5>
                                 </a>
                                 <div class="d-flex align-items-center">
-                                    <a href="web-development" class="hover5">Read More
+                                    <a href="custom-website-design.php" class="hover5">Read More
                                         <i class="fa fa-arrow-right-long"></i>
                                     </a>
                                 </div>

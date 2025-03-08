@@ -22,324 +22,128 @@
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
                 <h1>Automation</h1>
-                <p>Unlock efficiency and drive innovation with our cutting-edge automation solutions. From process automation to intelligent workflow management, we help businesses streamline operations, reduce human error, and accelerate growth.</p>
+                <p style="padding: unset">
+                    Streamline your business processes and improve efficiency with our automation solutions. We implement automation tools and workflows to automate repetitive tasks, reduce manual effort, and save you time and resources. We integrate various software applications and APIs to create seamless automation workflows. We provide custom automation solutions tailored to your specific needs and business goals. We automate email marketing, social media posting, lead generation, and other business processes. We provide training and support to ensure you can effectively use your automation tools.
+                </p>
             </div>
         </div>
     </section>
     <!-- ======== End of 4.1. SubPage_Hero section ========  -->
-    <!-- ======== 1.5. Services section ========  -->
-    <section class="Services ServicesPage_Services">
-        <div class="container position-relative">
-            <div>
-                <figure class="position-absolute w-25">
-                    <img class="w-100" src="assets/images/icons/Services_bg.svg" alt="Services_Star">
-                </figure>
-            </div>
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/marketing_Laptop.svg" alt="Laptop">
-                        </figure>
-                        <h6>Process Automation</h6>
-                        <p>Enhance operational efficiency by automating repetitive tasks and workflows. Our solutions help you reduce manual work, improve accuracy, and save valuable time.</p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Solution.svg" alt="Solution">
-                        </figure>
-                        <h6>Intelligent Workflow</h6>
-                        <p>Optimize your business processes with intelligent workflow solutions that adapt to your needs, ensuring seamless communication and task management across teams.</p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Bussiness_Strategy.svg" alt="MagnifyingGlass">
-                        </figure>
-                        <h6>AI-Powered Solutions</h6>
-                        <p>Leverage artificial intelligence to automate decision-making, enhance customer interactions, and predict future trends, leading to smarter business strategies.</p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/SEO.svg" alt="Trophy">
-                        </figure>
-                        <h6>Cloud Automation</h6>
-                        <p>Implement cloud-based automation to scale your business infrastructure without compromising performance. Easily manage data and applications across multiple environments.</p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Trophy.svg" alt="Trophy">
-                        </figure>
-                        <h6>Automated Reporting</h6>
-                        <p>Generate real-time, accurate reports with automated data collection and analysis, reducing manual oversight and enabling you to make informed decisions faster.</p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 flex-wrap">
-                    <div class="d-flex flex-column gap-3 w-100 h-100" data-aos="flip-left">
-                        <figure>
-                            <img src="assets/images/icons/Content_Writing.svg" alt="Trophy">
-                        </figure>
-                        <h6>Robotic Process Automation (RPA)</h6>
-                        <p>Integrate robotic process automation to handle repetitive and time-consuming tasks, freeing up your workforce for more strategic, value-driven work.</p>
-                        <div class="d-flex align-items-center">
-                            <a class="hover5" href="#">View Detail
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.5. Services section ========  -->
-    <!-- ======== 1.10. Agency section ========  -->
-    <section class="Agency">
+
+    <!-- ======== 1.7. Company section ========  -->
+    <section class="Company pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between w-100 position-relative h-100">
-                        <figure class="h-100 w-100" data-aos="fade-down">
-                            <img src="assets/images/index/Agency_Img1.webp" alt="Agency_Img1">
-                        </figure>
-                        <div>
-                            <img class="position-absolute" src="assets/images/index/Hero_small_circle.webp"
-                                 alt="Circle">
-                            <img class="position-absolute" src="assets/images/icons/goal_doddle.svg" alt="doddle">
-                        </div>
-                        <div class="d-flex flex-column h-100 gap-lg-4 gap-3" data-aos="zoom-in">
-                            <figure>
-                                <img src="assets/images/index/Agency_Img2.webp" alt="Agency_Img2">
-                            </figure>
-                            <figure>
-                                <img src="assets/images/index/Agency_Img3.webp" alt="Agency_Img3">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-between gap-lg-4 gap-3 flex-column ps-lg-4" data-aos="fade-up">
-                        <div class="w-75">
-                            <h4>We Are Professional Automation Agency</h4>
-                            <p>
-                                Unlock the full potential of your business with our cutting-edge automation solutions. We specialize in streamlining operations, reducing costs, and improving productivity with advanced process automation and intelligent workflows.
+                    <div>
+                        <div class="pe-lg-5 pe-sm-3" data-aos="fade-up">
+                            <!-- Heading and Short Introduction -->
+                            <h4 class="w-75">Key Features</h4>
+                            <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
+                                We implement automation solutions using tools like Zapier, Integromat, or custom scripts (Python, Node.js) to automate workflows and improve business processes.
                             </p>
                         </div>
-                        <div class="d-flex flex-column gap-lg-4 gap-4">
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    01
-                                </h6>
-                                <p>Automate repetitive tasks and reduce human error.</p>
+                        <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
+                            <!-- Value Proposition 1: API Integration -->
+                            <div class="d-flex flex-column">
+                                <h6>API Integration</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Third-party API integration for seamless automation workflows.
+                                </p>
                             </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    02
-                                </h6>
-                                <p>Enhance workflow efficiency with intelligent automation.</p>
+
+                            <!-- Value Proposition 2: Workflow Automation -->
+                            <div class="d-flex flex-column">
+                                <h6>Workflow Automation</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Tools like Zapier, Integromat, and custom scripts for automating tasks and workflows.
+                                </p>
                             </div>
-                            <div class="d-flex gap-lg-4 gap-3 align-items-center">
-                                <h6 class="d-flex justify-content-center align-items-center">
-                                    03
-                                </h6>
-                                <p>Leverage AI-driven solutions for smarter decision-making.</p>
+
+                            <!-- Value Proposition 3: Email Automation -->
+                            <div class="d-flex flex-column">
+                                <h6>Email Automation</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Automate your email marketing with solutions like Mailchimp, SendGrid, and custom integrations.
+                                </p>
                             </div>
-                        </div>
-                        <div class="d-flex gap-4 align-items-center mt-lg-4 mt-3">
-                            <div><a href="automation-solutions" class="hover2">Learn More</a></div>
-                            <div>
-                                <a href="automation-solutions" class="hover3"><i class="fa fa-arrow-right-long"
-                                                                                 aria-hidden="true"></i>
-                                    Get Started</a>
+
+                            <!-- Value Proposition 4: CRM Automation -->
+                            <div class="d-flex flex-column">
+                                <h6>CRM Automation</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Automate CRM tasks using platforms like Salesforce, HubSpot, and custom solutions.
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======== End of 1.10. Agency section ========  -->
-    <!-- ======== End of 5.1. Solutions section ========  -->
-    <section class="Solutions Product">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center w-75 m-auto text-center"
-                 data-aos="fade-up">
-                <h4>Enterprise Automation Solutions</h4>
-                <p>Transform your business with cutting-edge automation solutions that streamline processes, improve efficiency, and drive growth. Our tailored solutions integrate seamlessly with your existing systems to deliver powerful results.</p>
-            </div>
-            <div class="row gy-4 mt-lg-3 mt-2">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Product_Img1">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Workflow Automation</h6>
-                            <p class="py-lg-3 py-2">Automate your routine tasks to enhance productivity and eliminate errors, allowing your team to focus on high-impact work.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+
+                            <!-- Value Proposition 5: Database Automation -->
+                            <div class="d-flex flex-column">
+                                <h6>Database Automation</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Scheduled data processing and updates to keep your database in sync and efficient.
+                                </p>
+                            </div>
+
+                            <!-- Value Proposition 6: Scripting -->
+                            <div class="d-flex flex-column">
+                                <h6>Scripting</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Custom automation tasks using scripting languages like Python and Node.js.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Product_Img1">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Email Automation</h6>
-                            <p class="py-lg-3 py-2">Streamline your email marketing campaigns with automation that allows you to reach your audience at the right time with personalized messages.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="Product_Img1">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>AI-driven Solutions</h6>
-                            <p class="py-lg-3 py-2">Leverage AI to optimize your processes and make intelligent, data-driven decisions that enhance business operations.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="Product_Hover h-100" data-aos="flip-left">
-                        <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="Product_Img1">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6 class="my-sm-0 my-2">Robotic Process Automation</h6>
-                            <p class="py-lg-3 py-2 m-0">Automate manual tasks across your business with robotic process automation, enhancing operational efficiency and minimizing costs.</p>
-                            <div class="mb-2">
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
+                        <!-- Call to Action: Get Started -->
+                        <div class="mt-lg-5 pt-lg-0 pt-4 ps-lg-4 ps-3">
+                            <div class="d-flex pt-5 gap-lg-5 gap-3">
+                                <div>
+                                    <a class="hover6" href="https://m.me/getthewebsite">
+                                        <i class="fa-brands fa-facebook-messenger d-flex justify-content-center"></i>
+                                        Messenger
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="hover3" href="https://api.whatsapp.com/send/?phone=%2B8801729277768&text&type=phone_number&app_absent=0">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        Whatsapp
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3"
-                         data-aos="flip-left">
-                        <h4>
-                            Got any automation projects in mind? Don’t hesitate to get in touch with us!
-                        </h4>
-                        <div>
-                            <a href="automation-solutions" class="hover4">
-                                <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                Get Started
-                            </a>
+                    <div class="d-flex h-100 align-items-center justify-content-center position-relative gap-lg-4">
+                        <!-- Decorative Elements -->
+                        <div class="m-0">
+                            <figure class="position-absolute">
+                                <img alt="Dots" src="assets/images/icons/hero_dots.svg">
+                            </figure>
+                            <figure class="bottom-0">
+                                <img alt="Flower" src="assets/images/icons/Company_Flower.svg">
+                            </figure>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Product_Img1">
+                        <!-- Company Image -->
+                        <figure class="w-100 h-100" data-aos="fade-down">
+                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/Automation.jpg">
                         </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Automation Consulting</h6>
-                            <p class="py-lg-3 py-2">Our experts guide you through the automation journey, providing consulting services that ensure a smooth and successful transition to automation.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Product_Img1">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Process Optimization</h6>
-                            <p class="py-lg-3 py-2">Enhance the efficiency of your operations by automating repetitive processes and improving workflow optimization to maximize business performance.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Product_Img1">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Automation in Marketing</h6>
-                            <p class="py-lg-3 py-2">Transform your marketing efforts with automation tools that enable smarter lead generation, customer engagement, and campaign management.</p>
-                            <div>
-                                <a href="#" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ======== End of 5.1. Solutions section ========  -->
+    <!-- ======== End of 1.7. Company section ========  -->
     <!-- ======== 1.13. Partners section ========  -->
-    <section class="Partners pt-0">
+    <section class="Partners">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center"
-                 data-aos="fade-up">
-                <h4>Trusted by Leading Companies</h4>
+            <!-- Section Heading -->
+            <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center" data-aos="fade-up">
+                <h4>Trusted By Businesses, Loved By Clients</h4>
                 <p>
-                    We are proud to collaborate with innovative businesses that share our vision for excellence and growth.
-                    Together, we build lasting partnerships and deliver impactful solutions.
+                    Building Relationships, Driving Growth: Your Success, Our Priority
                 </p>
             </div>
+
+            <!-- Partner Logos Carousel -->
             <div class="row">
                 <div class="Partners_Slider1 my-lg-4 my-3 d-flex gap-lg-4 justify-content-center" data-aos="zoom-in-up">
                     <!-- Partner 1 -->
@@ -419,7 +223,7 @@
                 </p>
             </div>
             <form method="post" action="insert" class="mt-lg-5 mt-4 d-flex flex-column gap-lg-5 gap-4" data-aos="fade-up">
-                <input type="hidden" name="page" value="automation" required/>
+                <input type="hidden" name="page" value="web" required/>
                 <div class="d-flex gap-lg-5 gap-4 w-100 flex-sm-row flex-column">
                     <input name="ContactName" type="text" placeholder="Your Name" required>
                     <input name="ContactEmail" type="email" placeholder="Email Address" required>

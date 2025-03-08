@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get The Website - E-commerce Website Solutions</title>
+    <title>Get The Website - Server Setup</title>
 
     <?php
     include 'include/css.php';
@@ -21,14 +21,15 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>E-commerce Website Solutions</h1>
+                <h1>Server Setup (like AWS, Digital Ocean, etc.)</h1>
                 <p style="padding: unset">
-                    Unlock the potential of online sales with our comprehensive e-commerce solutions. We build robust, scalable, and secure online stores that provide a seamless shopping experience for your customers. We handle everything from platform selection (Shopify, WooCommerce, etc.) and setup to payment gateway integration (Stripe, PayPal, etc.), product catalog management, and order processing. We ensure your online store is optimized for conversions, with features like one-click checkout, customer reviews, and personalized recommendations. We integrate essential e-commerce functionalities, including inventory management, shipping and tax calculations, and customer relationship management (CRM) tools. We provide ongoing support and maintenance, ensuring your online store remains secure, up-to-date, and performing at its best. We can also integrate marketing automation tools, like email marketing, to boost sales and customer retention.
+                    Ensure your website and applications are hosted on a reliable and scalable infrastructure with our server setup and management services. We configure and manage cloud servers on platforms like AWS, DigitalOcean, and Google Cloud, providing a secure and high-performance hosting environment. We handle server setup, configuration, security hardening, and performance optimization. We also provide ongoing server monitoring and maintenance to ensure your website and applications are always available. We can also handle server migrations. We ensure that your data is backed up and can be restored quickly in the event of an issue.
                 </p>
             </div>
         </div>
     </section>
     <!-- ======== End of 4.1. SubPage_Hero section ========  -->
+
     <!-- ======== 1.7. Company section ========  -->
     <section class="Company pt-5">
         <div class="container">
@@ -39,55 +40,55 @@
                             <!-- Heading and Short Introduction -->
                             <h4 class="w-75">Key Features</h4>
                             <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
-                                We develop robust e-commerce platforms using leading technologies like Shopify, WooCommerce (WordPress), or custom solutions with Node.js or Python (Django/Flask). We integrate secure payment gateways (Stripe, PayPal) and implement API-driven product management.
+                                We configure and manage cloud servers on platforms like AWS, DigitalOcean, and Google Cloud. Our services include setup, security, monitoring, and optimization.
                             </p>
                         </div>
                         <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
-                            <!-- Value Proposition 1: Platform Development -->
+                            <!-- Value Proposition 1: Cloud Server Configuration -->
                             <div class="d-flex flex-column">
-                                <h6>Platform Development</h6>
+                                <h6>Cloud Server Configuration</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Shopify, WooCommerce, custom solutions (Node.js, Python).
+                                    Configuring servers on AWS EC2, DigitalOcean Droplets, and Google Compute Engine for reliable hosting.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 2: Payment Gateway Integration -->
+                            <!-- Value Proposition 2: Containerization -->
                             <div class="d-flex flex-column">
-                                <h6>Payment Gateway Integration</h6>
+                                <h6>Containerization</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Stripe, PayPal, Authorize.Net.
+                                    Utilizing Docker and Kubernetes for scalable and efficient containerized applications.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 3: API Integration -->
+                            <!-- Value Proposition 3: Infrastructure as Code -->
                             <div class="d-flex flex-column">
-                                <h6>API Integration</h6>
+                                <h6>Infrastructure as Code</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Product management, shipping, and CRM APIs.
+                                    Managing infrastructure with Terraform and CloudFormation for automated deployments.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 4: Database Management -->
+                            <!-- Value Proposition 4: Security Hardening -->
+                            <div class="d-flex flex-column">
+                                <h6>Security Hardening</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Configuring firewalls, intrusion detection, and security best practices to protect your infrastructure.
+                                </p>
+                            </div>
+
+                            <!-- Value Proposition 5: Load Balancing -->
+                            <div class="d-flex flex-column">
+                                <h6>Load Balancing</h6>
+                                <p class="pt-lg-3 pt-2">
+                                    Implementing load balancing with Nginx and HAProxy to distribute traffic efficiently.
+                                </p>
+                            </div>
+
+                            <!-- Value Proposition 6: Database Management -->
                             <div class="d-flex flex-column">
                                 <h6>Database Management</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    MySQL, PostgreSQL, MongoDB.
-                                </p>
-                            </div>
-
-                            <!-- Value Proposition 5: Inventory Management -->
-                            <div class="d-flex flex-column">
-                                <h6>Inventory Management</h6>
-                                <p class="pt-lg-3 pt-2">
-                                    Real-time inventory tracking and updates.
-                                </p>
-                            </div>
-
-                            <!-- Value Proposition 6: SSL Certificate Implementation -->
-                            <div class="d-flex flex-column">
-                                <h6>SSL Certificate Implementation</h6>
-                                <p class="pt-lg-3 pt-2">
-                                    Secure HTTPS connections.
+                                    Managing databases with AWS RDS, DigitalOcean Managed Databases for optimal performance and availability.
                                 </p>
                             </div>
                         </div>
@@ -123,7 +124,7 @@
                         </div>
                         <!-- Company Image -->
                         <figure class="w-100 h-100" data-aos="fade-down">
-                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/ecom.jpg">
+                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/surver%20setup.jpg">
                         </figure>
                     </div>
                 </div>

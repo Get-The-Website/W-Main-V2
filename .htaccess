@@ -6,9 +6,7 @@ RewriteRule ^about about.php [NE,L]
 
 RewriteRule ^services services.php [NE,L]
 
-RewriteRule ^web-development web-development.php [NE,L]
-
-RewriteRule ^mobile-app-development mobile-app-development.php [NE,L]
+RewriteRule ^custom-website-design custom-website-design.php [NE,L]
 
 RewriteRule ^ecommerce-solution ecommerce-solution.php [NE,L]
 
@@ -16,9 +14,15 @@ RewriteRule ^seo-and-marketing seo-and-marketing.php [NE,L]
 
 RewriteRule ^website-maintenance website-maintenance.php [NE,L]
 
-RewriteRule ^branding-and-design branding-and-design.php [NE,L]
+RewriteRule ^website-redesign-updates website-redesign-updates.php [NE,L]
+
+RewriteRule ^cms-integration cms-integration.php [NE,L]
+
+RewriteRule ^mobile-app-development mobile-app-development.php [NE,L]
 
 RewriteRule ^automation automation.php [NE,L]
+
+RewriteRule ^server-setup server-setup.php [NE,L]
 
 RewriteRule ^portfolio portfolio.php [NE,L]
 

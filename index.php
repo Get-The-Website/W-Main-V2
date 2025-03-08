@@ -236,7 +236,7 @@
                                     We create unique, visually appealing websites tailored to your brand and goals. We focus on user experience to ensure your visitors love your site.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="web-development">View Detail
+                                    <a class="hover5" href="custom-website-design.php">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -284,7 +284,7 @@
                                     We give your current website a fresh new look, and update it to current web standards. We optimize it to improve its performance and user experience.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <a class="hover5" href="web-development">View Detail
+                                    <a class="hover5" href="custom-website-design.php">View Detail
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -310,7 +310,7 @@
                             </p>
                             <!-- Call-to-Action Button -->
                             <div class="d-flex justify-content-lg-center pt-md-5 pt-4">
-                                <a class="hover6"href="web-development">
+                                <a class="hover6"href="custom-website-design.php">
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                     Get Started
                                 </a>
@@ -547,7 +547,7 @@
                             Social Media Management & Content
                         </h4>
                         <div>
-                            <a class="hover5" href="web-development">
+                            <a class="hover5" href="custom-website-design.php">
                                 <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 Get Started
                             </a>
@@ -562,7 +562,7 @@
                             Do you have a project idea or need help with design? Let’s work together to bring your vision to life!
                         </h4>
                         <div>
-                            <a class="hover4" href="web-development">
+                            <a class="hover4" href="custom-website-design.php">
                                 <i aria-hidden="true" class="fa fa-arrow-right-long"></i>
                                 Get Started
                             </a>

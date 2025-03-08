@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get The Website - E-commerce Website Solutions</title>
+    <title>Get The Website - Website Redesign and Updates</title>
 
     <?php
     include 'include/css.php';
@@ -21,14 +21,15 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>E-commerce Website Solutions</h1>
+                <h1>Website Redesign and Updates</h1>
                 <p style="padding: unset">
-                    Unlock the potential of online sales with our comprehensive e-commerce solutions. We build robust, scalable, and secure online stores that provide a seamless shopping experience for your customers. We handle everything from platform selection (Shopify, WooCommerce, etc.) and setup to payment gateway integration (Stripe, PayPal, etc.), product catalog management, and order processing. We ensure your online store is optimized for conversions, with features like one-click checkout, customer reviews, and personalized recommendations. We integrate essential e-commerce functionalities, including inventory management, shipping and tax calculations, and customer relationship management (CRM) tools. We provide ongoing support and maintenance, ensuring your online store remains secure, up-to-date, and performing at its best. We can also integrate marketing automation tools, like email marketing, to boost sales and customer retention.
+                    Give your existing website a modern makeover with our website redesign and update services. We revitalize your website's design, improve its functionality, and enhance the user experience to meet current web standards and user expectations. We analyze your website's performance, identify areas for improvement, and implement design and functionality updates to enhance its effectiveness. We ensure your website is responsive, user-friendly, and optimized for conversions. We can also help migrate your website to a new CMS. We will work to ensure your existing SEO is not negatively impacted.
                 </p>
             </div>
         </div>
     </section>
     <!-- ======== End of 4.1. SubPage_Hero section ========  -->
+
     <!-- ======== 1.7. Company section ========  -->
     <section class="Company pt-5">
         <div class="container">
@@ -39,55 +40,55 @@
                             <!-- Heading and Short Introduction -->
                             <h4 class="w-75">Key Features</h4>
                             <p class="pt-3 pb-lg-4 pb-4 pe-lg-5 pe-md-4 pe-sm-2">
-                                We develop robust e-commerce platforms using leading technologies like Shopify, WooCommerce (WordPress), or custom solutions with Node.js or Python (Django/Flask). We integrate secure payment gateways (Stripe, PayPal) and implement API-driven product management.
+                                We redesign and update existing websites, focusing on modernizing the front-end (React, Vue.js) and optimizing the back-end (Node.js, Python). We ensure seamless content migration and maintain SEO rankings.
                             </p>
                         </div>
                         <div class="d-flex flex-md-column gap-lg-4 gap-3" data-aos="fade-up">
-                            <!-- Value Proposition 1: Platform Development -->
+                            <!-- Value Proposition 1: Front-End Development -->
                             <div class="d-flex flex-column">
-                                <h6>Platform Development</h6>
+                                <h6>Front-End Development</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Shopify, WooCommerce, custom solutions (Node.js, Python).
+                                    React, Vue.js, Angular for a modern and responsive user interface.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 2: Payment Gateway Integration -->
+                            <!-- Value Proposition 2: Back-End Development -->
                             <div class="d-flex flex-column">
-                                <h6>Payment Gateway Integration</h6>
+                                <h6>Back-End Development</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Stripe, PayPal, Authorize.Net.
+                                    Node.js, Python (Django/Flask) for powerful back-end functionality.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 3: API Integration -->
+                            <!-- Value Proposition 3: CMS Migration -->
                             <div class="d-flex flex-column">
-                                <h6>API Integration</h6>
+                                <h6>CMS Migration</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Product management, shipping, and CRM APIs.
+                                    WordPress, Drupal, custom CMS migration with minimal downtime.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 4: Database Management -->
+                            <!-- Value Proposition 4: Database Migration -->
                             <div class="d-flex flex-column">
-                                <h6>Database Management</h6>
+                                <h6>Database Migration</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    MySQL, PostgreSQL, MongoDB.
+                                    Data migration and schema updates to ensure smooth operation.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 5: Inventory Management -->
+                            <!-- Value Proposition 5: SEO Migration -->
                             <div class="d-flex flex-column">
-                                <h6>Inventory Management</h6>
+                                <h6>SEO Migration</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Real-time inventory tracking and updates.
+                                    301 redirects, URL mapping, and metadata transfer to retain SEO rankings.
                                 </p>
                             </div>
 
-                            <!-- Value Proposition 6: SSL Certificate Implementation -->
+                            <!-- Value Proposition 6: Performance Audits -->
                             <div class="d-flex flex-column">
-                                <h6>SSL Certificate Implementation</h6>
+                                <h6>Performance Audits</h6>
                                 <p class="pt-lg-3 pt-2">
-                                    Secure HTTPS connections.
+                                    Pre- and post-redesign performance analysis for optimal speed and efficiency.
                                 </p>
                             </div>
                         </div>
@@ -123,7 +124,7 @@
                         </div>
                         <!-- Company Image -->
                         <figure class="w-100 h-100" data-aos="fade-down">
-                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/ecom.jpg">
+                            <img alt="Company Image" class="w-100" src="assets/images/service-icon/Website%20Redesign.jpg">
                         </figure>
                     </div>
                 </div>

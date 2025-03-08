@@ -47,7 +47,7 @@
                             We create unique, visually appealing websites tailored to your brand and goals. We focus on user experience to ensure your visitors love your site.
                         </p>
                         <div class="d-flex align-items-center">
-                            <a class="hover5" href="web-development">View Detail
+                            <a class="hover5" href="custom-website-design.php">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -115,7 +115,7 @@
                             We give your current website a fresh new look, and update it to current web standards. We optimize it to improve its performance and user experience.
                         </p>
                         <div class="d-flex align-items-center">
-                            <a class="hover5" href="web-development">View Detail
+                            <a class="hover5" href="custom-website-design.php">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -132,7 +132,7 @@
                             We implement easy-to-use CMS systems that allow you to update your own website content, without needing to know code.
                         </p>
                         <div class="d-flex align-items-center">
-                            <a class="hover5" href="web-development">View Detail
+                            <a class="hover5" href="custom-website-design.php">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -185,7 +185,7 @@
                             Ensure your website's performance and reliability. We provide expert server setup and management on platforms like AWS and DigitalOcean, guaranteeing a secure, scalable, and high-performance hosting environment for your website and applications.
                         </p>
                         <div class="d-flex align-items-center">
-                            <a class="hover5" href="web-development">View Detail
+                            <a class="hover5" href="custom-website-design.php">View Detail
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
