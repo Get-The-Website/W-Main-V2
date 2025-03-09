@@ -61,9 +61,6 @@ $isServiceActive = in_array($currentPage, $servicePages);
                                 <a class="nav-link <?= ($currentPage == 'portfolio') ? 'active' : '' ?>" href="portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link <?= ($currentPage == 'blog') ? 'active' : '' ?>" href="blog">Blog</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link <?= ($currentPage == 'faq') ? 'active' : '' ?>" href="faq">FAQ</a>
                             </li>
                             <li class="nav-item">
@@ -119,9 +116,6 @@ $isServiceActive = in_array($currentPage, $servicePages);
 
                 <li class="nav-item <?= ($currentPage == 'portfolio') ? 'active' : '' ?>">
                     <a href="portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item <?= ($currentPage == 'blog') ? 'active' : '' ?>">
-                    <a href="blog">Blog</a>
                 </li>
                 <li class="nav-item <?= ($currentPage == 'faq') ? 'active' : '' ?>">
                     <a href="faq">FAQ</a>

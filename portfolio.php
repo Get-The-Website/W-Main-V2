@@ -34,130 +34,86 @@
                 <img src="assets/images/icons/Product_Flower.svg" alt="Product_Bg">
             </div>
             <div class="row gy-4 mt-lg-3 mt-2">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img1.webp" alt="Web Development">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Web Development</h6>
-                            <p class="py-lg-3 py-2">We offer custom web development solutions, creating responsive and user-friendly websites tailored to your business needs. Whether it's a simple landing page or a complex web application, we bring your ideas to life.</p>
-                            <div>
-                                <a href="custom-website-design.php" class="hover5">
-                                    View Detail <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://gowithinnow.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(1).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img2.webp" alt="Mobile App Development">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Mobile App Development</h6>
-                            <p class="py-lg-3 py-2">Our team specializes in building innovative and seamless mobile applications for both iOS and Android platforms. From design to deployment, we create apps that are fast, responsive, and engaging.</p>
-                            <div>
-                                <a href="mobile-app-development" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://www.revolutionyoucoaching.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(2).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img3.webp" alt="E-commerce Solutions">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>E-commerce Solutions</h6>
-                            <p class="py-lg-3 py-2">We provide end-to-end e-commerce solutions, including store setup, product management, payment integration, and more. Our goal is to help your business thrive in the digital marketplace.</p>
-                            <div>
-                                <a href="ecommerce-solution" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://www.empoweredmencoaching.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(3).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="Product_Hover h-100" data-aos="flip-left">
-                        <figure class="w-100 h-100">
-                            <img class="w-100 h-100" src="assets/images/index/Product_Img4.webp" alt="SEO & Marketing">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>SEO & Marketing</h6>
-                            <p class="py-lg-3 py-2 m-0">We help you grow your online presence with proven SEO strategies and targeted marketing campaigns. Our services ensure that your brand reaches the right audience, improving visibility and conversions.</p>
-                            <div class="mb-2">
-                                <a href="seo-and-marketing" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://lizwolfecoaching.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(4).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="d-flex justify-content-center align-items-center flex-column h-100 text-center gap-3" data-aos="flip-left">
-                        <h4>
-                            Have a project in mind? Let’s collaborate and create something amazing.
-                        </h4>
-                        <div>
-                            <a href="custom-website-design.php" class="hover4">
-                                <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                Get Started
-                            </a>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://www.aurgi.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(5).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img5.webp" alt="Website Maintenance">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Website Maintenance</h6>
-                            <p class="py-lg-3 py-2">Ensure your website runs smoothly with our comprehensive website maintenance services. From regular updates to security monitoring, we keep your website in top shape to deliver the best experience to your visitors.</p>
-                            <div>
-                                <a href="website-maintenance" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://nailsspapearl.wixsite.com/website" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(6).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img6.webp" alt="Branding & Design">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Branding & Design</h6>
-                            <p class="py-lg-3 py-2">We help businesses establish a strong visual identity through creative branding and design. Our design services focus on crafting logos, brand aesthetics, and materials that speak to your brand's essence.</p>
-                            <div>
-                                <a href="server-setup.php" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://gwbjuicebar.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(7).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="Product_Hover" data-aos="flip-left">
-                        <figure class="w-100">
-                            <img class="w-100" src="assets/images/index/Product_Img7.webp" alt="Automation">
-                        </figure>
-                        <div class="d-flex justify-content-center align-items-center flex-sm-column">
-                            <h6>Automation</h6>
-                            <p class="py-lg-3 py-2">Streamline your operations with automation services. We create custom automation solutions that help businesses save time, reduce costs, and improve efficiency in daily processes.</p>
-                            <div>
-                                <a href="automation" class="hover5">
-                                    View Detail <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://www.konbannyc.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/1%20(8).jpg" alt="Web Development">
+                            </figure>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+                    <a href="https://noburestaurants.com/" target="_blank">
+                        <div class="" data-aos="flip-left">
+                            <figure class="w-100">
+                                <img class="w-100" src="assets/images/portfolio/9.png" alt="Web Development">
+                            </figure>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
