@@ -21,7 +21,7 @@
     <section class="SubPage_Hero">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up">
-                <h1>Server Setup (like AWS, Digital Ocean, etc.)</h1>
+                <h1>Server Setup</h1>
                 <p style="padding: unset">
                     Ensure your website and applications are hosted on a reliable and scalable infrastructure with our server setup and management services. We configure and manage cloud servers on platforms like AWS, DigitalOcean, and Google Cloud, providing a secure and high-performance hosting environment. We handle server setup, configuration, security hardening, and performance optimization. We also provide ongoing server monitoring and maintenance to ensure your website and applications are always available. We can also handle server migrations. We ensure that your data is backed up and can be restored quickly in the event of an issue.
                 </p>

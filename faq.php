@@ -77,7 +77,7 @@
                             </h6>
                             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    SEO (Search Engine Optimization) improves your website's visibility on search engines like Google. By optimizing your website's content, structure, and backlinks, we help you rank higher for relevant keywords, driving more organic traffic and ultimately increasing conversions.
+                                    <p>SEO (Search Engine Optimization) improves your website's visibility on search engines like Google. By optimizing your website's content, structure, and backlinks, we help you rank higher for relevant keywords, driving more organic traffic and ultimately increasing conversions.</p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                             </h6>
                             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    We offer a range of digital marketing services including SEO, social media marketing, email marketing, pay-per-click (PPC) advertising, and content marketing. Our goal is to help you reach your target audience and convert them into loyal customers.
+                                    <p>We offer a range of digital marketing services including SEO, social media marketing, email marketing, pay-per-click (PPC) advertising, and content marketing. Our goal is to help you reach your target audience and convert them into loyal customers.</p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             </h6>
                             <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    The timeline depends on the project's complexity and scope. A simple website might take a few weeks, while a complex e-commerce platform could take several months. We'll provide a detailed timeline during the consultation process.
+                                    <p>The timeline depends on the project's complexity and scope. A simple website might take a few weeks, while a complex e-commerce platform could take several months. We'll provide a detailed timeline during the consultation process.</p>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                             </h6>
                             <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we offer ongoing website maintenance and support packages to ensure your website stays up-to-date, secure, and running smoothly.
+                                    <p>Yes, we offer ongoing website maintenance and support packages to ensure your website stays up-to-date, secure, and running smoothly.</p>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                             </h6>
                             <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Absolutely! All websites we build are fully responsive, meaning they will look great and function seamlessly on all devices, including smartphones and tablets.
+                                    <p>Absolutely! All websites we build are fully responsive, meaning they will look great and function seamlessly on all devices, including smartphones and tablets.</p>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                             </h6>
                             <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we build websites with SEO best practices in mind. We also offer dedicated SEO services to improve your website's visibility and search engine rankings.
+                                    <p>Yes, we build websites with SEO best practices in mind. We also offer dedicated SEO services to improve your website's visibility and search engine rankings.</p>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                             </h6>
                             <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we have extensive experience in building e-commerce websites and can integrate various payment gateways and shopping cart functionalities.
+                                    <p>Yes, we have extensive experience in building e-commerce websites and can integrate various payment gateways and shopping cart functionalities.</p>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                             </h6>
                             <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we implement user-friendly content management systems (CMS) that allow you to easily update your website content without coding knowledge.
+                                    <p>Yes, we implement user-friendly content management systems (CMS) that allow you to easily update your website content without coding knowledge.</p>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                             </h6>
                             <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we provide a full range of graphic design services, including logo design, branding, website graphics, social media graphics, and marketing materials.
+                                    <p>Yes, we provide a full range of graphic design services, including logo design, branding, website graphics, social media graphics, and marketing materials.</p>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                             </h6>
                             <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Absolutely. Our experienced graphic designers will create a unique and memorable logo that reflects your brand identity.
+                                    <p>Absolutely. Our experienced graphic designers will create a unique and memorable logo that reflects your brand identity.</p>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                             </h6>
                             <div id="faq13" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we provide comprehensive social media management services, including content creation, scheduling, community engagement, and performance analysis.
+                                    <p>Yes, we provide comprehensive social media management services, including content creation, scheduling, community engagement, and performance analysis.</p>
                                 </div>
                             </div>
                         </div>
@@ -244,7 +244,7 @@
                             </h6>
                             <div id="faq14" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, we create and manage targeted social media advertising campaigns to reach your desired audience and achieve your marketing goals.
+                                    <p>Yes, we create and manage targeted social media advertising campaigns to reach your desired audience and achieve your marketing goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -258,7 +258,7 @@
                             </h6>
                             <div id="faq15" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Simply contact us through our website or give us a call to schedule a free consultation. We'll discuss your project requirements and provide a personalized proposal.
+                                    <p>Simply contact us through our website or give us a call to schedule a free consultation. We'll discuss your project requirements and provide a personalized proposal.</p>
                                 </div>
                             </div>
                         </div>

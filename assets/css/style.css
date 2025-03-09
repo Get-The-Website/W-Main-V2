@@ -2649,7 +2649,7 @@ footer .justify-content-between:last-child p {
 
 .FAQ .accordion-button {
     color: #ffffff;
-    font-family: "Saira";
+    font-family: "Saira", sans-serif;
     font-size: 18px;
     font-weight: 700;
     justify-content: space-between;
